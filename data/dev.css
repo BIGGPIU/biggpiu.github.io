@@ -1,0 +1,300 @@
+@font-face {
+    font-family:mangadex;
+    src: url('leaguespartan-variablefont_wght-webfont.woff2') format('woff2'),
+         url('leaguespartan-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@keyframes bg {
+    0% {transform: translateX(0);}
+    100% {transform: translateX(30vw)}
+}
+
+@keyframes bgchild {
+    0% {transform: translateX(0);}
+    100% {transform: translateX(100vw)}
+}
+
+@keyframes experienceslider {
+    0% {width:1vw;}
+    100% {width: 62vw;}    
+}
+
+@keyframes scrollable {
+    0% {transform: translateX(0);}
+    100% {transform: translateX(130vw)}
+}
+
+@keyframes cool1 {
+    0% {transform: translateX(0);}
+    25% {top:(calc( 20vh - 15px ));}
+    50% {left:(calc( 80vh - 15px ));}
+    75% {top:(calc(20vh - 15px));}
+    100% {transform: translateX(-80vh);}
+}
+
+html {
+    background-color:#40434e;
+    font-family:mangadex,arial,sans-serif;
+    overflow-x: hidden;
+}
+
+body {
+    margin-left: 0;
+    margin-top: 0;
+    margin-right: 0;
+    overflow-x: hidden;
+}
+
+
+.topbox {
+    width:100%;
+    height:45vh;
+    background-color: black;
+}
+
+.topboxcover{
+    position:relative;
+    width:80vh;
+    height:20vh;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    opacity: 90%;
+    text-align: center;
+    z-index: 2;
+}
+
+.topbox video {
+    position:absolute;
+    top:0;
+    left:0;
+    object-fit: fill;
+    height:44vh;
+    width:100vw;
+    filter:blur(5px);
+}
+
+#title {
+    position:relative;
+    top:50%;
+    transform:translateY(-50%);
+    color:white;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.header {
+    color:white;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.content {
+    color:white;
+    font-size: 24px;
+}
+
+#background {
+    position:relative;
+    left:-29vw;
+    top:1vh;
+    animation-name: bg;
+    animation-duration: 1.3s;
+    animation-fill-mode: forwards;
+}
+
+#backgroundcontent {
+    position:relative;
+    left:-98.8vw;
+    top:1vh;
+    max-width: 63vw;
+    animation-name: bgchild;
+    animation-duration: 0.6s;
+    animation-delay: 0.1s;
+    animation-fill-mode: forwards;
+}
+
+#projects {
+    position:relative;
+    left:-29vw;
+    top:1vh;
+    animation-name: bg;
+    animation-duration: 1.9s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
+#experience {
+    position:relative;
+    left:-29vw;
+    top:2vh;
+    animation-name: bg;
+    animation-duration: 1.0s;
+    animation-delay: 0.1s;
+    animation-fill-mode: forwards;
+}
+
+#experiencecontent {
+    position:relative;
+    left:-99vw;
+    top:2vh;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    max-width: 63vw;
+    animation-name: bgchild;
+    animation-duration: 1s;
+    animation-delay: 0.1;
+    animation-fill-mode: forwards;
+}
+
+#sliderbar {
+    position:relative;
+    top: 2vh;
+    left:1vw;
+    height:5vh;
+    width:3vw;
+    animation: forwards;
+    animation-name: experienceslider;
+    animation-duration: 1s;
+    background-color: #089BDC;
+    z-index: 2;
+}
+
+#sliderbar2 {
+    position:relative;
+    top: 2vh;
+    left:1vw;
+    height:5vh;
+    width:3vw;
+    animation: forwards;
+    animation-name: experienceslider;
+    animation-duration: 2s;
+    background-color: #089BDC;
+    z-index: 2;
+}
+
+#sliderbar3 {
+    position:relative;
+    top: 2vh;
+    left:1vw;
+    height:5vh;
+    width:3vw;
+    animation: forwards;
+    animation-name: experienceslider;
+    animation-duration: 2.5s;
+    background-color: #089BDC;
+    z-index: 2;
+}
+
+#sliderbartext {
+    position:absolute;
+    left:93%;
+    top:50%;
+    transform: translateY(-50%);
+    color:black;
+    z-index: 3;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#sliderbarempty {
+    width:62vw;
+    position:relative;
+    left:1vw;
+    top: -3vh;
+    background-color: #222329;
+    height:5vh;
+    z-index: 1;
+}
+
+.scrollablecard {
+    position:relative;
+    top:50%;
+    transform: translateY(-50%);
+    background-color: #222329;
+    margin-left: 1vw;
+    border-radius: 5px;
+    width:13vw;
+    height:19vh;
+}
+
+.scrollablecardname {
+    background-color: #40434e;
+    color:white;
+    width:98%;
+    height:3.2vh;
+    border-width: 1%;
+    border-radius: 5px;
+    border:#222329;
+    position: relative;
+    top:80%;
+    left:50%;
+    text-align: center;
+    transform: translateX(-50%);
+}
+
+.scrollablecardimage {
+    position:relative;
+    width:97.5%;
+    height:14.6vh;
+    border-radius: 5px;
+    left:1.5%;
+    bottom: 15%;
+}
+
+.scrollablecontent {
+    position:relative;
+    top:1vh;
+    left:-130vw;
+    width:100%;
+    height:20vh;
+    background-color: transparent;
+    overflow-x: auto;
+    overflow-y: hidden;
+    display:flex;
+    flex-direction: row;
+    animation: forwards;
+    animation-name:scrollable;
+    animation-duration: 1.9s;
+    animation-delay: 1s;
+}
+
+.thingsimade{
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+#socials {
+    position:relative;
+    left:-29vw;
+    top:1vh;
+    animation: forwards;
+    animation-name: bg;
+    animation-delay: 2s;
+    animation-duration: 1.5s;
+}
+
+#socialscontent {
+    position: relative;
+    left:-99vw;
+    top:1vh;
+    display:grid;
+    animation: forwards;
+    animation-name: bgchild;
+    animation-delay: 2.5s;
+    animation-duration: 1.6s;
+}
+
+#github {
+    width:30vw;
+    height:30vh;
+}
+
+
+
+a {
+    text-decoration: none;
+}
