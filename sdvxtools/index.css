@@ -201,6 +201,16 @@ a:visited {
 #picker div {
     position: relative;
     color:white;
-    font-size: 6vw;
+    font-size: 32px;
     font-weight: bold;
 }
+
+@media only screen and (max-width:450px) {
+    #picker div {
+        position: relative;
+        color:white;
+        font-size: 6vw;
+        font-weight: bold;
+    }
+}
+
