@@ -24,6 +24,16 @@ body {
     margin: 0 0 0 0;
 }
 
+a {
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-color: transparent
+}
+
+a:visited {
+    color:white;
+}
+
 #headerc {
     background-color: #2C2C2C;
     width:100%;
@@ -71,5 +81,126 @@ body {
     width:100vw;
     position:absolute;
     top:7vh;
-    background-color: red;
+    background-color: transparent;
+    display:flex;
+    flex-direction: row;
+    overflow-y: auto;
+}
+
+@media only screen and (max-width:450px) {
+    #everyoneelse {
+        height:93vh;
+        width:100vw;
+        position:absolute;
+        top:7vh;
+        background-color: transparent;
+        display:flex;
+        flex-direction: column;
+    }
+}
+
+#containerleft {
+    background-color: transparent;
+    flex-grow: 3;
+}
+
+@media only screen and (max-width:450px) {
+    #containerleft {
+        background-color: transparent;
+        flex-grow: 1;
+        height:100vh;
+    }
+}
+
+
+#containerright {
+    flex-grow: 1;
+    overflow-y: auto;
+    overflow-x: hidden;
+    flex-direction: column;
+    max-width: 30%;
+}
+
+@media only screen and (max-width:450px) {
+    #containerright {
+        flex-grow: 4;
+        flex-shrink: 1;
+        overflow-y: auto;
+        overflow-x: hidden;
+        flex-direction: column;
+        width:100%;
+        max-width: 100%;
+    }
+}
+
+.post {
+    width:90%;
+    height:40%;
+    position:relative;
+    left:50%;
+    transform: translateX(-50%);
+    background-color: #2C2C2C;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+@media only screen and (max-width:450px) {
+    .post {
+        width:90%;
+        height:60%;
+        position:relative;
+        left:50%;
+        transform: translateX(-50%);
+        background-color: #2C2C2C;
+        border-radius: 5px;
+        margin-top: 15px;
+    }
+}
+
+.postimage {
+    width:100%;
+    height:80%;
+    object-fit:contain;
+    background-color: chocolate;
+}
+
+.postimage img {
+    width:100%;
+    height:100%;
+    object-fit:fill;
+    background-color: aqua;
+}
+
+.posttitle {
+    color:white;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.postdate {
+    position:sticky;
+    opacity: 0%;
+    color:white;
+    margin-left: 3px;
+}
+
+#picker {
+    width:80%;
+    height:30%;
+    margin-top:5px;
+    object-fit: fill;
+}
+
+#picker img {
+    margin-top: 5px;
+    height:40%;
+    width:50%;
+    object-fit: fill;
+}
+
+#picker div {
+    position: relative;
+    color:white;
+    font-size: 6vw;
+    font-weight: bold;
 }
