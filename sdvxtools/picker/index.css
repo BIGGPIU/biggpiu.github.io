@@ -80,3 +80,19 @@ a:visited {
     top:50%;
     transform: translateY(-50%);
 }
+
+.chartspicked {
+    width:70vw;
+    height:100%;
+    display:flex;
+    overflow-y: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.settings {
+    position:absolute;
+    left:70.5vw;
+    top:8vh;
+}
+
