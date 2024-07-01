@@ -59,7 +59,20 @@ a:visited {
     }
 }
 
+.songimage {
+    object-fit: fill;
+    width:10vw;
+    height:20vh;
+    background-color: black;
+}
 
+#gone {
+    opacity: 0%;
+    height:0px;
+    width:0px;
+    position:absolute;
+    left:999999px;
+}
 
 #titlecontent {
     font-family:sound2;

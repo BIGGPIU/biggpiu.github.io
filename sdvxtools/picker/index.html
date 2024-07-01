@@ -7,7 +7,7 @@
     <title>BIGGS sdvx tools</title>
 </head>
 
-
+<!--TODO hey future me I want you to go into the folder for all the songs and ask chatgpt to make those into html img things. then copy and paste all of them into here, its going to look like shit but it gets the job done -->
 <html>
     <body>
         <div id="headerc">
@@ -16,6 +16,23 @@
             </div>
         </div>
         <div id="everyoneelse">
+            <img src='charts/18/Absurd Gaff.jpg' alt='Absurd Gaff.jpg' class='songimage'>
+            <img src='charts/18/Across the Starlight.jpg' alt='Across the Starlight.jpg' class='songimage'>
+            <img src='charts/18/Aerial Fortress.jpg' alt='Aerial Fortress.jpg' class='songimage'>
+            <img src='charts/18/AIM HIGHER.jpg' alt='AIM HIGHER.jpg' class='songimage'>
+            <img src='charts/18/Air.jpg' alt='Air.jpg' class='songimage'>
+            <img src='charts/18/Akzeriyyuth.jpg' alt='Akzeriyyuth.jpg' class='songimage'>
+            <img src='charts/18/All for One.jpg' alt='All for One.jpg' class='songimage'>
+            <img src='charts/18/ALTONA.jpg' alt='ALTONA.jpg' class='songimage'>
+            <img src='charts/18/Amazing Mirage.jpg' alt='Amazing Mirage.jpg' class='songimage'>
+            <img src='charts/18/Angelic Jelly.jpg' alt='Angelic Jelly.jpg' class='songimage'>
+            <img src='charts/18/Angels And Demons.jpg' alt='Angels And Demons.jpg' class='songimage'>
+            <div class="amnttopull">
+                <label>Amount of Charts to pull</label>
+                <input type="number" min="1" max="20" value="5" id="amount">
+                <button onclick="randomizecharts()">randomize</button>
+            </div>
         </div>
+        <script src="randomize.js"></script>
     </body>
 </html>
