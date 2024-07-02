@@ -60,10 +60,12 @@ a:visited {
 }
 
 .songimage {
+    position:relative;
     object-fit: fill;
     width:10vw;
     height:20vh;
     background-color: black;
+    text-align: center;
 }
 
 #gone {
@@ -96,3 +98,20 @@ a:visited {
     top:8vh;
 }
 
+.songtext {
+    position:relative;
+    color:white;
+    top:0;
+    width:100%;
+    background-color: rgba(0,0,0,50%);
+    font-size: 14px;
+}
+
+.cardsongimage {
+    position:absolute;
+    left:0;
+    top:0;
+    object-fit: fill;
+    height:100%;
+    width:100%;
+}
