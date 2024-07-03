@@ -1,0 +1,285 @@
+@font-face {
+    font-family:sound;
+    src: url('Fast_Hand.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family:sound2;
+    src: url('Equalize.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+html {
+    background-color: #3C3C3C;
+    width:100%;
+    height:100%;
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0 0 0 0;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-color: transparent;
+    color:#87CEEB;
+}
+
+a:visited {
+    color:#87CEEB;
+}
+
+#headerc {
+    background-color: #2C2C2C;
+    width:100%;
+    height:7vh;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.headercontent {
+    color:white;
+    background-color: transparent;
+}
+
+#title {
+    font-size: 2vh;
+    position:relative;
+}
+
+@media only screen and (max-width:450px) {
+    #title {
+        font-size: 80%;
+        position:relative;
+    }
+}
+
+
+
+#titlecontent {
+    font-family:sound2;
+    position:relative;
+    top:50%;
+    transform: translateY(-50%);
+}
+
+.subcomponent {
+    position:absolute;
+    left:65vw;
+    top:3vh;
+    color:white;
+    text-decoration: none;
+}
+
+#everyoneelse {
+    height:93vh;
+    width:100vw;
+    position:absolute;
+    top:7vh;
+    background-color: transparent;
+    display:flex;
+    flex-direction: row;
+    overflow-y: auto;
+    color:white;
+    overflow-x: hidden;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    font-size: large;
+    text-align: center;
+}
+
+.imagecontainer {
+    position:relative;
+    left:50%;
+    transform: translate(-50%);
+    align-items: center;
+    width:100%;
+    height:69%; /*Nice*/
+}
+
+.imagecontainer img {
+    position:absolute;
+    left:50%;
+    transform:translate(-50%);
+    object-fit: fill;
+    height:100%;
+    width:50%;
+}
+
+.imagedescription {
+    background-color: rgba(0, 0, 0, 50%);
+    position:relative;
+    left:25%;
+    width:fit-content;
+}
+
+.postcontent {
+    background-color: transparent;
+    opacity: 100%;
+    width:80%;
+    height:100%;
+    position:relative;
+    left:50%;
+    transform: translateX(-50%);
+}
+
+.footer {
+    height:62px;
+    border-style: solid;
+    border-width: 0px;
+    border-top-width: 2px;
+    border-color: white;
+    margin-top: 3%;
+}
+
+.footercontent {
+    margin-top: 5px;
+}
+
+.support {
+    color:#87CEEB;
+}
+
+.support :visited {
+    color:#87CEEB;
+}
+@media only screen and (max-width:450px) {
+    #everyoneelse {
+        height:93vh;
+        width:100vw;
+        position:absolute;
+        top:7vh;
+        background-color: transparent;
+        display:flex;
+        flex-direction: column;
+        overflow-x: hidden;
+    }
+}
+
+#containerleft {
+    background-color: transparent;
+    flex-grow: 3;
+}
+
+@media only screen and (max-width:450px) {
+    #containerleft {
+        background-color: transparent;
+        flex-grow: 1;
+        height:100vh;
+    }
+}
+
+
+#containerright {
+    flex-grow: 1;
+    overflow-y: auto;
+    overflow-x: hidden;
+    flex-direction: column;
+    max-width: 30%;
+}
+
+@media only screen and (max-width:450px) {
+    #containerright {
+        flex-grow: 4;
+        flex-shrink: 1;
+        overflow-y: auto;
+        overflow-x: hidden;
+        flex-direction: column;
+        width:100%;
+        max-width: 100%;
+    }
+}
+
+.post {
+    width:90%;
+    height:40%;
+    position:relative;
+    left:50%;
+    transform: translateX(-50%);
+    background-color: #2C2C2C;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+@media only screen and (max-width:450px) {
+    .post {
+        width:90%;
+        height:60%;
+        position:relative;
+        left:50%;
+        transform: translateX(-50%);
+        background-color: #2C2C2C;
+        border-radius: 5px;
+        margin-top: 15px;
+    }
+}
+
+.postimage {
+    width:100%;
+    height:80%;
+    object-fit:contain;
+    background-color: chocolate;
+}
+
+.postimage img {
+    width:100%;
+    height:100%;
+    object-fit:fill;
+    background-color: aqua;
+}
+
+.posttitle {
+    color:white;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.postdate {
+    position:sticky;
+    opacity: 0%;
+    color:white;
+    margin-left: 3px;
+}
+
+#picker {
+    width:80%;
+    height:30%;
+    margin-top:5px;
+    object-fit: fill;
+}
+
+#picker img {
+    margin-top: 5px;
+    height:40%;
+    width:50%;
+    object-fit: fill;
+}
+
+#picker div {
+    position: relative;
+    color:white;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+@media only screen and (max-width:450px) {
+    #picker div {
+        position: relative;
+        color:white;
+        font-size: 6vw;
+        font-weight: bold;
+    }
+}
+
