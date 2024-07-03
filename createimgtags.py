@@ -16,4 +16,4 @@ def main(path,diff):
 
 
 if __name__ == "__main__":
-    main("sdvxtools\picker\charts\\17",17)
+    main("sdvxtools\picker\charts\\20",20)

@@ -80,7 +80,7 @@ def FROMLISTdownloadALL(dictitem: dict,directory: str) -> None:
 
 if __name__ == "__main__":
     #clonehtml(17)
-    hold = (GETlistfromHTMLTXTfile(17))
+    hold = (GETlistfromHTMLTXTfile(19))
     print (len(hold))
-    FROMLISTdownloadALL(hold,"C:\\Users\\diyaj\\Downloads\\Recommend me stuff!\\New folder\\biggpiu.github.io\\sdvxtools\\picker\\charts\\17")
+    FROMLISTdownloadALL(hold,"C:\\Users\\diyaj\\Downloads\\Recommend me stuff!\\New folder\\biggpiu.github.io\\sdvxtools\\picker\\charts\\19")
     print ("done")
