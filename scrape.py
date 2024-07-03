@@ -46,7 +46,6 @@ def GETlistfromHTMLTXTfile(diff) -> list:
                 break
             else:
                 pass
-    songsimage.remove(songsimage[0])
     for helloworld in range(len(songsimage)):
         answer.update({songsname[helloworld]:songsimage[helloworld]})
     answer = dict(sorted(answer.items()))
@@ -80,8 +79,8 @@ def FROMLISTdownloadALL(dictitem: dict,directory: str) -> None:
 
 
 if __name__ == "__main__":
-    clonehtml(19)
-    hold = (GETlistfromHTMLTXTfile(19))
+    #clonehtml(17)
+    hold = (GETlistfromHTMLTXTfile(17))
     print (len(hold))
-    FROMLISTdownloadALL(hold,"C:\\Users\\diyaj\\Downloads\\Recommend me stuff!\\New folder\\biggpiu.github.io\\sdvxtools\\picker\\charts\\19")
+    FROMLISTdownloadALL(hold,"C:\\Users\\diyaj\\Downloads\\Recommend me stuff!\\New folder\\biggpiu.github.io\\sdvxtools\\picker\\charts\\17")
     print ("done")
