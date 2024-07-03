@@ -10,7 +10,8 @@ def main(path,diff):
                 songname = i.replace(".jpg","")
             f.write(f"""
                     <div class="songimage">
-                        <img src='charts/{diff}/{i}' alt='{i}' class="cardsongimage"  onerror="this.onerror=null; this.src='charts/fallback.png';"">
+                        <button id="banme" type="button">Ban me?</button>
+                        <img src='charts/{diff}/{i}' alt='{i}' class="cardsongimage"  onerror="this.onerror=null; this.src='charts/fallback.png';">
                         <div class="songtext">{songname}</div>
                     </div>""")
 

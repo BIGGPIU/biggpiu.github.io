@@ -1,105 +1,130 @@
-
                     <div class="songimage">
-                        <img src='charts/20/666.jpg' alt='666.jpg' class="cardsongimage"  onerror="this.onerror=null; this.src='charts/fallback.png';"">
+                        <button id="banme" type="button">Ban me?</button>
+                        <img src='charts/20/666.jpg' alt='666.jpg' class="cardsongimage"  onerror="this.onerror=null; this.src='charts/fallback.png';">
                         <div class="songtext">666</div>
                     </div>
                     <div class="songimage">
-                        <img src='charts/20/APØCALYPSE RAY.jpg' alt='APØCALYPSE RAY.jpg' class="cardsongimage"  onerror="this.onerror=null; this.src='charts/fallback.png';"">
+                        <button id="banme" type="button">Ban me?</button>
+                        <img src='charts/20/APØCALYPSE RAY.jpg' alt='APØCALYPSE RAY.jpg' class="cardsongimage"  onerror="this.onerror=null; this.src='charts/fallback.png';">
                         <div class="songtext">APØCALYPSE RAY</div>
                     </div>
                     <div class="songimage">
-                        <img src='charts/20/Bl∞min'.jpg' alt='Bl∞min'.jpg' class="cardsongimage"  onerror="this.onerror=null; this.src='charts/fallback.png';"">
+                        <button id="banme" type="button">Ban me?</button>
+                        <img src='charts/20/Bl∞min'.jpg' alt='Bl∞min'.jpg' class="cardsongimage"  onerror="this.onerror=null; this.src='charts/fallback.png';">
                         <div class="songtext">Bl∞min'</div>
                     </div>
                     <div class="songimage">
-                        <img src='charts/20/Erm could it be a Spatiotemporal ShockWAVE Syndrome.jpg' alt='Erm could it be a Spatiotemporal ShockWAVE Syndrome.jpg' class="cardsongimage"  onerror="this.onerror=null; this.src='charts/fallback.png';"">
+                        <button id="banme" type="button">Ban me?</button>
+                        <img src='charts/20/Erm could it be a Spatiotemporal ShockWAVE Syndrome.jpg' alt='Erm could it be a Spatiotemporal ShockWAVE Syndrome.jpg' class="cardsongimage"  onerror="this.onerror=null; this.src='charts/fallback.png';">
                         <div class="songtext">Erm could it be a Spatiotemporal ShockWAVE Syndrome</div>
                     </div>
                     <div class="songimage">
-                        <img src='charts/20/FIN4LE ～終止線の彼方へ～.jpg' alt='FIN4LE ～終止線の彼方へ～.jpg' class="cardsongimage"  onerror="this.onerror=null; this.src='charts/fallback.png';"">
+                        <button id="banme" type="button">Ban me?</button>
+                        <img src='charts/20/FIN4LE ～終止線の彼方へ～.jpg' alt='FIN4LE ～終止線の彼方へ～.jpg' class="cardsongimage"  onerror="this.onerror=null; this.src='charts/fallback.png';">
                         <div class="songtext">FIN4LE ～終止線の彼方へ～</div>
                     </div>
                     <div class="songimage">
-                        <img src='charts/20/HE4VEN ～天国へようこそ～.jpg' alt='HE4VEN ～天国へようこそ～.jpg' class="cardsongimage"  onerror="this.onerror=null; this.src='charts/fallback.png';"">
+                        <button id="banme" type="button">Ban me?</button>
+                        <img src='charts/20/HE4VEN ～天国へようこそ～.jpg' alt='HE4VEN ～天国へようこそ～.jpg' class="cardsongimage"  onerror="this.onerror=null; this.src='charts/fallback.png';">
                         <div class="songtext">HE4VEN ～天国へようこそ～</div>
                     </div>
                     <div class="songimage">
-                        <img src='charts/20/HeaveИ's Rain.jpg' alt='HeaveИ's Rain.jpg' class="cardsongimage"  onerror="this.onerror=null; this.src='charts/fallback.png';"">
+                        <button id="banme" type="button">Ban me?</button>
+                        <img src='charts/20/HeaveИ's Rain.jpg' alt='HeaveИ's Rain.jpg' class="cardsongimage"  onerror="this.onerror=null; this.src='charts/fallback.png';">
                         <div class="songtext">HeaveИ's Rain</div>
                     </div>
                     <div class="songimage">
-                        <img src='charts/20/I.jpg' alt='I.jpg' class="cardsongimage"  onerror="this.onerror=null; this.src='charts/fallback.png';"">
+                        <button id="banme" type="button">Ban me?</button>
+                        <img src='charts/20/I.jpg' alt='I.jpg' class="cardsongimage"  onerror="this.onerror=null; this.src='charts/fallback.png';">
                         <div class="songtext">I</div>
                     </div>
                     <div class="songimage">
-                        <img src='charts/20/iLLness LiLin.jpg' alt='iLLness LiLin.jpg' class="cardsongimage"  onerror="this.onerror=null; this.src='charts/fallback.png';"">
+                        <button id="banme" type="button">Ban me?</button>
+                        <img src='charts/20/iLLness LiLin.jpg' alt='iLLness LiLin.jpg' class="cardsongimage"  onerror="this.onerror=null; this.src='charts/fallback.png';">
                         <div class="songtext">iLLness LiLin</div>
                     </div>
                     <div class="songimage">
-                        <img src='charts/20/LachrymaReQueen’M.jpg' alt='LachrymaReQueen’M.jpg' class="cardsongimage"  onerror="this.onerror=null; this.src='charts/fallback.png';"">
+                        <button id="banme" type="button">Ban me?</button>
+                        <img src='charts/20/LachrymaReQueen’M.jpg' alt='LachrymaReQueen’M.jpg' class="cardsongimage"  onerror="this.onerror=null; this.src='charts/fallback.png';">
                         <div class="songtext">LachrymaReQueen’M</div>
                     </div>
                     <div class="songimage">
-                        <img src='charts/20/MAYHEM.jpg' alt='MAYHEM.jpg' class="cardsongimage"  onerror="this.onerror=null; this.src='charts/fallback.png';"">
+                        <button id="banme" type="button">Ban me?</button>
+                        <img src='charts/20/MAYHEM.jpg' alt='MAYHEM.jpg' class="cardsongimage"  onerror="this.onerror=null; this.src='charts/fallback.png';">
                         <div class="songtext">MAYHEM</div>
                     </div>
                     <div class="songimage">
-                        <img src='charts/20/MixxioN.jpg' alt='MixxioN.jpg' class="cardsongimage"  onerror="this.onerror=null; this.src='charts/fallback.png';"">
+                        <button id="banme" type="button">Ban me?</button>
+                        <img src='charts/20/MixxioN.jpg' alt='MixxioN.jpg' class="cardsongimage"  onerror="this.onerror=null; this.src='charts/fallback.png';">
                         <div class="songtext">MixxioN</div>
                     </div>
                     <div class="songimage">
-                        <img src='charts/20/NEMSYS ARENA World Hexathlon.jpg' alt='NEMSYS ARENA World Hexathlon.jpg' class="cardsongimage"  onerror="this.onerror=null; this.src='charts/fallback.png';"">
+                        <button id="banme" type="button">Ban me?</button>
+                        <img src='charts/20/NEMSYS ARENA World Hexathlon.jpg' alt='NEMSYS ARENA World Hexathlon.jpg' class="cardsongimage"  onerror="this.onerror=null; this.src='charts/fallback.png';">
                         <div class="songtext">NEMSYS ARENA World Hexathlon</div>
                     </div>
                     <div class="songimage">
-                        <img src='charts/20/Reminiscence.jpg' alt='Reminiscence.jpg' class="cardsongimage"  onerror="this.onerror=null; this.src='charts/fallback.png';"">
+                        <button id="banme" type="button">Ban me?</button>
+                        <img src='charts/20/Reminiscence.jpg' alt='Reminiscence.jpg' class="cardsongimage"  onerror="this.onerror=null; this.src='charts/fallback.png';">
                         <div class="songtext">Reminiscence</div>
                     </div>
                     <div class="songimage">
-                        <img src='charts/20/SuddeИDeath.jpg' alt='SuddeИDeath.jpg' class="cardsongimage"  onerror="this.onerror=null; this.src='charts/fallback.png';"">
+                        <button id="banme" type="button">Ban me?</button>
+                        <img src='charts/20/SuddeИDeath.jpg' alt='SuddeИDeath.jpg' class="cardsongimage"  onerror="this.onerror=null; this.src='charts/fallback.png';">
                         <div class="songtext">SuddeИDeath</div>
                     </div>
                     <div class="songimage">
-                        <img src='charts/20/VVelcome!!.jpg' alt='VVelcome!!.jpg' class="cardsongimage"  onerror="this.onerror=null; this.src='charts/fallback.png';"">
+                        <button id="banme" type="button">Ban me?</button>
+                        <img src='charts/20/VVelcome!!.jpg' alt='VVelcome!!.jpg' class="cardsongimage"  onerror="this.onerror=null; this.src='charts/fallback.png';">
                         <div class="songtext">VVelcome!!</div>
                     </div>
                     <div class="songimage">
-                        <img src='charts/20/WHITEOUT.jpg' alt='WHITEOUT.jpg' class="cardsongimage"  onerror="this.onerror=null; this.src='charts/fallback.png';"">
+                        <button id="banme" type="button">Ban me?</button>
+                        <img src='charts/20/WHITEOUT.jpg' alt='WHITEOUT.jpg' class="cardsongimage"  onerror="this.onerror=null; this.src='charts/fallback.png';">
                         <div class="songtext">WHITEOUT</div>
                     </div>
                     <div class="songimage">
-                        <img src='charts/20/XHRONOXAPSULΞ.jpg' alt='XHRONOXAPSULΞ.jpg' class="cardsongimage"  onerror="this.onerror=null; this.src='charts/fallback.png';"">
+                        <button id="banme" type="button">Ban me?</button>
+                        <img src='charts/20/XHRONOXAPSULΞ.jpg' alt='XHRONOXAPSULΞ.jpg' class="cardsongimage"  onerror="this.onerror=null; this.src='charts/fallback.png';">
                         <div class="songtext">XHRONOXAPSULΞ</div>
                     </div>
                     <div class="songimage">
-                        <img src='charts/20/Xronièr.jpg' alt='Xronièr.jpg' class="cardsongimage"  onerror="this.onerror=null; this.src='charts/fallback.png';"">
+                        <button id="banme" type="button">Ban me?</button>
+                        <img src='charts/20/Xronièr.jpg' alt='Xronièr.jpg' class="cardsongimage"  onerror="this.onerror=null; this.src='charts/fallback.png';">
                         <div class="songtext">Xronièr</div>
                     </div>
                     <div class="songimage">
-                        <img src='charts/20/You Are My Best RivaL!!.jpg' alt='You Are My Best RivaL!!.jpg' class="cardsongimage"  onerror="this.onerror=null; this.src='charts/fallback.png';"">
+                        <button id="banme" type="button">Ban me?</button>
+                        <img src='charts/20/You Are My Best RivaL!!.jpg' alt='You Are My Best RivaL!!.jpg' class="cardsongimage"  onerror="this.onerror=null; this.src='charts/fallback.png';">
                         <div class="songtext">You Are My Best RivaL!!</div>
                     </div>
                     <div class="songimage">
-                        <img src='charts/20/[ ]DENTITY.jpg' alt='[ ]DENTITY.jpg' class="cardsongimage"  onerror="this.onerror=null; this.src='charts/fallback.png';"">
+                        <button id="banme" type="button">Ban me?</button>
+                        <img src='charts/20/[ ]DENTITY.jpg' alt='[ ]DENTITY.jpg' class="cardsongimage"  onerror="this.onerror=null; this.src='charts/fallback.png';">
                         <div class="songtext">[ ]DENTITY</div>
                     </div>
                     <div class="songimage">
-                        <img src='charts/20/{ eXLIPXe }.jpg' alt='{ eXLIPXe }.jpg' class="cardsongimage"  onerror="this.onerror=null; this.src='charts/fallback.png';"">
+                        <button id="banme" type="button">Ban me?</button>
+                        <img src='charts/20/{ eXLIPXe }.jpg' alt='{ eXLIPXe }.jpg' class="cardsongimage"  onerror="this.onerror=null; this.src='charts/fallback.png';">
                         <div class="songtext">{ eXLIPXe }</div>
                     </div>
                     <div class="songimage">
-                        <img src='charts/20/Λkasha.jpg' alt='Λkasha.jpg' class="cardsongimage"  onerror="this.onerror=null; this.src='charts/fallback.png';"">
+                        <button id="banme" type="button">Ban me?</button>
+                        <img src='charts/20/Λkasha.jpg' alt='Λkasha.jpg' class="cardsongimage"  onerror="this.onerror=null; this.src='charts/fallback.png';">
                         <div class="songtext">Λkasha</div>
                     </div>
                     <div class="songimage">
-                        <img src='charts/20/ΣgØ.jpg' alt='ΣgØ.jpg' class="cardsongimage"  onerror="this.onerror=null; this.src='charts/fallback.png';"">
+                        <button id="banme" type="button">Ban me?</button>
+                        <img src='charts/20/ΣgØ.jpg' alt='ΣgØ.jpg' class="cardsongimage"  onerror="this.onerror=null; this.src='charts/fallback.png';">
                         <div class="songtext">ΣgØ</div>
                     </div>
                     <div class="songimage">
-                        <img src='charts/20/ΣmbryØ.jpg' alt='ΣmbryØ.jpg' class="cardsongimage"  onerror="this.onerror=null; this.src='charts/fallback.png';"">
+                        <button id="banme" type="button">Ban me?</button>
+                        <img src='charts/20/ΣmbryØ.jpg' alt='ΣmbryØ.jpg' class="cardsongimage"  onerror="this.onerror=null; this.src='charts/fallback.png';">
                         <div class="songtext">ΣmbryØ</div>
                     </div>
                     <div class="songimage">
-                        <img src='charts/20/いまきみに.jpg' alt='いまきみに.jpg' class="cardsongimage"  onerror="this.onerror=null; this.src='charts/fallback.png';"">
+                        <button id="banme" type="button">Ban me?</button>
+                        <img src='charts/20/いまきみに.jpg' alt='いまきみに.jpg' class="cardsongimage"  onerror="this.onerror=null; this.src='charts/fallback.png';">
                         <div class="songtext">いまきみに</div>
                     </div>

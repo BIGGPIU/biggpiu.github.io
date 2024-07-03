@@ -1,16 +1,42 @@
 var allclass = document.getElementsByClassName("songimage");
+var allbuttons = document.querySelectorAll('#banme')
 let hasit = []
+
+function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+};
 
 for (let i = 0; i < allclass.length; i++) {
     allclass[i].setAttribute("id","gone")
+};
+
+for (let i = 0; i<allbuttons.length;i++) {
+    allbuttons[i].addEventListener("click", function() {
+        if (this.innerHTML == "BANNED") {
+            this.setAttribute("class","hidden")
+            sleep(1000).then(() => {
+                this.setAttribute("id","banme")
+                this.setAttribute("class","")
+                this.innerHTML = "Ban me?"
+            })
+        }
+        else if (this.innerHTML == "Ban me?") {
+            this.setAttribute("class","banned")
+            this.setAttribute("id","")
+            this.innerHTML = "BANNED"
+        }
+    });
 }
-
-
 
 console.log(allclass);
 
 function restart() {
     hasit = []
+    for (let i = 0; i<allbuttons.length; i++) {
+        allbuttons[i].setAttribute("id","banme")
+        allbuttons[i].setAttribute("class","")
+        allbuttons[i].innerHTML = "Ban me?"
+    }
     for (let i = 0; i < allclass.length; i++) {
         allclass[i].setAttribute("id","gone")
     }
@@ -110,7 +136,4 @@ function GetRandomNumbers(GETamnt) {
         };
     };
 };
-
-
-
 
