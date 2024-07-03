@@ -1,0 +1,5766 @@
+<html lang="ja">
+<head>
+
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no,viewport-fit=cover">
+
+    <meta name="theme-color" content="#f2f4ff">
+
+    <title>
+Grade.S 難易度表 | Lv19/20</title>
+
+    <link rel="stylesheet" href="/css/main/base.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <link rel="stylesheet" href="https://sdvx.maya2silence.com/vendor/bootstrap/css/bootstrap.min.css">
+
+        <link rel="stylesheet" href="/css/main/diff_table.min.css" title="StyleSheet">
+
+    <script src="https://sdvx.maya2silence.com/vendor/jquery/jquery.min.js">
+</script>
+
+    <script src="https://sdvx.maya2silence.com/vendor/popper/popper.min.js">
+</script>
+
+    <script src="https://sdvx.maya2silence.com/vendor/bootstrap5/js/bootstrap.min.js">
+</script>
+
+        <script type="text/javascript">
+
+        const C_LV = 19;
+    </script>
+
+    <script src="/script/main/long-press-event.min.js">
+</script>
+
+    <script src="/script/main/diff_table.min.js">
+</script>
+
+    <!-- Google tag (gtag.js) -->
+
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-FLCD198Y29">
+</script>
+
+    <script>
+
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-FLCD198Y29');
+    </script>
+
+</head>
+
+
+<body style="margin-top: 99px;">
+
+    <header>
+
+        <div class="main_header">
+
+            <div class="header_outer header_first">
+
+                <div class="header_inner_first">
+
+                    <div class="header_inner">
+
+                        <a class="favicon" href="https://sdvx.maya2silence.com">
+maya2_SDVX</a>
+
+                    </div>
+
+                </div>
+
+                <div class="header_inner_second">
+
+                    <div class="header_inner">
+
+                        <a class="dropdown_btn " href="#" role="button" id="header_dropdown_user" data-bs-toggle="dropdown" aria-expanded="false">
+
+                            <i class="fa-regular fa-circle-user">
+</i>
+
+                        </a>
+
+                        <ul class="dropdown-menu" aria-labelledby="header_dropdown_user">
+
+                                                            <li>
+<a class="dropdown-item" href="https://sdvx.maya2silence.com/login">
+ログイン</a>
+</li>
+
+                                <li>
+<a class="dropdown-item" href="https://sdvx.maya2silence.com/register">
+新規登録</a>
+</li>
+
+                                                    </ul>
+
+                    </div>
+
+                    <div class="header_border">
+</div>
+
+                    
+                    <div class="header_inner">
+
+                        <a class="dropdown_btn" href="#" role="button" data-bs-toggle="offcanvas" data-bs-target="#header_offcanvas_menu" aria-controls="offcanvasRight">
+
+                            <i class="fa-solid fa-bars">
+</i>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+                            <div class="header_outer header_second">
+
+                        <div class="header_second">
+
+                    <a class="option_bar" data-control="option_bar" data-control-attr="save">
+SAVE</a>
+
+            <a class="option_bar" data-control="option_bar" data-control-attr="load">
+LOAD</a>
+
+            <a class="option_bar" data-control="option_bar" data-control-attr="reset">
+RESET</a>
+
+                <a class="option_bar" data-bs-toggle="modal" id="modal_search_btn" data-bs-target="#modal_search" aria-expanded="false">
+<label for="modal_search_btn">
+<i class="fa-solid fa-magnifying-glass">
+</i>
+</label>
+</a>
+
+        <a class="option_bar" data-bs-toggle="modal" id="modal_option_btn" data-bs-target="#modal_option" aria-expanded="false">
+<label for="modal_option_btn">
+<i class="fa-solid fa-gear">
+</i>
+</label>
+</a>
+
+        <a class="option_bar" data-bs-toggle="modal" id="modal_modal_howto_btn" data-bs-target="#modal_howto" aria-expanded="false">
+<label for="modal_help">
+<i class="fa-solid fa-circle-question">
+</i>
+</label>
+</a>
+
+    </div>
+
+                </div>
+
+                    </div>
+
+    </header>
+
+    <div class="container">
+
+                
+                    <h2 class="container_header">
+
+                Grade.S 難易度表 | Lv19/20                            </h2>
+
+                
+        <div class="wrapper">
+
+                        
+    <div id="conf_master">
+</div>
+
+    <div id="player_id" data-pid="">
+</div>
+
+                        <div class="tier_box" data-tier="-1">
+
+    <div class="tier_header">
+
+        
+                <div class="tier_label">
+
+            <div>
+Tier<span>
+0+</span>
+</div>
+
+            <div class="tier_flags_ratio" data-tier="-1" data-total="8">
+0/8</div>
+
+        </div>
+
+
+        
+        <div class="tier_flags_counter" data-tier="-1">
+
+                            <div class="tier_flags_counter_child flag_counter" data-flag="1">
+
+                    <div class="counter_value">
+0</div>
+
+                </div>
+
+                            <div class="tier_flags_counter_child flag_counter" data-flag="2">
+
+                    <div class="counter_value">
+0</div>
+
+                </div>
+
+                            <div class="tier_flags_counter_child flag_counter" data-flag="3">
+
+                    <div class="counter_value">
+0</div>
+
+                </div>
+
+                            <div class="tier_flags_counter_child flag_counter" data-flag="4">
+
+                    <div class="counter_value">
+0</div>
+
+                </div>
+
+                    </div>
+
+    </div>
+
+    <div class="tier_container" data-tier="-1">
+
+                    <div class="song_box" data-id="606" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="YWjhbbLoVx5fSnAjrXAcEi" data-title="《Re:miniscence》" data-ruby="レミニセンス" data-artist="かねこちはる" data-notes="2706" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/YWjhbbLoVx5fSnAjrXAcEi.jpg);">
+
+                    <div class="song_title">
+《Re:miniscence》</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="527" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="gPiWYe7wkJ3W9Stk2JHLLG" data-title="FIN4LE ～終止線の彼方へ～" data-ruby="フィナーレシュウシセンノカナタヘ" data-artist="カモメサノエレクトリックオーケストラ" data-notes="2335" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/gPiWYe7wkJ3W9Stk2JHLLG.jpg);">
+
+                    <div class="song_title">
+FIN4LE ～終止線の彼方へ～</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="1445" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="29G9tosN9KTJSvmQi5fz6o" data-title="HeaveИ's Rain" data-ruby="" data-artist="モリモリあつし" data-notes="0" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/29G9tosN9KTJSvmQi5fz6o.jpg);">
+
+                    <div class="song_title">
+HeaveИ's Rain</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="563" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="oR3BZ23zeytKoAYBeoN7od" data-title="MixxioN" data-ruby="ミッション" data-artist="MisoilePunch♪" data-notes="2298" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/oR3BZ23zeytKoAYBeoN7od.jpg);">
+
+                    <div class="song_title">
+MixxioN</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="1319" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="zbXW27XTCzrNMYNxTTRxTi" data-title="SuddeИDeath" data-ruby="" data-artist="xi vs. モリモリあつし" data-notes="4409" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/zbXW27XTCzrNMYNxTTRxTi.jpg);">
+
+                    <div class="song_title">
+SuddeИDeath</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="580" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="FufEBdvJWeN8gyVXtZ4bKf" data-title="VVelcome!!" data-ruby="ウェルカム" data-artist="MisoilePunch♪" data-notes="2264" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/FufEBdvJWeN8gyVXtZ4bKf.jpg);">
+
+                    <div class="song_title">
+VVelcome!!</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="584" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="2qRfkx85nBQYAFqXJMCWTE" data-title="XHRONOXAPSULΞ" data-ruby="クロノカプセル" data-artist="Silentroom" data-notes="2360" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/2qRfkx85nBQYAFqXJMCWTE.jpg);">
+
+                    <div class="song_title">
+XHRONOXAPSULΞ</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="631" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="HWERRruYYXxmznFDGZa6d7" data-title="You Are My Best RivaL!!" data-ruby="ユーアーマイベストライバル" data-artist="cosMo＠暴走P" data-notes="0" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/HWERRruYYXxmznFDGZa6d7.jpg);">
+
+                    <div class="song_title">
+You Are My Best RivaL!!</div>
+
+                </div>
+
+            </div>
+
+            </div>
+
+</div>
+
+                    <div class="tier_box" data-tier="0">
+
+    <div class="tier_header">
+
+        
+                <div class="tier_label">
+
+            <div>
+Tier<span>
+0-</span>
+</div>
+
+            <div class="tier_flags_ratio" data-tier="0" data-total="9">
+0/9</div>
+
+        </div>
+
+
+        
+        <div class="tier_flags_counter" data-tier="0">
+
+                            <div class="tier_flags_counter_child flag_counter" data-flag="1">
+
+                    <div class="counter_value">
+0</div>
+
+                </div>
+
+                            <div class="tier_flags_counter_child flag_counter" data-flag="2">
+
+                    <div class="counter_value">
+0</div>
+
+                </div>
+
+                            <div class="tier_flags_counter_child flag_counter" data-flag="3">
+
+                    <div class="counter_value">
+0</div>
+
+                </div>
+
+                            <div class="tier_flags_counter_child flag_counter" data-flag="4">
+
+                    <div class="counter_value">
+0</div>
+
+                </div>
+
+                    </div>
+
+    </div>
+
+    <div class="tier_container" data-tier="0">
+
+                    <div class="song_box" data-id="492" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="m2hYBxC2NJUjBM9eTPEwGG" data-title="* Erm, could it be a Spatiotemporal ShockWAVE Syndrome...?" data-ruby="アームクドゥイットビーアスペイシォテンポラルショックウェーブシンドローム" data-artist="かめりあ" data-notes="2548" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/m2hYBxC2NJUjBM9eTPEwGG.jpg);">
+
+                    <div class="song_title">
+* Erm, could it be a Spatiotemporal ShockWAVE Syndrome...?</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="496" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="fC9eXRjhuaX5wvxgAnm4e6" data-title="666" data-ruby="シックスシックスシックス" data-artist="RoughSketch" data-notes="4092" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/fC9eXRjhuaX5wvxgAnm4e6.jpg);">
+
+                    <div class="song_title">
+666</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="1419" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="LD8cXA4DDmieTQ47KjCXSj" data-title="APØCALYPSE RAY" data-ruby="" data-artist="xi" data-notes="0" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/LD8cXA4DDmieTQ47KjCXSj.jpg);">
+
+                    <div class="song_title">
+APØCALYPSE RAY</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="512" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="uKgz6FVXR9uTi4C6nmavSa" data-title="Bl∞min'" data-ruby="" data-artist="MisoilePunch♪ -Forever-" data-notes="0" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/uKgz6FVXR9uTi4C6nmavSa.jpg);">
+
+                    <div class="song_title">
+Bl∞min'</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="543" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="iB9Ggmk5DHfrV7pAq2j6Vc" data-title="HE4VEN ～天国へようこそ～" data-ruby="ヘブンテンゴクヘヨウコソ" data-artist="カモメサノエレクトリックオーケストラ" data-notes="2257" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/iB9Ggmk5DHfrV7pAq2j6Vc.jpg);">
+
+                    <div class="song_title">
+HE4VEN ～天国へようこそ～</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="593" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="hfVbrxqtBxxJN6ko8w8Xd8" data-title="iLLness LiLin" data-ruby="イルネスリリン" data-artist="かねこちはる" data-notes="2151" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/hfVbrxqtBxxJN6ko8w8Xd8.jpg);">
+
+                    <div class="song_title">
+iLLness LiLin</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="555" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="9KcuR6DoVd2Xn3RDX5dK2o" data-title="Lachryma《Re:Queen’M》" data-ruby="ラクリマレクイエム" data-artist="かねこちはる" data-notes="3038" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/9KcuR6DoVd2Xn3RDX5dK2o.jpg);">
+
+                    <div class="song_title">
+Lachryma《Re:Queen’M》</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="583" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="uzUFo4WfEpUeYfec6ra9sc" data-title="WHITEOUT" data-ruby="ホワイトアウト" data-artist="かねこちはる" data-notes="2911" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/uzUFo4WfEpUeYfec6ra9sc.jpg);">
+
+                    <div class="song_title">
+WHITEOUT</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="587" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="mv9f3RmUB8zK8q98iau76" data-title="Xronièr" data-ruby="クロニエール" data-artist="かめりあ as &quot;fluX Xroise&quot;" data-notes="2645" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/mv9f3RmUB8zK8q98iau76.jpg);">
+
+                    <div class="song_title">
+Xronièr</div>
+
+                </div>
+
+            </div>
+
+            </div>
+
+</div>
+
+                    <div class="tier_box" data-tier="1">
+
+    <div class="tier_header">
+
+        
+                <div class="tier_label">
+
+            <div>
+Tier<span>
+1</span>
+</div>
+
+            <div class="tier_flags_ratio" data-tier="1" data-total="11">
+0/11</div>
+
+        </div>
+
+
+        
+        <div class="tier_flags_counter" data-tier="1">
+
+                            <div class="tier_flags_counter_child flag_counter" data-flag="1">
+
+                    <div class="counter_value">
+0</div>
+
+                </div>
+
+                            <div class="tier_flags_counter_child flag_counter" data-flag="2">
+
+                    <div class="counter_value">
+0</div>
+
+                </div>
+
+                            <div class="tier_flags_counter_child flag_counter" data-flag="3">
+
+                    <div class="counter_value">
+0</div>
+
+                </div>
+
+                            <div class="tier_flags_counter_child flag_counter" data-flag="4">
+
+                    <div class="counter_value">
+0</div>
+
+                </div>
+
+                    </div>
+
+    </div>
+
+    <div class="tier_container" data-tier="1">
+
+                    <div class="song_box" data-id="493" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="GdKJyPQjRRJj5r55EKbJbZ" data-title="*Feels Seasickness...*" data-ruby="フィールズシーシックネス" data-artist="かめりあ" data-notes="3193" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/GdKJyPQjRRJj5r55EKbJbZ.jpg);">
+
+                    <div class="song_title">
+*Feels Seasickness...*</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="522" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="W4dQWmKSW72Nu3YGGhqAjA" data-title="Dyscontrolled Galaxy" data-ruby="ディスコントロールドギャラクシー" data-artist="かめりあ" data-notes="2195" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/W4dQWmKSW72Nu3YGGhqAjA.jpg);">
+
+                    <div class="song_title">
+Dyscontrolled Galaxy</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="546" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="j3kUZKmoLkHMxtPWVLCDmn" data-title="I" data-ruby="アイ" data-artist="黒魔" data-notes="3626" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/j3kUZKmoLkHMxtPWVLCDmn.jpg);">
+
+                    <div class="song_title">
+I</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="574" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="D2TuQq4sp6j6PBuiCsZ8qA" data-title="THE凸GENERATOR" data-ruby="ザジェネレーター" data-artist="cosMo＠暴走P" data-notes="1791" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/D2TuQq4sp6j6PBuiCsZ8qA.jpg);">
+
+                    <div class="song_title">
+THE凸GENERATOR</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="588" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="d4HZDypC9kxEFpjcgeH2JN" data-title="Xroniàl Xéro" data-ruby="クロニアルゼロ" data-artist="かめりあ as &quot;menaXe inXonnu&quot;" data-notes="2294" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/d4HZDypC9kxEFpjcgeH2JN.jpg);">
+
+                    <div class="song_title">
+Xroniàl Xéro</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="600" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="yrSrCQ2NAcTbc9jZrBUPaW" data-title="ΣgØ" data-ruby="エゴ" data-artist="かぼちゃ" data-notes="3246" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/yrSrCQ2NAcTbc9jZrBUPaW.jpg);">
+
+                    <div class="song_title">
+ΣgØ</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="601" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="RgHFohoibi9iMVxbj5QpHM" data-title="ΣmbryØ" data-ruby="エンブリオ" data-artist="かぼちゃ" data-notes="3188" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/RgHFohoibi9iMVxbj5QpHM.jpg);">
+
+                    <div class="song_title">
+ΣmbryØ</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="607" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="RfNQUn2MhZBaoHFMJd6Jqm" data-title="いまきみに" data-ruby="イマキミニ" data-artist="Silentroom as &quot;少年R&quot;" data-notes="3064" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/RfNQUn2MhZBaoHFMJd6Jqm.jpg);">
+
+                    <div class="song_title">
+いまきみに</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="609" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="hB5qh2SNHJMaWwRZNaYE7k" data-title="すべてが幻になった後で" data-ruby="" data-artist="かめりあ・超機装幻楽隊" data-notes="1577" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/hB5qh2SNHJMaWwRZNaYE7k.jpg);">
+
+                    <div class="song_title">
+すべてが幻になった後で</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="614" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="F26sy2bSEAqAJRHCLCA6wG" data-title="ピアノ協奏曲第１番&quot;蠍火&quot;" data-ruby="サソリビ" data-artist="virkato" data-notes="1323" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/F26sy2bSEAqAJRHCLCA6wG.jpg);">
+
+                    <div class="song_title">
+ピアノ協奏曲第１番”蠍火”</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="615" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="ugq6odb6GqzmqshqgFB2C8" data-title="ピアノ独奏無言歌 &quot;灰燼&quot;" data-ruby="ピアノドクソウムゴンカカイジン" data-artist="BEMANI Sound Team &quot;Virkato Wakhmaninov&quot;" data-notes="1690" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/ugq6odb6GqzmqshqgFB2C8.jpg);">
+
+                    <div class="song_title">
+ピアノ独奏無言歌 "灰燼"</div>
+
+                </div>
+
+            </div>
+
+            </div>
+
+</div>
+
+                    <div class="tier_box" data-tier="2">
+
+    <div class="tier_header">
+
+        
+                <div class="tier_label">
+
+            <div>
+Tier<span>
+2</span>
+</div>
+
+            <div class="tier_flags_ratio" data-tier="2" data-total="10">
+0/10</div>
+
+        </div>
+
+
+        
+        <div class="tier_flags_counter" data-tier="2">
+
+                            <div class="tier_flags_counter_child flag_counter" data-flag="1">
+
+                    <div class="counter_value">
+0</div>
+
+                </div>
+
+                            <div class="tier_flags_counter_child flag_counter" data-flag="2">
+
+                    <div class="counter_value">
+0</div>
+
+                </div>
+
+                            <div class="tier_flags_counter_child flag_counter" data-flag="3">
+
+                    <div class="counter_value">
+0</div>
+
+                </div>
+
+                            <div class="tier_flags_counter_child flag_counter" data-flag="4">
+
+                    <div class="counter_value">
+0</div>
+
+                </div>
+
+                    </div>
+
+    </div>
+
+    <div class="tier_container" data-tier="2">
+
+                    <div class="song_box" data-id="529" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="qc34nefhcXfMt3hXWPuJWh" data-title="FLügeL《Λrp:ΣggyØ》" data-ruby="フリューゲルアルペジオ" data-artist="かねこちはる" data-notes="2319" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/qc34nefhcXfMt3hXWPuJWh.jpg);">
+
+                    <div class="song_title">
+FLügeL《Λrp:ΣggyØ》</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="534" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="QBSJeUkVMGA46rVTso3n2b" data-title="Fly Like You" data-ruby="フライライクユー" data-artist="technoplanet" data-notes="1970" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/QBSJeUkVMGA46rVTso3n2b.jpg);">
+
+                    <div class="song_title">
+Fly Like You</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="1307" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="TaFUxDRNWyQHdrqUt25tMF" data-title="Glory of Fighters" data-ruby="" data-artist="RoughSkreamZ" data-notes="0" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/TaFUxDRNWyQHdrqUt25tMF.jpg);">
+
+                    <div class="song_title">
+Glory of Fighters</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="576" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="oe6S2LvA58QRirYaTczo8Z" data-title="The Clown of 24stairs" data-ruby="ザクラウンオブトゥエンティーフォーステイツ" data-artist="Yu_Asahina" data-notes="2389" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/oe6S2LvA58QRirYaTczo8Z.jpg);">
+
+                    <div class="song_title">
+The Clown of 24stairs</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="1437" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="oDvdJxaBie8XBP7kCcAHWe" data-title="Undead Raving Scare" data-ruby="" data-artist="RoughSkreamZ" data-notes="0" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/oDvdJxaBie8XBP7kCcAHWe.jpg);">
+
+                    <div class="song_title">
+Undead Raving Scare</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="586" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="92VsZtrNyDvfrfME2Uhk3f" data-title="Xb10r" data-ruby="" data-artist="隣の庭は青い(庭師+Aoi)" data-notes="2622" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/92VsZtrNyDvfrfME2Uhk3f.jpg);">
+
+                    <div class="song_title">
+Xb10r</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="590" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="pqC4hUitcpmxeCchDaawC5" data-title="Xéroa" data-ruby="ゼロア" data-artist="かめりあ" data-notes="2006" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/pqC4hUitcpmxeCchDaawC5.jpg);">
+
+                    <div class="song_title">
+Xéroa</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="618" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="M5AHYM3FMgYqrivTLEYUgW" data-title="卑弥呼" data-ruby="ヒミコ" data-artist="朱雀 VS 玄武" data-notes="2714" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/M5AHYM3FMgYqrivTLEYUgW.jpg);">
+
+                    <div class="song_title">
+卑弥呼</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="624" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="7WhaRJ8u42okzhEusgvRYE" data-title="色を喪った街" data-ruby="イロヲウシナッタマチ" data-artist="かめりあ feat. かめりあ" data-notes="2076" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/7WhaRJ8u42okzhEusgvRYE.jpg);">
+
+                    <div class="song_title">
+色を喪った街</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="625" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="36b3dFX6bFF5LjEt7GQAAc" data-title="赫焉" data-ruby="カクエン" data-artist="打打だいず vs. siromaru" data-notes="3160" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/36b3dFX6bFF5LjEt7GQAAc.jpg);">
+
+                    <div class="song_title">
+赫焉</div>
+
+                </div>
+
+            </div>
+
+            </div>
+
+</div>
+
+                    <div class="tier_box" data-tier="3">
+
+    <div class="tier_header">
+
+        
+                <div class="tier_label">
+
+            <div>
+Tier<span>
+3</span>
+</div>
+
+            <div class="tier_flags_ratio" data-tier="3" data-total="15">
+0/15</div>
+
+        </div>
+
+
+        
+        <div class="tier_flags_counter" data-tier="3">
+
+                            <div class="tier_flags_counter_child flag_counter" data-flag="1">
+
+                    <div class="counter_value">
+0</div>
+
+                </div>
+
+                            <div class="tier_flags_counter_child flag_counter" data-flag="2">
+
+                    <div class="counter_value">
+0</div>
+
+                </div>
+
+                            <div class="tier_flags_counter_child flag_counter" data-flag="3">
+
+                    <div class="counter_value">
+0</div>
+
+                </div>
+
+                            <div class="tier_flags_counter_child flag_counter" data-flag="4">
+
+                    <div class="counter_value">
+0</div>
+
+                </div>
+
+                    </div>
+
+    </div>
+
+    <div class="tier_container" data-tier="3">
+
+                    <div class="song_box" data-id="501" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="CmwE5StXU79jwSWqXipPZm" data-title="Absolute Domination" data-ruby="アブソリュートドミネーション" data-artist="Laur" data-notes="2151" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/CmwE5StXU79jwSWqXipPZm.jpg);">
+
+                    <div class="song_title">
+Absolute Domination</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="503" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="WjtmakYagia8rW5KdypcqP" data-title="Awakening" data-ruby="アウェクニング" data-artist="technoplanet" data-notes="2313" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/WjtmakYagia8rW5KdypcqP.jpg);">
+
+                    <div class="song_title">
+Awakening</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="523" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="2JSnJkUUPn4ipvVjYNhVGY" data-title="ENDYMION" data-ruby="エンデュミオン" data-artist="fallen shepherd ft. RabbiTon Strings" data-notes="2223" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/2JSnJkUUPn4ipvVjYNhVGY.jpg);">
+
+                    <div class="song_title">
+ENDYMION</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="532" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="xhaPFPEJjgwqU8AEk5e3yc" data-title="Fiat Lux" data-ruby="" data-artist="xi" data-notes="3324" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/xhaPFPEJjgwqU8AEk5e3yc.jpg);">
+
+                    <div class="song_title">
+Fiat Lux</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="535" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="zBCuDcAkTa64PmPY5Qs3mj" data-title="For UltraPlayers" data-ruby="フォーアルトラプレイヤーズ" data-artist="cosMo＠暴走P" data-notes="2907" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/zBCuDcAkTa64PmPY5Qs3mj.jpg);">
+
+                    <div class="song_title">
+For UltraPlayers</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="544" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="nFABTqzq3FGvGBZbw5K4k6" data-title="HYENA" data-ruby="ハイエナ" data-artist="Hommarju" data-notes="2534" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/nFABTqzq3FGvGBZbw5K4k6.jpg);">
+
+                    <div class="song_title">
+HYENA</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="547" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="5i2CsAqhPW7F589Epp2BgC" data-title="INF-B《L-aste-R》" data-ruby="インフィニットブラスター" data-artist="かねこちはる" data-notes="2063" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/5i2CsAqhPW7F589Epp2BgC.jpg);">
+
+                    <div class="song_title">
+INF-B《L-aste-R》</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="554" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="MEezsMXKzGfHY29mmkkMzf" data-title="KAC 2013 ULTIMATE MEDLEY -HISTORIA SOUND VOLTEX- Empress Side" data-ruby="ケーエーシー2013アルティメットメドレーヒストリアサウンドボルテックスエンプレウッサイド" data-artist="FLOOR LEGENDS -KAC 2013-" data-notes="3164" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/MEezsMXKzGfHY29mmkkMzf.jpg);">
+
+                    <div class="song_title">
+KAC 2013 ULTIMATE MEDLEY -HISTORIA SOUND VOLTEX- Empress Side</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="556" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="hKrjigVNegsUJonKeeLNo" data-title="Lancelot ～Flame of the Rebellion～" data-ruby="ランスロットフレイムオブリベリオン" data-artist="ぺのれり" data-notes="2444" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/hKrjigVNegsUJonKeeLNo.jpg);">
+
+                    <div class="song_title">
+Lancelot ～Flame of the Rebellion～</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="564" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="AXqidZ7TEWUTjXgxp3mhJm" data-title="OUTERHEΛVEN" data-ruby="アウターヘブン" data-artist="Juggernaut." data-notes="2351" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/AXqidZ7TEWUTjXgxp3mhJm.jpg);">
+
+                    <div class="song_title">
+OUTERHEΛVEN</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="1412" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="CBPn2ihd9YXyUs3BwTstEh" data-title="Spectacular“V”Adventure!" data-ruby="" data-artist="Enterskip" data-notes="0" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/CBPn2ihd9YXyUs3BwTstEh.jpg);">
+
+                    <div class="song_title">
+Spectacular“V”Adventure!</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="1373" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="KinFBmzjfA5XdWPiDMoG47" data-title="veRtrageS" data-ruby="ヴァートレイジス" data-artist="Riz vs. Shiron" data-notes="3195" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/KinFBmzjfA5XdWPiDMoG47.jpg);">
+
+                    <div class="song_title">
+veRtrageS</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="589" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="XsnFzK4HvRcZXTZ9UFwCa8" data-title="XyHATTE" data-ruby="サイハテ" data-artist="cosMo＠暴走Ultimate" data-notes="2499" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/XsnFzK4HvRcZXTZ9UFwCa8.jpg);">
+
+                    <div class="song_title">
+XyHATTE</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="612" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="3SYrk4wkgKXFGzTgyYp3MX" data-title="ディスコルディア" data-ruby="ディスコルディア" data-artist="ぺのれり vs. BEMANI Sound Team &quot;HuΣeR&quot;" data-notes="2710" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/3SYrk4wkgKXFGzTgyYp3MX.jpg);">
+
+                    <div class="song_title">
+ディスコルディア</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="622" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="gfozUD4ZEHKChmDjoZBp2a" data-title="竹" data-ruby="タケ" data-artist="立秋 feat.ちょこ" data-notes="2103" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/gfozUD4ZEHKChmDjoZBp2a.jpg);">
+
+                    <div class="song_title">
+竹</div>
+
+                </div>
+
+            </div>
+
+            </div>
+
+</div>
+
+                    <div class="tier_box" data-tier="4">
+
+    <div class="tier_header">
+
+        
+                <div class="tier_label">
+
+            <div>
+Tier<span>
+4</span>
+</div>
+
+            <div class="tier_flags_ratio" data-tier="4" data-total="15">
+0/15</div>
+
+        </div>
+
+
+        
+        <div class="tier_flags_counter" data-tier="4">
+
+                            <div class="tier_flags_counter_child flag_counter" data-flag="1">
+
+                    <div class="counter_value">
+0</div>
+
+                </div>
+
+                            <div class="tier_flags_counter_child flag_counter" data-flag="2">
+
+                    <div class="counter_value">
+0</div>
+
+                </div>
+
+                            <div class="tier_flags_counter_child flag_counter" data-flag="3">
+
+                    <div class="counter_value">
+0</div>
+
+                </div>
+
+                            <div class="tier_flags_counter_child flag_counter" data-flag="4">
+
+                    <div class="counter_value">
+0</div>
+
+                </div>
+
+                    </div>
+
+    </div>
+
+    <div class="tier_container" data-tier="4">
+
+                    <div class="song_box" data-id="1439" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="KpgUYoPCFcQkSBvCfiwx9H" data-title="and After the Merry BADEND" data-ruby="" data-artist="polysha" data-notes="0" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/KpgUYoPCFcQkSBvCfiwx9H.jpg);">
+
+                    <div class="song_title">
+and After the Merry BADEND</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="504" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="az78NhwweoTo7rhTdCtzKT" data-title="AμreoLe ~for Triumph~" data-ruby="アリーオールフォアトリンプ" data-artist="Ashrount" data-notes="2250" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/az78NhwweoTo7rhTdCtzKT.jpg);">
+
+                    <div class="song_title">
+AμreoLe ~for Triumph~</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="505" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="mJeHYftzfNKADAXdscr83M" data-title="BAYONEX" data-ruby="バヨネックス" data-artist="かめりあ as &quot;Revenge of Riot&quot;" data-notes="2042" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/mJeHYftzfNKADAXdscr83M.jpg);">
+
+                    <div class="song_title">
+BAYONEX</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="511" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="i7ckUrUdeHszLF5qiDxSQE" data-title="Blastix Riotz" data-ruby="ブラスティックライオッツ" data-artist="かめりあ as ''Bang Riot''" data-notes="2246" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/i7ckUrUdeHszLF5qiDxSQE.jpg);">
+
+                    <div class="song_title">
+Blastix Riotz</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="520" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="Zvq2pfHodw2emYxtKVx9ZY" data-title="Daisycutter" data-ruby="デイジーカッター" data-artist="ETIA." data-notes="2488" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/Zvq2pfHodw2emYxtKVx9ZY.jpg);">
+
+                    <div class="song_title">
+Daisycutter</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="1303" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="BnYs4oawfaDm9nZhi2rKvD" data-title="DEUX EX MĀXHINĀ" data-ruby="" data-artist="Ashrount" data-notes="0" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/BnYs4oawfaDm9nZhi2rKvD.jpg);">
+
+                    <div class="song_title">
+DEUX EX MĀXHINĀ</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="537" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="3YeFSmdQNq8CEVpRogq5Tj" data-title="GERBERA-For Finalists-" data-ruby="ガーベラフォーファイナリスト" data-artist="remixed by cosMo@暴走P" data-notes="2551" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/3YeFSmdQNq8CEVpRogq5Tj.jpg);">
+
+                    <div class="song_title">
+GERBERA-For Finalists-</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="553" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="JuBs7Ck4QHXagRTRuVv8VW" data-title="KAC 2013 ULTIMATE MEDLEY -HISTORIA SOUND VOLTEX- Emperor Side" data-ruby="ケーエーシー2013アルティメットメドレーヒストリアサウンドボルテックスエンペラーサイド" data-artist="FLOOR LEGENDS -KAC2013-" data-notes="2719" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/JuBs7Ck4QHXagRTRuVv8VW.jpg);">
+
+                    <div class="song_title">
+KAC 2013 ULTIMATE MEDLEY -HISTORIA SOUND VOLTEX- Emperor Side</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="1300" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="omHanNztb2Jr3fNQGpx8SU" data-title="MILITARY R04D" data-ruby="" data-artist="Enterskip" data-notes="0" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/omHanNztb2Jr3fNQGpx8SU.jpg);">
+
+                    <div class="song_title">
+MILITARY R04D</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="594" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="Pq7XeTsCu4HW2d4WvzFV7a" data-title="onslaught -Retaliation of Bahamūt-" data-ruby="オンスロット" data-artist="かめりあ" data-notes="2430" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/Pq7XeTsCu4HW2d4WvzFV7a.jpg);">
+
+                    <div class="song_title">
+onslaught -Retaliation of Bahamūt-</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="566" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="uzKeHoqCHuBKkNcUcjKdea" data-title="Quietus Ray" data-ruby="クワイタスレイ" data-artist="xi" data-notes="3060" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/uzKeHoqCHuBKkNcUcjKdea.jpg);">
+
+                    <div class="song_title">
+Quietus Ray</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="568" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="RzopeQxQcPtg7fkbTJjktV" data-title="Redshift 2nd Ignition" data-ruby="レッドシフトセカンドイグニション" data-artist="technoplanet" data-notes="2230" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/RzopeQxQcPtg7fkbTJjktV.jpg);">
+
+                    <div class="song_title">
+Redshift 2nd Ignition</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="569" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="oiZn3pWCUDtzp8ZTZNPgV8" data-title="Reverenced Flower" data-ruby="リバレンスドフラワー" data-artist="ぺのれり" data-notes="2865" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/oiZn3pWCUDtzp8ZTZNPgV8.jpg);">
+
+                    <div class="song_title">
+Reverenced Flower</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="1297" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="saeqiwN8DobNdA3Ah6NBcN" data-title="恋愛＝精度×認識力" data-ruby="" data-artist="立秋 vs. BEMANI Sound Team &quot;L.E.D.-G&quot; feat.ちょこ＆ななひら" data-notes="0" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/saeqiwN8DobNdA3Ah6NBcN.jpg);">
+
+                    <div class="song_title">
+恋愛＝精度×認識力</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="628" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="hwQEHiBXMvByijvXnzzvYa" data-title="飄える翼追い掛けて" data-ruby="ヒルガエルツバサオイツヅケテ" data-artist="かめりあ feat. かめりあ" data-notes="1963" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/hwQEHiBXMvByijvXnzzvYa.jpg);">
+
+                    <div class="song_title">
+飄える翼追い掛けて</div>
+
+                </div>
+
+            </div>
+
+            </div>
+
+</div>
+
+                    <div class="tier_box" data-tier="5">
+
+    <div class="tier_header">
+
+        
+                <div class="tier_label">
+
+            <div>
+Tier<span>
+5</span>
+</div>
+
+            <div class="tier_flags_ratio" data-tier="5" data-total="15">
+0/15</div>
+
+        </div>
+
+
+        
+        <div class="tier_flags_counter" data-tier="5">
+
+                            <div class="tier_flags_counter_child flag_counter" data-flag="1">
+
+                    <div class="counter_value">
+0</div>
+
+                </div>
+
+                            <div class="tier_flags_counter_child flag_counter" data-flag="2">
+
+                    <div class="counter_value">
+0</div>
+
+                </div>
+
+                            <div class="tier_flags_counter_child flag_counter" data-flag="3">
+
+                    <div class="counter_value">
+0</div>
+
+                </div>
+
+                            <div class="tier_flags_counter_child flag_counter" data-flag="4">
+
+                    <div class="counter_value">
+0</div>
+
+                </div>
+
+                    </div>
+
+    </div>
+
+    <div class="tier_container" data-tier="5">
+
+                    <div class="song_box" data-id="592" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="LwPtVQJVpGVCQfjq6XgdvZ" data-title="[ ]DENTITY" data-ruby="アイデンティティ" data-artist="BEMANI Sound Team &quot;HuΣeR&quot;" data-notes="3317" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/LwPtVQJVpGVCQfjq6XgdvZ.jpg);">
+
+                    <div class="song_title">
+[ ]DENTITY</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="495" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="8NrrvcLoFj9f8RuqtqvWGP" data-title="2 MINUTES FIGHTERS" data-ruby="ツーミニッツファイターズ" data-artist="P*Light" data-notes="2554" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/8NrrvcLoFj9f8RuqtqvWGP.jpg);">
+
+                    <div class="song_title">
+2 MINUTES FIGHTERS</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="499" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="HZTJ5QGWhpGbwnhKyWavqj" data-title="A Lasting Promise" data-ruby="アラスティングプロミス" data-artist="Laur" data-notes="2043" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/HZTJ5QGWhpGbwnhKyWavqj.jpg);">
+
+                    <div class="song_title">
+A Lasting Promise</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="508" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="vq7o6ttj8qyC7yjL2bLAhT" data-title="Bad Elixir" data-ruby="バッドエリクサー" data-artist="xi" data-notes="3046" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/vq7o6ttj8qyC7yjL2bLAhT.jpg);">
+
+                    <div class="song_title">
+Bad Elixir</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="509" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="M2yuhCvojBzZMZsLhATNVk" data-title="Bangin' Burst" data-ruby="バンギンバースト" data-artist="かめりあ" data-notes="2689" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/M2yuhCvojBzZMZsLhATNVk.jpg);">
+
+                    <div class="song_title">
+Bangin' Burst</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="515" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="StBwb8bgvL2GxobogoRYXP" data-title="Calamity Tempest" data-ruby="カラミティテンペスト" data-artist="Diceros Bicornis" data-notes="2341" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/StBwb8bgvL2GxobogoRYXP.jpg);">
+
+                    <div class="song_title">
+Calamity Tempest</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="521" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="2SNupEVxkqoWvqCkKGD8gS" data-title="Deadly force" data-ruby="デッドリーフォース" data-artist="Noah" data-notes="1778" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/2SNupEVxkqoWvqCkKGD8gS.jpg);">
+
+                    <div class="song_title">
+Deadly force</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="595" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="EXCzHo5xBHpina63G3wSWc" data-title="perditus†paradisus" data-ruby="ペルディトゥスパラディスス" data-artist="iconoclasm" data-notes="2503" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/EXCzHo5xBHpina63G3wSWc.jpg);">
+
+                    <div class="song_title">
+perditus†paradisus</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="573" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="PAgmRZsUnRCe9wgsnPkujP" data-title="TENKAICHI ULTIMATE BOSSRUSH MEDLEY" data-ruby="テンカイチアルティメットボスラッシュメドレー" data-artist="TENKAICHI LEGENDS" data-notes="3413" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/PAgmRZsUnRCe9wgsnPkujP.jpg);">
+
+                    <div class="song_title">
+TENKAICHI ULTIMATE BOSSRUSH MEDLEY</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="575" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="6ekpxvt5SBKtPwBfJJNmR9" data-title="TWO-TORIAL" data-ruby="チュートリアル" data-artist="BEMANI Sound Team &quot;PHQUASE vs DJ TOTTO&quot;" data-notes="2192" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/6ekpxvt5SBKtPwBfJJNmR9.jpg);">
+
+                    <div class="song_title">
+TWO-TORIAL</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="598" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="7tMuth6objUZKXUrXYYhFd" data-title="ΑΩ" data-ruby="アルファオメガ" data-artist="BlackY" data-notes="2513" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/7tMuth6objUZKXUrXYYhFd.jpg);">
+
+                    <div class="song_title">
+ΑΩ</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="604" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="eHLpPPeFDXAk4ykAkvmR4f" data-title="ЯeviveR" data-ruby="リバイバー" data-artist="Diceros Bicornis" data-notes="3103" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/eHLpPPeFDXAk4ykAkvmR4f.jpg);">
+
+                    <div class="song_title">
+ЯeviveR</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="611" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="2VgPFUS3yGTqDepFErfNuW" data-title="セイレーン ～悲壮の竪琴～" data-ruby="セイレーンヒソウノタテゴト" data-artist="ぺのれり" data-notes="2204" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/2VgPFUS3yGTqDepFErfNuW.jpg);">
+
+                    <div class="song_title">
+セイレーン ～悲壮の竪琴～</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="610" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="2msvBk4JssCgu2LKwJDC5Z" data-title="ドゥサンコオデッセイ!!" data-ruby="ドゥサンコオデッセイ" data-artist="cosMo＠暴走P" data-notes="1999" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/2msvBk4JssCgu2LKwJDC5Z.jpg);">
+
+                    <div class="song_title">
+ドゥサンコオデッセイ!!</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="613" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="b2GPjyMa5NFjGC2JauHZcn" data-title="バンブーソード・ガール" data-ruby="バンブーソードガール" data-artist="cosMo＠暴走P" data-notes="2177" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/b2GPjyMa5NFjGC2JauHZcn.jpg);">
+
+                    <div class="song_title">
+バンブーソード・ガール</div>
+
+                </div>
+
+            </div>
+
+            </div>
+
+</div>
+
+                    <div class="tier_box" data-tier="6">
+
+    <div class="tier_header">
+
+        
+                <div class="tier_label">
+
+            <div>
+Tier<span>
+6</span>
+</div>
+
+            <div class="tier_flags_ratio" data-tier="6" data-total="17">
+0/17</div>
+
+        </div>
+
+
+        
+        <div class="tier_flags_counter" data-tier="6">
+
+                            <div class="tier_flags_counter_child flag_counter" data-flag="1">
+
+                    <div class="counter_value">
+0</div>
+
+                </div>
+
+                            <div class="tier_flags_counter_child flag_counter" data-flag="2">
+
+                    <div class="counter_value">
+0</div>
+
+                </div>
+
+                            <div class="tier_flags_counter_child flag_counter" data-flag="3">
+
+                    <div class="counter_value">
+0</div>
+
+                </div>
+
+                            <div class="tier_flags_counter_child flag_counter" data-flag="4">
+
+                    <div class="counter_value">
+0</div>
+
+                </div>
+
+                    </div>
+
+    </div>
+
+    <div class="tier_container" data-tier="6">
+
+                    <div class="song_box" data-id="605" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="Bp8sX9YWeYjairWGmTr6r6" data-title="†:OLPHEUX:†" data-ruby="オルフェウス" data-artist="Juggernaut." data-notes="1848" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/Bp8sX9YWeYjairWGmTr6r6.jpg);">
+
+                    <div class="song_title">
+†:OLPHEUX:†</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="494" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="p64fc5LXXN97RGtijQeVti" data-title="2 Beasts Unchained" data-ruby="ツービーツアンチェインド" data-artist="kors k vs Yooh" data-notes="2124" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/p64fc5LXXN97RGtijQeVti.jpg);">
+
+                    <div class="song_title">
+2 Beasts Unchained</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="1406" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="wqTe2uYSPU6znWuNd6B9pf" data-title="Absurd Gaff (Metallize Remix)" data-ruby="" data-artist="Metal Giant" data-notes="0" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/wqTe2uYSPU6znWuNd6B9pf.jpg);">
+
+                    <div class="song_title">
+Absurd Gaff (Metallize Remix)</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="1305" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="zf6HSAqU4jX3MN3iT8HRqD" data-title="All We Need is HAPPY END!!!" data-ruby="" data-artist="polysha" data-notes="0" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/zf6HSAqU4jX3MN3iT8HRqD.jpg);">
+
+                    <div class="song_title">
+All We Need is HAPPY END!!!</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="506" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="CLRh5mjeZ8F5b7hHWFF8hH" data-title="BELOBOG" data-ruby="ベロボーグ" data-artist="BEMANI Sound Team &quot;純白のIVORY&quot;" data-notes="2063" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/CLRh5mjeZ8F5b7hHWFF8hH.jpg);">
+
+                    <div class="song_title">
+BELOBOG</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="516" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="s3nCVREY2qC5k6zT4iumYc" data-title="Chrono Diver -PENDULUMs-" data-ruby="クロノダイバー　ペンデュラム" data-artist="猫叉L.E.D.Master+" data-notes="2462" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/s3nCVREY2qC5k6zT4iumYc.jpg);">
+
+                    <div class="song_title">
+Chrono Diver -PENDULUMs-</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="536" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="X8AbzxzeLdHyZMbxpWQopb" data-title="Fαtα∠ Ent∠mEnt" data-ruby="フェイタル エンタングルメント" data-artist="CHUBAY" data-notes="2838" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/X8AbzxzeLdHyZMbxpWQopb.jpg);">
+
+                    <div class="song_title">
+Fαtα∠ Ent∠mEnt</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="540" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="xdDZJghUTthSY4TZC2Dfj9" data-title="Ghost Family Living In Graveyard" data-ruby="ゴーストファミリーリビングイングレイブヤード" data-artist="RoughSketch" data-notes="2666" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/xdDZJghUTthSY4TZC2Dfj9.jpg);">
+
+                    <div class="song_title">
+Ghost Family Living In Graveyard</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="552" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="rVLp6nrjY8goo2xof3iDak" data-title="Invitation from Mr.C" data-ruby="" data-artist="C-Show" data-notes="2233" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/rVLp6nrjY8goo2xof3iDak.jpg);">
+
+                    <div class="song_title">
+Invitation from Mr.C</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="558" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="c6KBpW9VyHJU7TZwY5FWfX" data-title="LaμreLs ~the Angelus~" data-ruby="ローレルズ ~ジ アンジェラス~" data-artist="Ashrount" data-notes="2306" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/c6KBpW9VyHJU7TZwY5FWfX.jpg);">
+
+                    <div class="song_title">
+LaμreLs ~the Angelus~</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="567" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="DhifffWfyuhMUjv87uFwXZ" data-title="Rapsodia d'amore" data-ruby="ラプソディアディアモーレ" data-artist="xi" data-notes="1994" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/DhifffWfyuhMUjv87uFwXZ.jpg);">
+
+                    <div class="song_title">
+Rapsodia d'amore</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="570" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="gvHFoZoHXRLdwtpodrftoe" data-title="Rhapsody ⚙f Triumph" data-ruby="ラプソディオブトライアンフ" data-artist="かめりあ・超機裝旋楽隊" data-notes="3323" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/gvHFoZoHXRLdwtpodrftoe.jpg);">
+
+                    <div class="song_title">
+Rhapsody ⚙f Triumph</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="1458" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="voLHcxzy3nEzJJaWT2cKWb" data-title="U.N.オーエンは彼女なのか？haru_naba Remix" data-ruby="" data-artist="はるなば" data-notes="0" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/voLHcxzy3nEzJJaWT2cKWb.jpg);">
+
+                    <div class="song_title">
+U.N.オーエンは彼女なのか？haru_naba Remix</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="591" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="NsbGqkZdgEvjqr2iUMgqWb" data-title="ZEUS" data-ruby="ゼウス" data-artist="BlackY" data-notes="3524" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/NsbGqkZdgEvjqr2iUMgqWb.jpg);">
+
+                    <div class="song_title">
+ZEUS</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="603" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="LrqMwSv2XZ5VzRQH442b53" data-title="θコトノハθカプセルθ" data-ruby="コトノハカプセル" data-artist="cosMo＠暴走P" data-notes="2245" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/LrqMwSv2XZ5VzRQH442b53.jpg);">
+
+                    <div class="song_title">
+θコトノハθカプセルθ</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="617" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="SobMu5jhKC32XXAkq5YAVo" data-title="十の試煉" data-ruby="ジュウノシレン" data-artist="打打だいず vs. siromaru" data-notes="2832" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/SobMu5jhKC32XXAkq5YAVo.jpg);">
+
+                    <div class="song_title">
+十の試煉</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="623" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="AVfsstTUs6wf775xY3SAxM" data-title="紫焔双穿" data-ruby="" data-artist="かめりあ" data-notes="3226" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/AVfsstTUs6wf775xY3SAxM.jpg);">
+
+                    <div class="song_title">
+紫焔双穿</div>
+
+                </div>
+
+            </div>
+
+            </div>
+
+</div>
+
+                    <div class="tier_box" data-tier="7">
+
+    <div class="tier_header">
+
+        
+                <div class="tier_label">
+
+            <div>
+Tier<span>
+7</span>
+</div>
+
+            <div class="tier_flags_ratio" data-tier="7" data-total="16">
+0/16</div>
+
+        </div>
+
+
+        
+        <div class="tier_flags_counter" data-tier="7">
+
+                            <div class="tier_flags_counter_child flag_counter" data-flag="1">
+
+                    <div class="counter_value">
+0</div>
+
+                </div>
+
+                            <div class="tier_flags_counter_child flag_counter" data-flag="2">
+
+                    <div class="counter_value">
+0</div>
+
+                </div>
+
+                            <div class="tier_flags_counter_child flag_counter" data-flag="3">
+
+                    <div class="counter_value">
+0</div>
+
+                </div>
+
+                            <div class="tier_flags_counter_child flag_counter" data-flag="4">
+
+                    <div class="counter_value">
+0</div>
+
+                </div>
+
+                    </div>
+
+    </div>
+
+    <div class="tier_container" data-tier="7">
+
+                    <div class="song_box" data-id="1370" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="5U5DbCZivRJhoUnYteQdbc" data-title="EMPIRE OF FLAME" data-ruby="エンパイアオブフレイム" data-artist="かめりあ" data-notes="2092" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/5U5DbCZivRJhoUnYteQdbc.jpg);">
+
+                    <div class="song_title">
+EMPIRE OF FLAME</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="525" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="fpdxLs6Rgm5n2QsxsMoCT8" data-title="EncorE &amp; cALL" data-ruby="アンコールアンコール" data-artist="CHUBAY" data-notes="2877" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/fpdxLs6Rgm5n2QsxsMoCT8.jpg);">
+
+                    <div class="song_title">
+EncorE &amp; cALL</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="526" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="D8ZYk8cHUXmh7jHvcFZymH" data-title="Everlasting Message" data-ruby="エバーラスティングメッセージ" data-artist="ぺのれり" data-notes="2702" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/D8ZYk8cHUXmh7jHvcFZymH.jpg);">
+
+                    <div class="song_title">
+Everlasting Message</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="531" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="nHwvYd8KnZLPr7kCNPSrJY" data-title="Failnaught" data-ruby="フェイルノート" data-artist="xi" data-notes="2550" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/nHwvYd8KnZLPr7kCNPSrJY.jpg);">
+
+                    <div class="song_title">
+Failnaught</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="530" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="gabEbeNzxTUGqN5rVA2kuX" data-title="FREEDOM DiVE" data-ruby="フリーダムダイブ" data-artist="xi" data-notes="2748" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/gabEbeNzxTUGqN5rVA2kuX.jpg);">
+
+                    <div class="song_title">
+FREEDOM DiVE</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="539" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="7QNBGrRVXPeonWHd9nwU8P" data-title="Ganymede kamome mix" data-ruby="ガニメデカモメミックス" data-artist="kamome sano" data-notes="2482" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/7QNBGrRVXPeonWHd9nwU8P.jpg);">
+
+                    <div class="song_title">
+Ganymede kamome mix</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="557" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="dsTE4TR78PqhUHucmiLnLj" data-title="Last Resort" data-ruby="ラストリゾート" data-artist="xi" data-notes="2808" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/dsTE4TR78PqhUHucmiLnLj.jpg);">
+
+                    <div class="song_title">
+Last Resort</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="562" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="nmhBvpzA9nfk6oY6HG4DrH" data-title="MAYHEM" data-ruby="メイヘム" data-artist="RoughSketch x CANVAS feat. Quimar" data-notes="5526" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/nmhBvpzA9nfk6oY6HG4DrH.jpg);">
+
+                    <div class="song_title">
+MAYHEM</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="1435" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="eDd3mra8Bw72gq2Ry4PY3a" data-title="One More Lovely" data-ruby="" data-artist="Risk Junk" data-notes="0" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/eDd3mra8Bw72gq2Ry4PY3a.jpg);">
+
+                    <div class="song_title">
+One More Lovely</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="571" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="DepnzKa6h2u6kXmw6Ck6T" data-title="Sailing Force" data-ruby="セイリングフォース" data-artist="ぺのれり" data-notes="2040" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/DepnzKa6h2u6kXmw6Ck6T.jpg);">
+
+                    <div class="song_title">
+Sailing Force</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="596" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="Nqd3qrk29VpmhefwyEt5EC" data-title="snow storm -euphoria-" data-ruby="スノウストームユーフォリア" data-artist="Yooh" data-notes="2140" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/Nqd3qrk29VpmhefwyEt5EC.jpg);">
+
+                    <div class="song_title">
+snow storm -euphoria-</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="581" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="GrrRUUvrKox5kqHH3HaBEj" data-title="Verse IV" data-ruby="バースフォー" data-artist="ZOGRAPHOS (Yu_Asahina+Yamajet)" data-notes="2546" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/GrrRUUvrKox5kqHH3HaBEj.jpg);">
+
+                    <div class="song_title">
+Verse IV</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="597" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="KNEBAPGvUUHCijJG86PAW3" data-title="voltississimo" data-ruby="ボルティッシモ" data-artist="BEMANI Sound Team &quot;PHQUASE&quot;" data-notes="2544" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/KNEBAPGvUUHCijJG86PAW3.jpg);">
+
+                    <div class="song_title">
+voltississimo</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="599" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="wgq64GCFwaDJ78veSEG4VN" data-title="ΛΛemoria" data-ruby="メモリア" data-artist="MisoilePunch♪" data-notes="2262" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/wgq64GCFwaDJ78veSEG4VN.jpg);">
+
+                    <div class="song_title">
+ΛΛemoria</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="619" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="2N88freQeL5E8ggomhnJf9" data-title="大宇宙ステージ" data-ruby="ダイウチュウステージ" data-artist="黒魔" data-notes="1569" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/2N88freQeL5E8ggomhnJf9.jpg);">
+
+                    <div class="song_title">
+大宇宙ステージ</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="1315" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="iYxuTWQsnVuzgMujWVkeyV" data-title="赫焉のヴァルキュリア -Ragnarøk-" data-ruby="" data-artist="ryhki" data-notes="2409" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/iYxuTWQsnVuzgMujWVkeyV.jpg);">
+
+                    <div class="song_title">
+赫焉のヴァルキュリア -Ragnarøk-</div>
+
+                </div>
+
+            </div>
+
+            </div>
+
+</div>
+
+                    <div class="tier_box" data-tier="8">
+
+    <div class="tier_header">
+
+        
+                <div class="tier_label">
+
+            <div>
+Tier<span>
+8</span>
+</div>
+
+            <div class="tier_flags_ratio" data-tier="8" data-total="19">
+0/19</div>
+
+        </div>
+
+
+        
+        <div class="tier_flags_counter" data-tier="8">
+
+                            <div class="tier_flags_counter_child flag_counter" data-flag="1">
+
+                    <div class="counter_value">
+0</div>
+
+                </div>
+
+                            <div class="tier_flags_counter_child flag_counter" data-flag="2">
+
+                    <div class="counter_value">
+0</div>
+
+                </div>
+
+                            <div class="tier_flags_counter_child flag_counter" data-flag="3">
+
+                    <div class="counter_value">
+0</div>
+
+                </div>
+
+                            <div class="tier_flags_counter_child flag_counter" data-flag="4">
+
+                    <div class="counter_value">
+0</div>
+
+                </div>
+
+                    </div>
+
+    </div>
+
+    <div class="tier_container" data-tier="8">
+
+                    <div class="song_box" data-id="497" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="zHEFcq4RsXLBo2e5bh8wKb" data-title="777" data-ruby="セブンセブンセブン" data-artist="RoughSketch(Notebook Records)" data-notes="3669" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/zHEFcq4RsXLBo2e5bh8wKb.jpg);">
+
+                    <div class="song_title">
+777</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="498" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="5YoBqTGKaEWBjH8VzvGRrf" data-title="9TH5IN" data-ruby="ゼニス" data-artist="ETIA." data-notes="2611" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/5YoBqTGKaEWBjH8VzvGRrf.jpg);">
+
+                    <div class="song_title">
+9TH5IN</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="510" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="gc2c25LR85dzCATZLBhTH3" data-title="Black Emperor" data-ruby="ブラックエンペラー" data-artist="黒魔" data-notes="2428" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/gc2c25LR85dzCATZLBhTH3.jpg);">
+
+                    <div class="song_title">
+Black Emperor</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="513" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="2fEamzyGUNrxQBZyxeqcSR" data-title="Booths of Fighters" data-ruby="" data-artist="RoughSketch + DD&quot;ナカタ&quot;Metal" data-notes="2528" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/2fEamzyGUNrxQBZyxeqcSR.jpg);">
+
+                    <div class="song_title">
+Booths of Fighters</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="1415" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="4Pfa8Rfo6N8E7LFGWAMnrP" data-title="Breakneck Pursuit" data-ruby="" data-artist="Ashrount" data-notes="0" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/4Pfa8Rfo6N8E7LFGWAMnrP.jpg);">
+
+                    <div class="song_title">
+Breakneck Pursuit</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="517" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="nAJTV5J5UdmquGJoTPd5HB" data-title="Chronomia" data-ruby="クロノミア" data-artist="Lime" data-notes="3198" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/nAJTV5J5UdmquGJoTPd5HB.jpg);">
+
+                    <div class="song_title">
+Chronomia</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="519" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="RcY2kofSi4x2K5ffgM4tTi" data-title="DIABLOSIS::Nāga" data-ruby="ディアボロシスナーガ" data-artist="sky_delta" data-notes="2341" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/RcY2kofSi4x2K5ffgM4tTi.jpg);">
+
+                    <div class="song_title">
+DIABLOSIS::Nāga</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="1369" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="wmQTpARXUdrtqXQZVszZMj" data-title="End to end" data-ruby="エンドツーエンド" data-artist="Noah" data-notes="2167" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/wmQTpARXUdrtqXQZVszZMj.jpg);">
+
+                    <div class="song_title">
+End to end</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="538" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="YCZh2R2g58ejZ73Q7pCt3N" data-title="GODHEART" data-ruby="ゴッドハート" data-artist="BlackY" data-notes="2537" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/YCZh2R2g58ejZ73Q7pCt3N.jpg);">
+
+                    <div class="song_title">
+GODHEART</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="545" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="Sy2nYGNNhMWafLBTtWYYiB" data-title="Holy Trail" data-ruby="ホーリーテール" data-artist="satie" data-notes="2391" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/Sy2nYGNNhMWafLBTtWYYiB.jpg);">
+
+                    <div class="song_title">
+Holy Trail</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="548" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="kVZAzFrvVpA97n4VH658Gm" data-title="INSECTICIDE" data-ruby="インセクティサイド" data-artist="Camellia" data-notes="2260" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/kVZAzFrvVpA97n4VH658Gm.jpg);">
+
+                    <div class="song_title">
+INSECTICIDE</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="1399" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="5owTg3MNgYBJ5ett8sdJwC" data-title="LegenD." data-ruby="レジェンド" data-artist="Yooh" data-notes="0" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/5owTg3MNgYBJ5ett8sdJwC.jpg);">
+
+                    <div class="song_title">
+LegenD.</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="560" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="rCLMB2D2X99Cd3gxbASufd" data-title="Lord=Crossight" data-ruby="ロードクロスサイト" data-artist="ぺのれり" data-notes="1915" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/rCLMB2D2X99Cd3gxbASufd.jpg);">
+
+                    <div class="song_title">
+Lord=Crossight</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="565" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="ibPq5ccn3h3HM7PxuBhZTm" data-title="Preserved Valkyria" data-ruby="プリザーブドバルキュリア" data-artist="ぺのれり" data-notes="2508" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/ibPq5ccn3h3HM7PxuBhZTm.jpg);">
+
+                    <div class="song_title">
+Preserved Valkyria</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="1447" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="SSEVPY7SSMFn5sVPA9dTaf" data-title="QQ" data-ruby="" data-artist="BEMANI Sound Team &quot;PHQUASE &amp; ZAQUVA&quot;" data-notes="0" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/SSEVPY7SSMFn5sVPA9dTaf.jpg);">
+
+                    <div class="song_title">
+QQ</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="578" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="Ufxb9kxG7DJtiFWtUKL4w6" data-title="VALKYRIE ASSAULT" data-ruby="ヴァルキリーアサルト" data-artist="BEMANI Sound Team &quot;SYUNN&quot;" data-notes="2187" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/Ufxb9kxG7DJtiFWtUKL4w6.jpg);">
+
+                    <div class="song_title">
+VALKYRIE ASSAULT</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="579" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="kFBJrCcRKboFi2P6nzZ6r8" data-title="VOLAQUAS" data-ruby="ヴォラキュアス" data-artist="BEMANI Sound Team &quot;DJ TOTTO VS 兎々&quot;" data-notes="2647" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/kFBJrCcRKboFi2P6nzZ6r8.jpg);">
+
+                    <div class="song_title">
+VOLAQUAS</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="585" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="fxjeXcKXUgDwNEKxgiFF3C" data-title="XROSS INFECTION" data-ruby="クロスインフェクション" data-artist="BlackY vs. Yooh" data-notes="2225" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/fxjeXcKXUgDwNEKxgiFF3C.jpg);">
+
+                    <div class="song_title">
+XROSS INFECTION</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="602" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="igyM5zfqGSAdC3fs8BzDjX" data-title="αzalea" data-ruby="アザレア " data-artist="BlackY" data-notes="2461" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/igyM5zfqGSAdC3fs8BzDjX.jpg);">
+
+                    <div class="song_title">
+αzalea</div>
+
+                </div>
+
+            </div>
+
+            </div>
+
+</div>
+
+                    <div class="tier_box" data-tier="9">
+
+    <div class="tier_header">
+
+        
+                <div class="tier_label">
+
+            <div>
+Tier<span>
+9</span>
+</div>
+
+            <div class="tier_flags_ratio" data-tier="9" data-total="13">
+0/13</div>
+
+        </div>
+
+
+        
+        <div class="tier_flags_counter" data-tier="9">
+
+                            <div class="tier_flags_counter_child flag_counter" data-flag="1">
+
+                    <div class="counter_value">
+0</div>
+
+                </div>
+
+                            <div class="tier_flags_counter_child flag_counter" data-flag="2">
+
+                    <div class="counter_value">
+0</div>
+
+                </div>
+
+                            <div class="tier_flags_counter_child flag_counter" data-flag="3">
+
+                    <div class="counter_value">
+0</div>
+
+                </div>
+
+                            <div class="tier_flags_counter_child flag_counter" data-flag="4">
+
+                    <div class="counter_value">
+0</div>
+
+                </div>
+
+                    </div>
+
+    </div>
+
+    <div class="tier_container" data-tier="9">
+
+                    <div class="song_box" data-id="502" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="dQ2SG9g2MXGk7fASRRLEZP" data-title="Avalanx" data-ruby="" data-artist="隣の庭は青い(庭師+Aoi)" data-notes="0" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/dQ2SG9g2MXGk7fASRRLEZP.jpg);">
+
+                    <div class="song_title">
+Avalanx</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="507" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="rdZs92XG6hPxXuvUf7Te8L" data-title="BLACK or WHITE?" data-ruby="ブラックオアホワイト" data-artist="BlackYooh vs. siromaru" data-notes="2480" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/rdZs92XG6hPxXuvUf7Te8L.jpg);">
+
+                    <div class="song_title">
+BLACK or WHITE?</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="514" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="9hH6SAv2enzjGXza6C3Ni7" data-title="CLAMARE" data-ruby="クラーマーレ" data-artist="MAX MAXIMIZER" data-notes="3364" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/9hH6SAv2enzjGXza6C3Ni7.jpg);">
+
+                    <div class="song_title">
+CLAMARE</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="518" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="gTSwiXRVX8ftmrCFNNKnSf" data-title="Cross Fire" data-ruby="クロスファイア" data-artist="Hommarju vs RoughSketch" data-notes="2378" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/gTSwiXRVX8ftmrCFNNKnSf.jpg);">
+
+                    <div class="song_title">
+Cross Fire</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="528" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="rKxShha8Bvrd2y2sCC3775" data-title="FLOWER" data-ruby="フラワー" data-artist="DJ YOSHITAKA 「jubeat」より" data-notes="1867" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/rKxShha8Bvrd2y2sCC3775.jpg);">
+
+                    <div class="song_title">
+FLOWER</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="1324" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="kVnuTxGRoe6hBCjsgWnMSN" data-title="HALO" data-ruby="" data-artist="Tatsunoshin" data-notes="2778" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/kVnuTxGRoe6hBCjsgWnMSN.jpg);">
+
+                    <div class="song_title">
+HALO</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="551" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="QzbkXiTVgXARgpj9RKxj3d" data-title="Innocent Tempest" data-ruby="イノセントテンペスト" data-artist="Diceros Bicornis" data-notes="2401" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/QzbkXiTVgXARgpj9RKxj3d.jpg);">
+
+                    <div class="song_title">
+Innocent Tempest</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="549" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="s9a6EbKV8gTos3LomPeHmC" data-title="IX" data-ruby="ナイン" data-artist="dj TAKA VS DJ TOTTO feat.藍" data-notes="2491" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/s9a6EbKV8gTos3LomPeHmC.jpg);">
+
+                    <div class="song_title">
+IX</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="561" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="GciwFug9ZyPZzkXENjSszR" data-title="LubedeR" data-ruby="リュベダー" data-artist="C-Show" data-notes="1460" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/GciwFug9ZyPZzkXENjSszR.jpg);">
+
+                    <div class="song_title">
+LubedeR</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="577" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="MSYnuBJzoNW8eKJTfFD2b4" data-title="Trill auf G" data-ruby="トリルアウフゲー" data-artist="BEMANI Sound Team ''dj TAKA''" data-notes="2937" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/MSYnuBJzoNW8eKJTfFD2b4.jpg);">
+
+                    <div class="song_title">
+Trill auf G</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="582" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="voBoFYzui5wNdQz7kjdVQE" data-title="VΛZiLiSQ" data-ruby="バジリスク" data-artist="BlackY" data-notes="0" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/voBoFYzui5wNdQz7kjdVQE.jpg);">
+
+                    <div class="song_title">
+VΛZiLiSQ</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="616" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="BVMZyRFMa6xeWKaFTw7h5D" data-title="ラクガキスト" data-ruby="ラクガキスト" data-artist="virkato" data-notes="2198" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/BVMZyRFMa6xeWKaFTw7h5D.jpg);">
+
+                    <div class="song_title">
+ラクガキスト</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="627" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="fWfkp7SHLPsSDmLoYZ39bk" data-title="音楽 -resolve-" data-ruby="オンガクリゾルブ" data-artist="Yu_Asahina" data-notes="2205" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/fWfkp7SHLPsSDmLoYZ39bk.jpg);">
+
+                    <div class="song_title">
+音楽 -resolve-</div>
+
+                </div>
+
+            </div>
+
+            </div>
+
+</div>
+
+                    <div class="tier_box" data-tier="10">
+
+    <div class="tier_header">
+
+        
+                <div class="tier_label">
+
+            <div>
+Tier<span>
+10</span>
+</div>
+
+            <div class="tier_flags_ratio" data-tier="10" data-total="13">
+0/13</div>
+
+        </div>
+
+
+        
+        <div class="tier_flags_counter" data-tier="10">
+
+                            <div class="tier_flags_counter_child flag_counter" data-flag="1">
+
+                    <div class="counter_value">
+0</div>
+
+                </div>
+
+                            <div class="tier_flags_counter_child flag_counter" data-flag="2">
+
+                    <div class="counter_value">
+0</div>
+
+                </div>
+
+                            <div class="tier_flags_counter_child flag_counter" data-flag="3">
+
+                    <div class="counter_value">
+0</div>
+
+                </div>
+
+                            <div class="tier_flags_counter_child flag_counter" data-flag="4">
+
+                    <div class="counter_value">
+0</div>
+
+                </div>
+
+                    </div>
+
+    </div>
+
+    <div class="tier_container" data-tier="10">
+
+                    <div class="song_box" data-id="500" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="7LC47TCUHjNbr7soezQz5V" data-title="ANGER of the GOD" data-ruby="アンガーオブザゴッド" data-artist="BlackY" data-notes="2721" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/7LC47TCUHjNbr7soezQz5V.jpg);">
+
+                    <div class="song_title">
+ANGER of the GOD</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="524" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="qqxATCyKMzaykApk6hAcjT" data-title="Elemental Creation" data-ruby="エレメンタルクリエイション" data-artist="dj TAKA meets DJ YOSHITAKA" data-notes="2815" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/qqxATCyKMzaykApk6hAcjT.jpg);">
+
+                    <div class="song_title">
+Elemental Creation</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="533" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="4ubVgsbj7ZzvKVKMqDrFN" data-title="Fin.ArcDeaR" data-ruby="フィナルカディア" data-artist="MisoilePunch♪ ～タケノコ添え～" data-notes="2164" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/4ubVgsbj7ZzvKVKMqDrFN.jpg);">
+
+                    <div class="song_title">
+Fin.ArcDeaR</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="541" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="tPtGjD8b3Le68SvLk4HiuL" data-title="Got more raves？" data-ruby="ゴットモアレイブス" data-artist="E.G.G.「グルーヴコースター」より" data-notes="1868" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/tPtGjD8b3Le68SvLk4HiuL.jpg);">
+
+                    <div class="song_title">
+Got more raves？</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="542" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="GgthZyfU9ozNR4Hv6pWVDH" data-title="Growth Memories" data-ruby="グロウスメモリーズ" data-artist="Hidra-Xjeil" data-notes="2355" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/GgthZyfU9ozNR4Hv6pWVDH.jpg);">
+
+                    <div class="song_title">
+Growth Memories</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="550" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="czqqHGzAi9mnqKu2PunNiK" data-title="Immortal saga" data-ruby="イモータルサーガ" data-artist="Noah" data-notes="2101" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/czqqHGzAi9mnqKu2PunNiK.jpg);">
+
+                    <div class="song_title">
+Immortal saga</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="559" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="fuVEVSGbe7kFBWQLZeS2WK" data-title="Lisa-RICCIA" data-ruby="リサリシア" data-artist="DJ YOSHITAKA" data-notes="2752" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/fuVEVSGbe7kFBWQLZeS2WK.jpg);">
+
+                    <div class="song_title">
+Lisa-RICCIA</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="572" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="zBxp2SnsQywgXbfQnse2E8" data-title="Staring at star" data-ruby="スターリングアットスター" data-artist="MisoilePunch♪ ～タケノコ添え～" data-notes="2406" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/zBxp2SnsQywgXbfQnse2E8.jpg);">
+
+                    <div class="song_title">
+Staring at star</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="608" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="WVKLkPFKiui4EyNQUYxhh4" data-title="きたさいたま2000" data-ruby="キタサイタマ2000" data-artist="LindaAI-CUE（BNGI）「太鼓の達人」より" data-notes="2046" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/WVKLkPFKiui4EyNQUYxhh4.jpg);">
+
+                    <div class="song_title">
+きたさいたま2000</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="620" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="sNzWRGktgZim7HQ9Qsxs5T" data-title="月光乱舞" data-ruby="ゲッコウランブ" data-artist="P*Light" data-notes="2263" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/sNzWRGktgZim7HQ9Qsxs5T.jpg);">
+
+                    <div class="song_title">
+月光乱舞</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="621" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="F3w6qFxPzbNSw6tadUKNV5" data-title="極圏" data-ruby="キョッケン" data-artist="cosMo VS dj TAKA" data-notes="2902" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/F3w6qFxPzbNSw6tadUKNV5.jpg);">
+
+                    <div class="song_title">
+極圏</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="1375" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="yz6JSHdkBvkLgzbL6D3KtK" data-title="無意識レクイエム (cosmobsp rmx)" data-ruby="" data-artist="cosMo＠暴走P (original arranged by 森羅万象)" data-notes="0" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/yz6JSHdkBvkLgzbL6D3KtK.jpg);">
+
+                    <div class="song_title">
+無意識レクイエム (cosmobsp rmx)</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="626" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="mry2Jp9iq8wkDbG62bPahU" data-title="逆月" data-ruby="サカヅキ" data-artist="BEMANI Sound Team &quot;HuΣeR&quot; feat.Fernweh" data-notes="2140" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/mry2Jp9iq8wkDbG62bPahU.jpg);">
+
+                    <div class="song_title">
+逆月</div>
+
+                </div>
+
+            </div>
+
+            </div>
+
+</div>
+
+                    <div class="tier_box" data-tier="999">
+
+    <div class="tier_header">
+
+        
+                <div class="tier_label">
+
+            <div>
+Tier<span>
+N/A</span>
+</div>
+
+            <div class="tier_flags_ratio" data-tier="999" data-total="13">
+0/13</div>
+
+        </div>
+
+
+        
+        <div class="tier_flags_counter" data-tier="999">
+
+                            <div class="tier_flags_counter_child flag_counter" data-flag="1">
+
+                    <div class="counter_value">
+0</div>
+
+                </div>
+
+                            <div class="tier_flags_counter_child flag_counter" data-flag="2">
+
+                    <div class="counter_value">
+0</div>
+
+                </div>
+
+                            <div class="tier_flags_counter_child flag_counter" data-flag="3">
+
+                    <div class="counter_value">
+0</div>
+
+                </div>
+
+                            <div class="tier_flags_counter_child flag_counter" data-flag="4">
+
+                    <div class="counter_value">
+0</div>
+
+                </div>
+
+                    </div>
+
+    </div>
+
+    <div class="tier_container" data-tier="999">
+
+                    <div class="song_box" data-id="1520" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="KieDc5xZ2UXs7AdgKT5Wm5" data-title="{ eXLIPXe }" data-ruby="" data-artist="{ かめりあ }" data-notes="0" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/KieDc5xZ2UXs7AdgKT5Wm5.jpg);">
+
+                    <div class="song_title">
+{ eXLIPXe }</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="1518" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="8mj34xXmuQP6PvyDkp2QVH" data-title="Allegro Saetta" data-ruby="" data-artist="天束 vs. siromaru" data-notes="0" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/8mj34xXmuQP6PvyDkp2QVH.jpg);">
+
+                    <div class="song_title">
+Allegro Saetta</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="1486" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="4JrbEVku5BjbGe6nzUhhHn" data-title="Ambivalent Vermilia" data-ruby="" data-artist="BEMANI Sound Team &quot;二代目朱雀 feat.朱雀&quot;" data-notes="0" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/4JrbEVku5BjbGe6nzUhhHn.jpg);">
+
+                    <div class="song_title">
+Ambivalent Vermilia</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="1516" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="m6tEWJWrsvtbcY3ohzQprK" data-title="ARISE" data-ruby="" data-artist="Juggernaut." data-notes="0" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/m6tEWJWrsvtbcY3ohzQprK.jpg);">
+
+                    <div class="song_title">
+ARISE</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="1527" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="mJnNzpy3QC6jZc9x9T8QBP" data-title="BEMANI PRO LEAGUE -SEASON 2- SOUND VOLTEX ULTIMATE MEDLEY" data-ruby="" data-artist="FLOOR LEGENDS -BPL S2 SDVX-" data-notes="0" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/mJnNzpy3QC6jZc9x9T8QBP.jpg);">
+
+                    <div class="song_title">
+BEMANI PRO LEAGUE -SEASON 2- SOUND VOLTEX ULTIMATE MEDLEY</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="1470" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="gNeNcE8Fqp39yq8FqA4gcR" data-title="Burst Λnd reBoost" data-ruby="" data-artist="めと（Metomate）" data-notes="0" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/gNeNcE8Fqp39yq8FqA4gcR.jpg);">
+
+                    <div class="song_title">
+Burst Λnd reBoost</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="1476" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="uVbucGeoJHrbaKkHM6PbKP" data-title="Circuit Surfer" data-ruby="" data-artist="kors k" data-notes="0" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/uVbucGeoJHrbaKkHM6PbKP.jpg);">
+
+                    <div class="song_title">
+Circuit Surfer</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="1510" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="4pU5vZ3LLSiAjY2sLLAMDE" data-title="Cuz we <3 this Game" data-ruby="" data-artist="打打だいず" data-notes="0" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/4pU5vZ3LLSiAjY2sLLAMDE.jpg);">
+
+                    <div class="song_title">
+Cuz we &lt;3 this Game</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="1514" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="ASZpYkKuBF8uuqZy44Pe6e" data-title="NEMSYS ARENA World Hexathlon" data-ruby="" data-artist="隣の庭は青い(庭師+Aoi)" data-notes="0" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/ASZpYkKuBF8uuqZy44Pe6e.jpg);">
+
+                    <div class="song_title">
+NEMSYS ARENA World Hexathlon</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="1466" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="kog6WwTvzTukMXHkgbU6tF" data-title="OVEЯ+TUЯE" data-ruby="" data-artist="kanone VS nora2r" data-notes="0" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/kog6WwTvzTukMXHkgbU6tF.jpg);">
+
+                    <div class="song_title">
+OVEЯ+TUЯE</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="1529" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="NBEc9amQGNPgB5a9f77omV" data-title="World's end" data-ruby="ワールズエンド" data-artist="Noah" data-notes="0" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/NBEc9amQGNPgB5a9f77omV.jpg);">
+
+                    <div class="song_title">
+World's end</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="1512" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="ou2UJZMKirhrBC7bGsBzpY" data-title="Xeno Gravity" data-ruby="" data-artist="xi" data-notes="0" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/ou2UJZMKirhrBC7bGsBzpY.jpg);">
+
+                    <div class="song_title">
+Xeno Gravity</div>
+
+                </div>
+
+            </div>
+
+                    <div class="song_box" data-id="1463" data-long-press-delay="1000" data-flag="0">
+
+                <div class="song_info" data-cid="xrW6MCprak7HHGwXweHozJ" data-title="Λkasha" data-ruby="" data-artist="BlackY feat. Risa Yuzuki" data-notes="0" data-notes-older="false">
+</div>
+
+                <div class="song_jacket" style="background-image:url(/img/jacket/xrW6MCprak7HHGwXweHozJ.jpg);">
+
+                    <div class="song_title">
+Λkasha</div>
+
+                </div>
+
+            </div>
+
+            </div>
+
+</div>
+
+            </div>
+
+    </div>
+
+    <div class="modal_container">
+
+        <div class="modal fade" id="header_modal_Infomation" tabindex="-1" aria-labelledby="header_modal_Infomation_label" aria-hidden="true">
+
+            <div class="modal-dialog modal-dialog-centered">
+
+                <div class="modal-content">
+
+                    <div class="modal-header">
+
+                        <h5 class="modal-title" id="header_modal_Infomation_label">
+Infomation</h5>
+
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" aria-expanded="false">
+</button>
+
+                    </div>
+
+                    <div class="modal-body">
+
+                        infomation
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="header_offcanvas_menu" aria-labelledby="header_offcanvas_menu_label" style="max-width: 300px;">
+
+            <div class="offcanvas-header" style="padding: 0.5rem 1rem!important;">
+
+                <h5 id="header_offcanvas_menu_label">
+</h5>
+
+                <button type="button" class="btn-close btn-close-white text-reset" data-bs-dismiss="offcanvas" aria-label="Close">
+</button>
+
+            </div>
+
+            <div class="offcanvas-body" style="padding: 0.5rem 1rem!important;">
+
+                <div class="sidebar">
+
+    <nav class="nav-list">
+
+        <ul class="nav nav-pills nav-sidebar flex-column " data-widget="treeview" role="menu">
+
+            <li class="nav-header">
+トップページ</li>
+
+            <li class="nav-item">
+
+                <a class="nav-link" href="/">
+
+                    <p>
+トップページ</p>
+
+                </a>
+
+            </li>
+
+        </ul>
+
+    </nav>
+
+    <nav class="nav-list">
+
+        <ul class="nav nav-pills nav-sidebar flex-column " data-widget="treeview" role="menu">
+
+            <li class="nav-header">
+ツール一覧</li>
+
+            <li class="nav-item">
+
+                <a class="nav-link" href="https://sdvx.maya2silence.com/table">
+
+                    <p>
+Grade.S 難易度表</p>
+
+                </a>
+
+            </li>
+
+            <li class="nav-item">
+
+                <a class="nav-link" href="https://sdvx.maya2silence.com/average">
+
+                    <p>
+統計表 From Vaddict</p>
+
+                </a>
+
+            </li>
+
+            <li class="nav-item">
+
+                <a class="nav-link" href="https://sdvx.maya2silence.com/memo/view">
+
+                    <p>
+メモ帳</p>
+
+                </a>
+
+            </li>
+
+            
+        </ul>
+
+    </nav>
+
+        <nav class="nav-list">
+
+        <ul class="nav nav-pills nav-sidebar flex-column " data-widget="treeview" role="menu">
+
+            <li class="nav-header">
+各種問い合わせ</li>
+
+            <li class="nav-item">
+
+                <a class="nav-link" href="https://sdvx.maya2silence.com/support/form">
+
+                    <p>
+問い合わせ</p>
+
+                </a>
+
+            </li>
+
+        </ul>
+
+    </nav>
+
+    <div class="git-version">
+
+        current version:&nbsp;
+            </div>
+
+</div>
+
+            </div>
+
+        </div>
+
+            <div class="modal fade" id="modal_search" tabindex="-1" aria-labelledby="modal_search_label" aria-hidden="true">
+<div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="modal_search_label">
+検索</h5>
+<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" aria-expanded="false">
+</button>
+</div>
+<div class="d-flex p-2">
+<input class="form-control" id="chart_search_input" value="">
+<button class="btn btn-primary" id="search_submit">
+<i class="fas fa-search">
+</i>
+</button>
+</div>
+<hr class="my-1">
+<div class="modal-body" style="height: 100vh;">
+<div id="search_body">
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/YWjhbbLoVx5fSnAjrXAcEi.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+《Re:miniscence》</div>
+<div class="search_artist">
+かねこちはる</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/gPiWYe7wkJ3W9Stk2JHLLG.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+FIN4LE ～終止線の彼方へ～</div>
+<div class="search_artist">
+カモメサノエレクトリックオーケストラ</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/29G9tosN9KTJSvmQi5fz6o.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+HeaveИ's Rain</div>
+<div class="search_artist">
+モリモリあつし</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/oR3BZ23zeytKoAYBeoN7od.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+MixxioN</div>
+<div class="search_artist">
+MisoilePunch♪</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/zbXW27XTCzrNMYNxTTRxTi.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+SuddeИDeath</div>
+<div class="search_artist">
+xi vs. モリモリあつし</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/FufEBdvJWeN8gyVXtZ4bKf.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+VVelcome!!</div>
+<div class="search_artist">
+MisoilePunch♪</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/2qRfkx85nBQYAFqXJMCWTE.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+XHRONOXAPSULΞ</div>
+<div class="search_artist">
+Silentroom</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/HWERRruYYXxmznFDGZa6d7.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+You Are My Best RivaL!!</div>
+<div class="search_artist">
+cosMo＠暴走P</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/m2hYBxC2NJUjBM9eTPEwGG.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+* Erm, could it be a Spatiotemporal ShockWAVE Syndrome...?</div>
+<div class="search_artist">
+かめりあ</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/fC9eXRjhuaX5wvxgAnm4e6.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+666</div>
+<div class="search_artist">
+RoughSketch</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/LD8cXA4DDmieTQ47KjCXSj.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+APØCALYPSE RAY</div>
+<div class="search_artist">
+xi</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/uKgz6FVXR9uTi4C6nmavSa.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+Bl∞min'</div>
+<div class="search_artist">
+MisoilePunch♪ -Forever-</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/iB9Ggmk5DHfrV7pAq2j6Vc.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+HE4VEN ～天国へようこそ～</div>
+<div class="search_artist">
+カモメサノエレクトリックオーケストラ</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/hfVbrxqtBxxJN6ko8w8Xd8.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+iLLness LiLin</div>
+<div class="search_artist">
+かねこちはる</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/9KcuR6DoVd2Xn3RDX5dK2o.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+Lachryma《Re:Queen’M》</div>
+<div class="search_artist">
+かねこちはる</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/uzUFo4WfEpUeYfec6ra9sc.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+WHITEOUT</div>
+<div class="search_artist">
+かねこちはる</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/mv9f3RmUB8zK8q98iau76.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+Xronièr</div>
+<div class="search_artist">
+かめりあ as "fluX Xroise"</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/GdKJyPQjRRJj5r55EKbJbZ.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+*Feels Seasickness...*</div>
+<div class="search_artist">
+かめりあ</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/W4dQWmKSW72Nu3YGGhqAjA.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+Dyscontrolled Galaxy</div>
+<div class="search_artist">
+かめりあ</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/j3kUZKmoLkHMxtPWVLCDmn.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+I</div>
+<div class="search_artist">
+黒魔</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/D2TuQq4sp6j6PBuiCsZ8qA.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+THE凸GENERATOR</div>
+<div class="search_artist">
+cosMo＠暴走P</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/d4HZDypC9kxEFpjcgeH2JN.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+Xroniàl Xéro</div>
+<div class="search_artist">
+かめりあ as "menaXe inXonnu"</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/yrSrCQ2NAcTbc9jZrBUPaW.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+ΣgØ</div>
+<div class="search_artist">
+かぼちゃ</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/RgHFohoibi9iMVxbj5QpHM.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+ΣmbryØ</div>
+<div class="search_artist">
+かぼちゃ</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/RfNQUn2MhZBaoHFMJd6Jqm.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+いまきみに</div>
+<div class="search_artist">
+Silentroom as "少年R"</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/hB5qh2SNHJMaWwRZNaYE7k.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+すべてが幻になった後で</div>
+<div class="search_artist">
+かめりあ・超機装幻楽隊</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/F26sy2bSEAqAJRHCLCA6wG.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+ピアノ協奏曲第１番"蠍火"</div>
+<div class="search_artist">
+virkato</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/ugq6odb6GqzmqshqgFB2C8.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+ピアノ独奏無言歌 "灰燼"</div>
+<div class="search_artist">
+BEMANI Sound Team "Virkato Wakhmaninov"</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/qc34nefhcXfMt3hXWPuJWh.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+FLügeL《Λrp:ΣggyØ》</div>
+<div class="search_artist">
+かねこちはる</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/QBSJeUkVMGA46rVTso3n2b.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+Fly Like You</div>
+<div class="search_artist">
+technoplanet</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/TaFUxDRNWyQHdrqUt25tMF.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+Glory of Fighters</div>
+<div class="search_artist">
+RoughSkreamZ</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/oe6S2LvA58QRirYaTczo8Z.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+The Clown of 24stairs</div>
+<div class="search_artist">
+Yu_Asahina</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/oDvdJxaBie8XBP7kCcAHWe.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+Undead Raving Scare</div>
+<div class="search_artist">
+RoughSkreamZ</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/92VsZtrNyDvfrfME2Uhk3f.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+Xb10r</div>
+<div class="search_artist">
+隣の庭は青い(庭師+Aoi)</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/pqC4hUitcpmxeCchDaawC5.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+Xéroa</div>
+<div class="search_artist">
+かめりあ</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/M5AHYM3FMgYqrivTLEYUgW.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+卑弥呼</div>
+<div class="search_artist">
+朱雀 VS 玄武</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/7WhaRJ8u42okzhEusgvRYE.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+色を喪った街</div>
+<div class="search_artist">
+かめりあ feat. かめりあ</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/36b3dFX6bFF5LjEt7GQAAc.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+赫焉</div>
+<div class="search_artist">
+打打だいず vs. siromaru</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/CmwE5StXU79jwSWqXipPZm.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+Absolute Domination</div>
+<div class="search_artist">
+Laur</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/WjtmakYagia8rW5KdypcqP.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+Awakening</div>
+<div class="search_artist">
+technoplanet</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/2JSnJkUUPn4ipvVjYNhVGY.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+ENDYMION</div>
+<div class="search_artist">
+fallen shepherd ft. RabbiTon Strings</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/xhaPFPEJjgwqU8AEk5e3yc.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+Fiat Lux</div>
+<div class="search_artist">
+xi</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/zBCuDcAkTa64PmPY5Qs3mj.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+For UltraPlayers</div>
+<div class="search_artist">
+cosMo＠暴走P</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/nFABTqzq3FGvGBZbw5K4k6.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+HYENA</div>
+<div class="search_artist">
+Hommarju</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/5i2CsAqhPW7F589Epp2BgC.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+INF-B《L-aste-R》</div>
+<div class="search_artist">
+かねこちはる</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/MEezsMXKzGfHY29mmkkMzf.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+KAC 2013 ULTIMATE MEDLEY -HISTORIA SOUND VOLTEX- Empress Side</div>
+<div class="search_artist">
+FLOOR LEGENDS -KAC 2013-</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/hKrjigVNegsUJonKeeLNo.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+Lancelot ～Flame of the Rebellion～</div>
+<div class="search_artist">
+ぺのれり</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/AXqidZ7TEWUTjXgxp3mhJm.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+OUTERHEΛVEN</div>
+<div class="search_artist">
+Juggernaut.</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/CBPn2ihd9YXyUs3BwTstEh.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+Spectacular“V”Adventure!</div>
+<div class="search_artist">
+Enterskip</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/KinFBmzjfA5XdWPiDMoG47.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+veRtrageS</div>
+<div class="search_artist">
+Riz vs. Shiron</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/XsnFzK4HvRcZXTZ9UFwCa8.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+XyHATTE</div>
+<div class="search_artist">
+cosMo＠暴走Ultimate</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/3SYrk4wkgKXFGzTgyYp3MX.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+ディスコルディア</div>
+<div class="search_artist">
+ぺのれり vs. BEMANI Sound Team "HuΣeR"</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/gfozUD4ZEHKChmDjoZBp2a.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+竹</div>
+<div class="search_artist">
+立秋 feat.ちょこ</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/KpgUYoPCFcQkSBvCfiwx9H.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+and After the Merry BADEND</div>
+<div class="search_artist">
+polysha</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/az78NhwweoTo7rhTdCtzKT.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+AμreoLe ~for Triumph~</div>
+<div class="search_artist">
+Ashrount</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/mJeHYftzfNKADAXdscr83M.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+BAYONEX</div>
+<div class="search_artist">
+かめりあ as "Revenge of Riot"</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/i7ckUrUdeHszLF5qiDxSQE.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+Blastix Riotz</div>
+<div class="search_artist">
+かめりあ as ''Bang Riot''</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/Zvq2pfHodw2emYxtKVx9ZY.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+Daisycutter</div>
+<div class="search_artist">
+ETIA.</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/BnYs4oawfaDm9nZhi2rKvD.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+DEUX EX MĀXHINĀ</div>
+<div class="search_artist">
+Ashrount</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/3YeFSmdQNq8CEVpRogq5Tj.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+GERBERA-For Finalists-</div>
+<div class="search_artist">
+remixed by cosMo@暴走P</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/JuBs7Ck4QHXagRTRuVv8VW.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+KAC 2013 ULTIMATE MEDLEY -HISTORIA SOUND VOLTEX- Emperor Side</div>
+<div class="search_artist">
+FLOOR LEGENDS -KAC2013-</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/omHanNztb2Jr3fNQGpx8SU.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+MILITARY R04D</div>
+<div class="search_artist">
+Enterskip</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/Pq7XeTsCu4HW2d4WvzFV7a.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+onslaught -Retaliation of Bahamūt-</div>
+<div class="search_artist">
+かめりあ</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/uzKeHoqCHuBKkNcUcjKdea.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+Quietus Ray</div>
+<div class="search_artist">
+xi</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/RzopeQxQcPtg7fkbTJjktV.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+Redshift 2nd Ignition</div>
+<div class="search_artist">
+technoplanet</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/oiZn3pWCUDtzp8ZTZNPgV8.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+Reverenced Flower</div>
+<div class="search_artist">
+ぺのれり</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/saeqiwN8DobNdA3Ah6NBcN.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+恋愛＝精度×認識力</div>
+<div class="search_artist">
+立秋 vs. BEMANI Sound Team "L.E.D.-G" feat.ちょこ＆ななひら</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/hwQEHiBXMvByijvXnzzvYa.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+飄える翼追い掛けて</div>
+<div class="search_artist">
+かめりあ feat. かめりあ</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/LwPtVQJVpGVCQfjq6XgdvZ.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+[ ]DENTITY</div>
+<div class="search_artist">
+BEMANI Sound Team "HuΣeR"</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/8NrrvcLoFj9f8RuqtqvWGP.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+2 MINUTES FIGHTERS</div>
+<div class="search_artist">
+P*Light</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/HZTJ5QGWhpGbwnhKyWavqj.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+A Lasting Promise</div>
+<div class="search_artist">
+Laur</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/vq7o6ttj8qyC7yjL2bLAhT.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+Bad Elixir</div>
+<div class="search_artist">
+xi</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/M2yuhCvojBzZMZsLhATNVk.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+Bangin' Burst</div>
+<div class="search_artist">
+かめりあ</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/StBwb8bgvL2GxobogoRYXP.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+Calamity Tempest</div>
+<div class="search_artist">
+Diceros Bicornis</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/2SNupEVxkqoWvqCkKGD8gS.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+Deadly force</div>
+<div class="search_artist">
+Noah</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/EXCzHo5xBHpina63G3wSWc.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+perditus†paradisus</div>
+<div class="search_artist">
+iconoclasm</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/PAgmRZsUnRCe9wgsnPkujP.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+TENKAICHI ULTIMATE BOSSRUSH MEDLEY</div>
+<div class="search_artist">
+TENKAICHI LEGENDS</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/6ekpxvt5SBKtPwBfJJNmR9.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+TWO-TORIAL</div>
+<div class="search_artist">
+BEMANI Sound Team "PHQUASE vs DJ TOTTO"</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/7tMuth6objUZKXUrXYYhFd.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+ΑΩ</div>
+<div class="search_artist">
+BlackY</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/eHLpPPeFDXAk4ykAkvmR4f.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+ЯeviveR</div>
+<div class="search_artist">
+Diceros Bicornis</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/2VgPFUS3yGTqDepFErfNuW.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+セイレーン ～悲壮の竪琴～</div>
+<div class="search_artist">
+ぺのれり</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/2msvBk4JssCgu2LKwJDC5Z.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+ドゥサンコオデッセイ!!</div>
+<div class="search_artist">
+cosMo＠暴走P</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/b2GPjyMa5NFjGC2JauHZcn.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+バンブーソード・ガール</div>
+<div class="search_artist">
+cosMo＠暴走P</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/Bp8sX9YWeYjairWGmTr6r6.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+†:OLPHEUX:†</div>
+<div class="search_artist">
+Juggernaut.</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/p64fc5LXXN97RGtijQeVti.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+2 Beasts Unchained</div>
+<div class="search_artist">
+kors k vs Yooh</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/wqTe2uYSPU6znWuNd6B9pf.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+Absurd Gaff (Metallize Remix)</div>
+<div class="search_artist">
+Metal Giant</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/zf6HSAqU4jX3MN3iT8HRqD.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+All We Need is HAPPY END!!!</div>
+<div class="search_artist">
+polysha</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/CLRh5mjeZ8F5b7hHWFF8hH.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+BELOBOG</div>
+<div class="search_artist">
+BEMANI Sound Team "純白のIVORY"</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/s3nCVREY2qC5k6zT4iumYc.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+Chrono Diver -PENDULUMs-</div>
+<div class="search_artist">
+猫叉L.E.D.Master+</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/X8AbzxzeLdHyZMbxpWQopb.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+Fαtα∠ Ent∠mEnt</div>
+<div class="search_artist">
+CHUBAY</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/xdDZJghUTthSY4TZC2Dfj9.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+Ghost Family Living In Graveyard</div>
+<div class="search_artist">
+RoughSketch</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/rVLp6nrjY8goo2xof3iDak.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+Invitation from Mr.C</div>
+<div class="search_artist">
+C-Show</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/c6KBpW9VyHJU7TZwY5FWfX.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+LaμreLs ~the Angelus~</div>
+<div class="search_artist">
+Ashrount</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/DhifffWfyuhMUjv87uFwXZ.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+Rapsodia d'amore</div>
+<div class="search_artist">
+xi</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/gvHFoZoHXRLdwtpodrftoe.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+Rhapsody ⚙f Triumph</div>
+<div class="search_artist">
+かめりあ・超機裝旋楽隊</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/voLHcxzy3nEzJJaWT2cKWb.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+U.N.オーエンは彼女なのか？haru_naba Remix</div>
+<div class="search_artist">
+はるなば</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/NsbGqkZdgEvjqr2iUMgqWb.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+ZEUS</div>
+<div class="search_artist">
+BlackY</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/LrqMwSv2XZ5VzRQH442b53.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+θコトノハθカプセルθ</div>
+<div class="search_artist">
+cosMo＠暴走P</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/SobMu5jhKC32XXAkq5YAVo.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+十の試煉</div>
+<div class="search_artist">
+打打だいず vs. siromaru</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/AVfsstTUs6wf775xY3SAxM.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+紫焔双穿</div>
+<div class="search_artist">
+かめりあ</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/5U5DbCZivRJhoUnYteQdbc.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+EMPIRE OF FLAME</div>
+<div class="search_artist">
+かめりあ</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/fpdxLs6Rgm5n2QsxsMoCT8.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+EncorE &amp; cALL</div>
+<div class="search_artist">
+CHUBAY</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/D8ZYk8cHUXmh7jHvcFZymH.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+Everlasting Message</div>
+<div class="search_artist">
+ぺのれり</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/nHwvYd8KnZLPr7kCNPSrJY.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+Failnaught</div>
+<div class="search_artist">
+xi</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/gabEbeNzxTUGqN5rVA2kuX.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+FREEDOM DiVE</div>
+<div class="search_artist">
+xi</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/7QNBGrRVXPeonWHd9nwU8P.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+Ganymede kamome mix</div>
+<div class="search_artist">
+kamome sano</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/dsTE4TR78PqhUHucmiLnLj.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+Last Resort</div>
+<div class="search_artist">
+xi</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/nmhBvpzA9nfk6oY6HG4DrH.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+MAYHEM</div>
+<div class="search_artist">
+RoughSketch x CANVAS feat. Quimar</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/eDd3mra8Bw72gq2Ry4PY3a.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+One More Lovely</div>
+<div class="search_artist">
+Risk Junk</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/DepnzKa6h2u6kXmw6Ck6T.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+Sailing Force</div>
+<div class="search_artist">
+ぺのれり</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/Nqd3qrk29VpmhefwyEt5EC.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+snow storm -euphoria-</div>
+<div class="search_artist">
+Yooh</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/GrrRUUvrKox5kqHH3HaBEj.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+Verse IV</div>
+<div class="search_artist">
+ZOGRAPHOS (Yu_Asahina+Yamajet)</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/KNEBAPGvUUHCijJG86PAW3.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+voltississimo</div>
+<div class="search_artist">
+BEMANI Sound Team "PHQUASE"</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/wgq64GCFwaDJ78veSEG4VN.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+ΛΛemoria</div>
+<div class="search_artist">
+MisoilePunch♪</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/2N88freQeL5E8ggomhnJf9.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+大宇宙ステージ</div>
+<div class="search_artist">
+黒魔</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/iYxuTWQsnVuzgMujWVkeyV.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+赫焉のヴァルキュリア -Ragnarøk-</div>
+<div class="search_artist">
+ryhki</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/zHEFcq4RsXLBo2e5bh8wKb.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+777</div>
+<div class="search_artist">
+RoughSketch(Notebook Records)</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/5YoBqTGKaEWBjH8VzvGRrf.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+9TH5IN</div>
+<div class="search_artist">
+ETIA.</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/gc2c25LR85dzCATZLBhTH3.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+Black Emperor</div>
+<div class="search_artist">
+黒魔</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/2fEamzyGUNrxQBZyxeqcSR.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+Booths of Fighters</div>
+<div class="search_artist">
+RoughSketch + DD"ナカタ"Metal</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/4Pfa8Rfo6N8E7LFGWAMnrP.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+Breakneck Pursuit</div>
+<div class="search_artist">
+Ashrount</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/nAJTV5J5UdmquGJoTPd5HB.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+Chronomia</div>
+<div class="search_artist">
+Lime</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/RcY2kofSi4x2K5ffgM4tTi.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+DIABLOSIS::Nāga</div>
+<div class="search_artist">
+sky_delta</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/wmQTpARXUdrtqXQZVszZMj.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+End to end</div>
+<div class="search_artist">
+Noah</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/YCZh2R2g58ejZ73Q7pCt3N.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+GODHEART</div>
+<div class="search_artist">
+BlackY</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/Sy2nYGNNhMWafLBTtWYYiB.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+Holy Trail</div>
+<div class="search_artist">
+satie</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/kVZAzFrvVpA97n4VH658Gm.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+INSECTICIDE</div>
+<div class="search_artist">
+Camellia</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/5owTg3MNgYBJ5ett8sdJwC.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+LegenD.</div>
+<div class="search_artist">
+Yooh</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/rCLMB2D2X99Cd3gxbASufd.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+Lord=Crossight</div>
+<div class="search_artist">
+ぺのれり</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/ibPq5ccn3h3HM7PxuBhZTm.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+Preserved Valkyria</div>
+<div class="search_artist">
+ぺのれり</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/SSEVPY7SSMFn5sVPA9dTaf.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+QQ</div>
+<div class="search_artist">
+BEMANI Sound Team "PHQUASE &amp; ZAQUVA"</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/Ufxb9kxG7DJtiFWtUKL4w6.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+VALKYRIE ASSAULT</div>
+<div class="search_artist">
+BEMANI Sound Team "SYUNN"</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/kFBJrCcRKboFi2P6nzZ6r8.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+VOLAQUAS</div>
+<div class="search_artist">
+BEMANI Sound Team "DJ TOTTO VS 兎々"</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/fxjeXcKXUgDwNEKxgiFF3C.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+XROSS INFECTION</div>
+<div class="search_artist">
+BlackY vs. Yooh</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/igyM5zfqGSAdC3fs8BzDjX.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+αzalea</div>
+<div class="search_artist">
+BlackY</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/dQ2SG9g2MXGk7fASRRLEZP.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+Avalanx</div>
+<div class="search_artist">
+隣の庭は青い(庭師+Aoi)</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/rdZs92XG6hPxXuvUf7Te8L.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+BLACK or WHITE?</div>
+<div class="search_artist">
+BlackYooh vs. siromaru</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/9hH6SAv2enzjGXza6C3Ni7.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+CLAMARE</div>
+<div class="search_artist">
+MAX MAXIMIZER</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/gTSwiXRVX8ftmrCFNNKnSf.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+Cross Fire</div>
+<div class="search_artist">
+Hommarju vs RoughSketch</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/rKxShha8Bvrd2y2sCC3775.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+FLOWER</div>
+<div class="search_artist">
+DJ YOSHITAKA 「jubeat」より</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/kVnuTxGRoe6hBCjsgWnMSN.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+HALO</div>
+<div class="search_artist">
+Tatsunoshin</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/QzbkXiTVgXARgpj9RKxj3d.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+Innocent Tempest</div>
+<div class="search_artist">
+Diceros Bicornis</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/s9a6EbKV8gTos3LomPeHmC.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+IX</div>
+<div class="search_artist">
+dj TAKA VS DJ TOTTO feat.藍</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/GciwFug9ZyPZzkXENjSszR.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+LubedeR</div>
+<div class="search_artist">
+C-Show</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/MSYnuBJzoNW8eKJTfFD2b4.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+Trill auf G</div>
+<div class="search_artist">
+BEMANI Sound Team ''dj TAKA''</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/voBoFYzui5wNdQz7kjdVQE.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+VΛZiLiSQ</div>
+<div class="search_artist">
+BlackY</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/BVMZyRFMa6xeWKaFTw7h5D.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+ラクガキスト</div>
+<div class="search_artist">
+virkato</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/fWfkp7SHLPsSDmLoYZ39bk.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+音楽 -resolve-</div>
+<div class="search_artist">
+Yu_Asahina</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/7LC47TCUHjNbr7soezQz5V.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+ANGER of the GOD</div>
+<div class="search_artist">
+BlackY</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/qqxATCyKMzaykApk6hAcjT.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+Elemental Creation</div>
+<div class="search_artist">
+dj TAKA meets DJ YOSHITAKA</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/4ubVgsbj7ZzvKVKMqDrFN.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+Fin.ArcDeaR</div>
+<div class="search_artist">
+MisoilePunch♪ ～タケノコ添え～</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/tPtGjD8b3Le68SvLk4HiuL.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+Got more raves？</div>
+<div class="search_artist">
+E.G.G.「グルーヴコースター」より</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/GgthZyfU9ozNR4Hv6pWVDH.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+Growth Memories</div>
+<div class="search_artist">
+Hidra-Xjeil</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/czqqHGzAi9mnqKu2PunNiK.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+Immortal saga</div>
+<div class="search_artist">
+Noah</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/fuVEVSGbe7kFBWQLZeS2WK.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+Lisa-RICCIA</div>
+<div class="search_artist">
+DJ YOSHITAKA</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/zBxp2SnsQywgXbfQnse2E8.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+Staring at star</div>
+<div class="search_artist">
+MisoilePunch♪ ～タケノコ添え～</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/WVKLkPFKiui4EyNQUYxhh4.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+きたさいたま2000</div>
+<div class="search_artist">
+LindaAI-CUE（BNGI）「太鼓の達人」より</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/sNzWRGktgZim7HQ9Qsxs5T.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+月光乱舞</div>
+<div class="search_artist">
+P*Light</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/F3w6qFxPzbNSw6tadUKNV5.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+極圏</div>
+<div class="search_artist">
+cosMo VS dj TAKA</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/yz6JSHdkBvkLgzbL6D3KtK.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+無意識レクイエム (cosmobsp rmx)</div>
+<div class="search_artist">
+cosMo＠暴走P (original arranged by 森羅万象)</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/mry2Jp9iq8wkDbG62bPahU.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+逆月</div>
+<div class="search_artist">
+BEMANI Sound Team "HuΣeR" feat.Fernweh</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/KieDc5xZ2UXs7AdgKT5Wm5.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+{ eXLIPXe }</div>
+<div class="search_artist">
+{ かめりあ }</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/8mj34xXmuQP6PvyDkp2QVH.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+Allegro Saetta</div>
+<div class="search_artist">
+天束 vs. siromaru</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/4JrbEVku5BjbGe6nzUhhHn.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+Ambivalent Vermilia</div>
+<div class="search_artist">
+BEMANI Sound Team "二代目朱雀 feat.朱雀"</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/m6tEWJWrsvtbcY3ohzQprK.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+ARISE</div>
+<div class="search_artist">
+Juggernaut.</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/mJnNzpy3QC6jZc9x9T8QBP.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+BEMANI PRO LEAGUE -SEASON 2- SOUND VOLTEX ULTIMATE MEDLEY</div>
+<div class="search_artist">
+FLOOR LEGENDS -BPL S2 SDVX-</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/gNeNcE8Fqp39yq8FqA4gcR.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+Burst Λnd reBoost</div>
+<div class="search_artist">
+めと（Metomate）</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/uVbucGeoJHrbaKkHM6PbKP.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+Circuit Surfer</div>
+<div class="search_artist">
+kors k</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/4pU5vZ3LLSiAjY2sLLAMDE.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+Cuz we &lt;3 this Game</div>
+<div class="search_artist">
+打打だいず</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/ASZpYkKuBF8uuqZy44Pe6e.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+NEMSYS ARENA World Hexathlon</div>
+<div class="search_artist">
+隣の庭は青い(庭師+Aoi)</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/kog6WwTvzTukMXHkgbU6tF.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+OVEЯ+TUЯE</div>
+<div class="search_artist">
+kanone VS nora2r</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/NBEc9amQGNPgB5a9f77omV.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+World's end</div>
+<div class="search_artist">
+Noah</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/ou2UJZMKirhrBC7bGsBzpY.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+Xeno Gravity</div>
+<div class="search_artist">
+xi</div>
+</div>
+</a>
+<a class="search_column row" style="display: flex;">
+<div class="search_jacket col-3">
+<img src="/img/jacket/xrW6MCprak7HHGwXweHozJ.jpg" decoding="async" width="64" height="64">
+</div>
+<div class="col-9 search_songinfo">
+<div class="search_title">
+Λkasha</div>
+<div class="search_artist">
+BlackY feat. Risa Yuzuki</div>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="modal fade" id="modal_action_confirm" tabindex="-1" aria-labelledby="modal_action_confirm_label" aria-hidden="true">
+</div>
+
+
+<div class="modal fade" id="modal_chart_info" tabindex="-1" aria-labelledby="modal_chart_info_label" aria-hidden="true">
+</div>
+
+
+<div class="modal fade" id="modal_fill_option" tabindex="-1" aria-labelledby="modal_fill_option_label" aria-hidden="true">
+</div>
+
+
+<div class="modal fade" id="modal_share_option" tabindex="-1" aria-labelledby="modal_share_option_label" aria-hidden="true">
+</div>
+
+    <div class="modal fade" id="modal_option" tabindex="-1" aria-labelledby="modal_option_label" aria-hidden="true">
+
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+
+        <div class="modal-content">
+
+            <div class="modal-header">
+
+                <h5 class="modal-title" id="modal_option_label">
+オプション</h5>
+
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" aria-expanded="false">
+</button>
+
+            </div>
+
+            <div class="modal-body">
+
+                <div class="option_contents">
+
+                    
+                    <div class="option_section">
+
+                        <label class="form-check-label">
+【ジャケット関連設定】</label>
+
+                        
+                        <div class="option_column">
+
+                            <div class="input-group align-items-center">
+
+                                <div class="input-group-text input_value">
+
+                                    <span id="jacket_size_text" style="width:2em">
+75</span>
+px
+                                </div>
+
+                                <div class="form-control d-flex align-items-center">
+
+                                    <input class="form-range" data-type="option" data-attr="jacket_size" type="range" value="75" min="50" max="150" oninput="jacket_size_text.innerText=this.value">
+
+                                </div>
+
+                            </div>
+
+                            <div class="text-end fs-80p">
+※この項目は保存されません</div>
+
+                        </div>
+
+                        
+                        
+                        <div class="option_column">
+
+                            <div class="form-check form-switch">
+
+                                <input class="form-check-input" type="checkbox" id="config_37f7011" data-type="option" data-attr="enable_translucent_on_flagged">
+
+                                <label class="form-check-label" for="config_37f7011">
+チェック時に全体を半透明で塗りつぶす</label>
+
+                            </div>
+
+                        </div>
+
+                        
+                        <div class="option_column">
+
+                            <div class="input-group align-items-center">
+
+                                <div class="form-check form-switch">
+
+                                    <input class="form-check-input" type="checkbox" id="config_726f7c27" data-type="option" data-attr="enable_display_title_on_jacket">
+
+                                    <label class="form-check-label" for="config_726f7c27">
+ジャケット下部にタイトルを表示する</label>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="option_section">
+
+                        
+                        <label class="form-check-label">
+【システム設定】</label>
+
+                                                    <div class="alert alert-primary fs-80p m-0">
+この機能はログイン時にのみ利用できます</div>
+
+                                            </div>
+
+                    <div class="option_section">
+
+                        <label class="form-check-label">
+【チェック設定】</label>
+
+                                                    <div class="alert alert-primary fs-80p m-0">
+この機能はログイン時にのみ利用できます</div>
+
+                                            </div>
+
+                </div>
+
+                                            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+    <div class="modal fade" id="modal_howto" tabindex="-1" aria-labelledby="modal_howto_label" aria-hidden="true">
+
+    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+
+        <div class="modal-content">
+
+            <div class="modal-header">
+
+                <h5 class="modal-title" id="modal_help_label">
+使い方</h5>
+
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" aria-expanded="false">
+</button>
+
+            </div>
+
+            <div class="modal-body">
+
+                <h3 class="border-bottom">
+このツールについて</h3>
+
+                <p>
+Sグレード(9900k)の難易度表です。好きな色で塗りつぶすことで進捗管理･共有ができます。</p>
+
+                <p>
+Tierは大きいほど簡単になっています。なおこの表について、Sの達成者数が多い=簡単ではなく、譜面全体の傾向やノーツ数等を加味した上で決定しています。</p>
+
+                <h3 class="border-bottom">
+操作説明</h3>
+
+                <p>
+クリック/タップ:&nbsp;チェックの切り替え</p>
+
+                <p>
+長押し:&nbsp;楽曲の詳細情報を表示</p>
+
+                <h3 class="border-bottom">
+その他</h3>
+
+                <p>
+いくつかのオプションは、ログイン中にのみ有効化されます。(Vaddictから塗り潰し等)</p>
+
+            </div>
+
+            <div class="modal-footer justify-content-center">
+
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+閉じる</button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+    </div>
+
+    
+                <div id="pagetop" onclick="window.scrollTo(0, 0);">
+</div>
+
+    <div class="under_flags_counter">
+
+        <div class="under_flags_counter_wrapper">
+
+            <div class="under_flags_counter_parent">
+
+                <div class="counter_label">
+Total:</div>
+
+                <div class="counter_value" data-total="174">
+0 / 174</div>
+
+            </div>
+
+            <div class="under_flags_counter_parent">
+
+                                    <div class="under_flags_counter_children flag_counter" data-flag="1">
+
+                        <div class="counter_label">
+Check1</div>
+
+                        <div class="counter_value">
+0</div>
+
+                    </div>
+
+                                    <div class="under_flags_counter_children flag_counter" data-flag="2">
+
+                        <div class="counter_label">
+Check2</div>
+
+                        <div class="counter_value">
+0</div>
+
+                    </div>
+
+                                    <div class="under_flags_counter_children flag_counter" data-flag="3">
+
+                        <div class="counter_label">
+Check3</div>
+
+                        <div class="counter_value">
+0</div>
+
+                    </div>
+
+                                    <div class="under_flags_counter_children flag_counter" data-flag="4">
+
+                        <div class="counter_label">
+Check4</div>
+
+                        <div class="counter_value">
+0</div>
+
+                    </div>
+
+                            </div>
+
+        </div>
+
+    </div>
+
+
+        <footer>
+
+        <div class="main_footer">
+
+            <div class="footer_contact">
+本サイトに関する質問・要望・感想等は<a href="https://twitter.com/sdvx_Stier" target="_blank">
+Twitter</a>
+までどうぞ。</div>
+
+            <div class="footer_copyright">
+画像等の知的財産権は全て著作権の所有者に帰属します。</div>
+
+            <div class="footer_copyright">
+Copyright c 2024 maya2silence.com All Rights Reserved.</div>
+
+        </div>
+
+    </footer>
+
+    <script type="text/javascript">
+
+        (function() {
+            $("body").css("marginTop", $("div.main_header").height() + 10 + "px");
+            document.addEventListener("dblclick", handle, ["passive", false]);
+        })();
+
+        function handle(event) {
+            event.preventDefault();
+        }
+    </script>
+
+
+
+
+</body>
+</html>

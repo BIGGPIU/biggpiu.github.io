@@ -68,6 +68,8 @@ def FROMLISTdownloadALL(dictitem: dict,directory: str) -> None:
         key = key.replace("=","")
         key = key.replace("≡","")
         key = key.replace(".","")
+        key = key.replace("<","")
+        key = key.replace(">","")
         img_data = requests.get(f"https://sdvx.maya2silence.com{value}").content
         if ".jpg" in value:
             with open(f"{key}.jpg","wb") as f:
@@ -78,8 +80,8 @@ def FROMLISTdownloadALL(dictitem: dict,directory: str) -> None:
 
 
 if __name__ == "__main__":
-
-    hold = (GETlistfromHTMLTXTfile(18))
+    clonehtml(19)
+    hold = (GETlistfromHTMLTXTfile(19))
     print (len(hold))
-    FROMLISTdownloadALL(hold,"C:\\Users\\diyaj\\Downloads\\Recommend me stuff!\\New folder\\biggpiu.github.io\\sdvxtools\\picker\\charts\\18")
+    FROMLISTdownloadALL(hold,"C:\\Users\\diyaj\\Downloads\\Recommend me stuff!\\New folder\\biggpiu.github.io\\sdvxtools\\picker\\charts\\19")
     print ("done")
