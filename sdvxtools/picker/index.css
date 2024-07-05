@@ -18,10 +18,15 @@
 }   
 
 @keyframes hide {
-    0% {opacity: 75%;};
+    0% {opacity: 75};
     100% {opacity: 0%;};
 }
 
+
+@keyframes summonme {
+    0% {transform: translateY(0);}
+    100% {transform: translateY(100vh);}
+}
 html {
     background-color: #3C3C3C;
     width:100%;
@@ -168,4 +173,145 @@ h1 {
 .hidden {
     position:absolute;
     opacity: 0%;
+}
+
+.amnttopull label {
+    color:white;
+    font-size: 32px;
+}
+
+.checkboxes {
+    width:32px;
+    height:32px;
+}
+
+#tiebreaker {
+    height:5vh;
+    width:100%;
+    margin-top: 5px;
+    border:none;
+    background-color:#00F1FF;
+}
+
+.supercooltiebreakerthing {
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:-100vh;
+    background-color: rgba(0, 0, 0, 70%);
+    z-index: 3;
+}
+
+#summon {
+    animation-name:summonme;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+.tiebreakerwheel {
+    position:relative;
+    left:50%;
+    transform: translate(-50%);
+    width:75%;
+    height:100%;
+    background-color: aliceblue;
+}
+
+.tiebreakerwheelheader {
+    background-color:#00F1FF;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    position:relative;
+    z-index: 4;
+}
+
+.tiebreakerwheelfill {
+    position:relative;
+    height: 100%;
+    width:100%
+}
+
+.leftarrow {
+    color:black
+}
+
+.triangleR {
+	width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-left: 50px solid #555;
+	border-bottom: 25px solid transparent;
+    margin-left: 17%;
+    position: absolute;
+    z-index: 4;
+    top:50%;
+}
+
+.triangleL {
+	width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-right: 50px solid #555;
+	border-bottom: 25px solid transparent;
+    position:absolute;
+    top:50%;
+    left:94%;
+    margin-left: -4px;
+    z-index: 4;
+}
+
+.bigassredline {
+    height:50px;
+    width:100%;
+    position:absolute;
+    top:50%;
+    background-color: red;
+    opacity: 50%;
+    z-index: 3;
+}
+
+.wheel {
+    width:90%;
+    height:90%;
+    clip-path: circle();
+    background-color: #555;
+    position:absolute;
+    left:50%;
+    translate: -50% -50%;
+    top:50%;
+    object-fit: contain;
+}
+
+.tiebreakerwheelcontent {
+    width:100%;
+    height:100%;
+}
+
+.tiebreakercontainer {
+    height:50%;
+    width:50%;
+}
+
+.penis {
+    position:relative;
+    left:50%;
+    top:45%;
+    height:100%;
+    width:100%;
+}
+
+.clickme {
+    position:absolute;
+    text-align: center;
+    width:128px;
+    height:128px;
+    background-color: white;
+}
+
+.clickmetext {
+    position:relative;
+    top:50%;
+    transform: translateY(-50%);
 }

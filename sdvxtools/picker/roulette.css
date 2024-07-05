@@ -1,0 +1,105 @@
+@keyframes edging {
+    0% {opacity:0%; height:1%;width:1%};
+    100% {transform:rotate3d(1,1,1,calc(360deg*8)); opacity: 100%; height:100%; width:100%;};
+}
+
+@keyframes suddenappearance {
+    0% {opacity: 0%;}
+    100% {opacity: 100%;}
+}
+
+@keyframes nope {
+    0% {left:90%}
+    100% {left:0%;top:85%;}
+}
+
+
+/*rotate(calc(360deg*8))*/
+.penis {
+    opacity: 0%;
+    animation-name: edging;
+    animation-duration: 5s;
+    animation-delay: 6s;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-timing-function:ease-out;
+}
+
+.clickme {
+    opacity:0%;
+    animation-name: suddenappearance;
+    animation-delay: 6s;
+    animation-duration: 500ms;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+
+#nuhuh {
+    position:absolute;
+    left:90%;
+}
+
+#nope {
+    position:absolute;
+    animation-name: nope;
+    animation-duration: 3s;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+
+#nope2 {
+    position:absolute;
+    left:45%;
+    top:40%;
+    z-index: 999;
+}
+
+#nope3 {
+    position:absolute;
+    left:45%;top:10%;
+    z-index: 999;
+}
+
+#nope4 {
+    position:absolute;
+    left:37%;top:86%;
+    z-index: 999;
+}
+
+#nope5 {
+    position:absolute;
+    left:41%;top:90%;
+    z-index: 999;
+}
+
+#nope6 {
+    position:absolute;
+    left:15%;top:34%;
+    z-index: 999;
+}
+
+#nope7 {
+    position:absolute;
+    left:49%;top:68%;
+    z-index: 999;
+}
+
+#nope8 {
+    position:absolute;
+    left:53%;top:22%;
+    z-index: 999;
+}
+
+#nope9 {
+    position:absolute;
+    left:57%;top:11%;
+    z-index: 999;
+}
+
+#nope10 {
+    position:absolute;
+    left:61%;top:72%;
+    z-index: 999;
+}

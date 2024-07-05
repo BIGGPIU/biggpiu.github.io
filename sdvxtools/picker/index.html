@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="roulette.css">
     <title>BIGGS sdvx tools</title>
 </head>
 
@@ -3609,7 +3610,6 @@
                     <div class="songtext">０Xerostrumental</div>
                 </div>
             </div>
-            
             <h1>18s</h1>
             <div class="chartspicked" id="container18">
                 <div class="songimage">
@@ -7596,19 +7596,34 @@
             </div>
             <div class="settings">
                 <div class="amnttopull">
-                    <label>Amount of Charts to pull</label>
+                    <h1>Amount of Charts to pull</h1>
                     <input type="number" min="1" max="20" value="5" id="amount">
                     <button onclick="randomizecharts()">randomize</button>
                     <br>
-                    <label>Difficulties to include</label>
+                    <h1>Difficulties to include</h1>
                     <br>
-                    <input type="checkbox" name="17" id="17"> <label>17</label>
+                    <input type="checkbox" name="17" id="17" class="checkboxes"> <label>17</label>
                     <br>
-                    <input type="checkbox" checked name="18" id="18"> <label>18</label>
+                    <input type="checkbox" checked name="18" id="18" class="checkboxes"> <label>18</label>
                     <br>
-                    <input type="checkbox" name="19" id="19"> <label>19</label>
+                    <input type="checkbox" name="19" id="19" class="checkboxes"> <label>19</label>
                     <br>
-                    <input type="checkbox" name="20" id="20"> <label>20</label>
+                    <input type="checkbox" name="20" id="20" class="checkboxes"> <label>20</label>
+                    <br>
+                    <button id="tiebreaker">TIEBREAKER BUTTON</button>
+                </div>
+            </div>
+        </div>
+        <div class="supercooltiebreakerthing">
+            <a id="clickmetoclose" class="hehe">
+                <div class="clickme">
+                    <div class="clickmetext">Close</div>
+                </div>
+            </a>
+            <div class="tiebreakerwheel">
+                <div class="tiebreakerwheelheader">YOUR TIEBREAKER CHART IS.....</div>
+                <div class="tiebreakerwheelcontent">
+                    <div class="tiebreakercontainer"></div>
                 </div>
             </div>
         </div>
