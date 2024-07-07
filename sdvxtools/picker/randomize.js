@@ -90,7 +90,7 @@ troll.addEventListener("click", function() {
     }
     else if (clicks === 9) {
         bitched.setAttribute("id","nope9")
-        bitched.setAttribute("href","https://www.youtube.com/watch?v=dQw4w9WgXcQ")
+        bitched.setAttribute("href","https://www.youtube.com/watch?v=dQw4w9WgXcQ&autoplay=1")
         trolltext.innerHTML = "Idiot"
         clicks++
     }

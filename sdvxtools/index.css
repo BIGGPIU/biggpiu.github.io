@@ -214,3 +214,44 @@ a:visited {
     }
 }
 
+@keyframes MOTD {
+    0% {height:0%}
+    1% {height:10%}
+    99% {height:10%}
+    100% {height:0%}
+}
+
+@keyframes MOTDtext {
+    0% {left:100vw}
+    100% {left:-200vw}
+}
+
+.splash {
+    position:absolute;
+    top:80%;
+    width:100%;
+    height:0%;
+    background-color: rgba(0, 0, 0, 0.5);
+    animation-name: MOTD;
+    animation-duration: 25s;
+    animation-delay: 3s;
+    animation-fill-mode: both;
+}
+
+
+.splashtext {
+    opacity:100%;
+    color:white;
+    z-index: 3;
+    font-size: 200%;
+    text-wrap: nowrap;
+    position: relative;
+    top:50%;
+    left:100vw;
+    transform: translateY(-50%);
+    animation-name: MOTDtext;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-delay: 5s;
+    animation-fill-mode: forwards;
+}
