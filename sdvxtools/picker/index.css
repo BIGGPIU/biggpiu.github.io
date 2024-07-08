@@ -208,9 +208,10 @@ h1 {
 #tiebreaker {
     height:5vh;
     width:100%;
-    margin-top: 5px;
+    margin-top: 75%;
     border:none;
     background-color:#00F1FF;
+    font-size: 32px;
 }
 
 .supercooltiebreakerthing {
@@ -334,4 +335,19 @@ h1 {
     position:relative;
     top:50%;
     transform: translateY(-50%);
+}
+
+#randomizebutton {
+    background-color: #00F1FF;
+    border-radius: 0%;
+    border:none;
+    height:48px;
+    font-size: 32px;
+    width:30%;
+}
+
+#amount {
+    height:44px;
+    font-size: 32px;
+    width:50%;
 }
