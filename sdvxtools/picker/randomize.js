@@ -22,7 +22,7 @@ for (let i = 0; i<allbuttons.length;i++) {
         if (this.innerHTML == "BANNED") {
             this.setAttribute("class","hidden")
             sleep(1000).then(() => {
-                this.setAttribute("id","banme")
+                this.setAttribute("id","GONE")
                 this.setAttribute("class","")
                 this.innerHTML = "Ban me?"
             })

@@ -18,7 +18,7 @@
 }   
 
 @keyframes hide {
-    0% {opacity: 75};
+    0% {opacity: 75%};
     100% {opacity: 0%;};
 }
 
@@ -151,6 +151,26 @@ h1 {
 }
 
 #banme:hover {
+    background-color: red;
+    animation-name: show;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+#GONE {
+    position:absolute;
+    width:100%;
+    height:100%;
+    z-index: 2;
+    left:0;
+    top:0;
+    background-color:red;
+    opacity:0%;
+    border: none;
+    border-radius: 0%;
+}
+
+#GONE:hover {
     background-color: red;
     animation-name: show;
     animation-duration: 0.5s;
