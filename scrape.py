@@ -19,7 +19,7 @@ def clonehtml(diff) -> None:
     with open(f"htmlsource{diff}.txt","w", encoding='utf-8') as f:
         f.write(htmlsource)
 
-def GETlistfromHTMLTXTfile(diff) -> list:
+def GETlistfromHTMLTXTfile(diff) -> dict:
     songsimage = []
     songsname = []
     answer = {}
@@ -79,8 +79,11 @@ def FROMLISTdownloadALL(dictitem: dict,directory: str) -> None:
 
 
 if __name__ == "__main__":
-    #clonehtml(17)
-    hold = (GETlistfromHTMLTXTfile(19))
+    clonehtml(20)
+    hold = (GETlistfromHTMLTXTfile(20))
     print (len(hold))
-    FROMLISTdownloadALL(hold,"C:\\Users\\diyaj\\Downloads\\Recommend me stuff!\\New folder\\biggpiu.github.io\\sdvxtools\\picker\\charts\\19")
+    hold2 = list(hold.keys())
+    with open("wow.txt","a",encoding="utf-8") as f:
+        f.write(str(hold2))
+    #FROMLISTdownloadALL(hold,"C:\\Users\\diyaj\\Downloads\\Recommend me stuff!\\New folder\\biggpiu.github.io\\sdvxtools\\picker\\charts\\19")
     print ("done")
