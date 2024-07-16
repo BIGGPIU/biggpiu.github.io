@@ -36,6 +36,7 @@ html {
 
 body {
     margin: 0 0 0 0;
+    overflow-x: hidden;
 }
 
 a {
@@ -343,11 +344,58 @@ h1 {
     border:none;
     height:48px;
     font-size: 32px;
-    width:30%;
+    width:41%;
 }
 
 #amount {
     height:44px;
     font-size: 32px;
     width:50%;
+}
+
+@media only screen and (max-width:450px) {
+    #tiebreaker {
+        position:absolute;
+        left:100px; /*mobile users deserve no fun*/
+        top:0;
+        height:0;
+        width:0;
+        opacity: 0%;
+    }
+
+    .supercooltiebreakerthing {
+        height:0%;
+        position:absolute;
+        width:0%;
+        top:0;
+        left:100px;
+        z-index: 1;
+        overflow-x: hidden;
+    }
+
+    .settings {
+        position:sticky;
+        left:0px;
+        top:80%;
+    }
+
+    .chartspicked {
+        display: flex;
+    }
+
+    .songimage {
+        width:100%;
+    }
+
+    html {
+        overflow-x: hidden;
+    }
+    
+    #everyoneelse {
+        height: 100%;
+    }
+
+    #gone {
+        left:0px
+    }
 }
