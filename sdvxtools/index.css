@@ -184,21 +184,21 @@ a:visited {
     margin-left: 3px;
 }
 
-#picker {
+.picker {
     width:80%;
     height:30%;
     margin-top:5px;
     object-fit: fill;
 }
 
-#picker img {
+.picker img {
     margin-top: 5px;
     height:40%;
     width:50%;
     object-fit: fill;
 }
 
-#picker div {
+.picker div {
     position: relative;
     color:white;
     font-size: 32px;
@@ -206,7 +206,7 @@ a:visited {
 }
 
 @media only screen and (max-width:450px) {
-    #picker div {
+    .picker div {
         position: relative;
         color:white;
         font-size: 6vw;
