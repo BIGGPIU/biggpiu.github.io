@@ -1,0 +1,110 @@
+const allstages = { 
+    x3d_land:'3d_land.jpg', x75_m:'75_m.jpg', arena_ferox:'arena_ferox.jpg', balloon_fight:'balloon_fight.jpg', battlefield:'battlefield.jpg', big_battlefield:'big_battlefield.jpg', big_blue:'big_blue.jpg', boxing_ring:'boxing_ring.jpg', bridge_of_eldin:'bridge_of_eldin.jpg', brinstar:'brinstar.jpg', brinstar_depths:'brinstar_depths.jpg', castle_siege:'castle_siege.jpg', cloud_sea_of_alrest:'cloud_sea_of_alrest.jpg', coliseum:'coliseum.jpg', corneria:'corneria.jpg', delfino_plaza:'delfino_plaza.jpg', distant_planet:'distant_planet.jpg', draculas_castle:'draculas_castle.jpg', dream_land:'dream_land.jpg', dream_land_gb:'dream_land_gb.jpg', duck_hunt:'duck_hunt.jpg', figure8_circuit:'figure-8_circuit.jpg', final_destination:'final_destination.jpg', find_mii:'find_mii.jpg', flat_zone_x:'flat_zone_x.jpg', fountain_of_dreams:'fountain_of_dreams.jpg', fourside:'fourside.jpg', frigate_orpheon:'frigate_orpheon.jpg', gamer:'gamer.jpg', garden_of_hope:'garden_of_hope.jpg', garreg_mach_monastery:'garreg_mach_monastery.jpg', gaur_plain:'gaur_plain.jpg', gerudo_valley:'gerudo_valley.jpg', golden_plains:'golden_plains.jpg', great_bay:'great_bay.jpg', great_plateau_tower:'great_plateau_tower.jpg', green_greens:'green_greens.jpg', green_hill_zone:'green_hill_zone.jpg', halberd:'halberd.jpg', hanenbow:'hanenbow.jpg', hollow_bastion:'hollow_bastion.jpg', hyrule_castle:'hyrule_castle.jpg', jungle_japes:'jungle_japes.jpg', kalos_pokemon_league:'kalos_pokemon_league.jpg', king_of_fighters_stadium:'king_of_fighters_stadium.jpg', kongo_falls:'kongo_falls.jpg', kongo_jungle:'kongo_jungle.jpg', living_room:'living_room.jpg', luigis_mansion:'luigis_mansion.jpg', lylat_cruise:'lylat_cruise.jpg', magicant:'magicant.jpg', mario_bros:'mario_bros.jpg', mario_circuit:'mario_circuit.jpg', mario_galaxy:'mario_galaxy.jpg', mementos:'mementos.jpg', midgar:'midgar.jpg', minecraft_world:'minecraft_world.jpg', mishima_dojo:'mishima_dojo.jpg', moray_towers:'moray_towers.jpg', mushroomy_kingdom:'mushroomy_kingdom.jpg', mushroom_kingdom:'mushroom_kingdom.jpg', mushroom_kingdom_ii:'mushroom_kingdom_ii.jpg', mushroom_kingdom_U:'mushroom_kingdom_U.jpg', mute_city_snes:'mute_city_snes.jpg', new_donk_city_hall:'new_donk_city_hall.jpg', new_pork_city:'new_pork_city.jpg', norfair:'norfair.jpg', northern_cave:'northern_cave.jpg', onett:'onett.jpg', pacland:'pac-land.jpg', palutenas_temple:'palutenas_temple.jpg', paper_mario:'paper_mario.jpg', peachs_castle:'peachs_castle.jpg', pictochat_2:'pictochat_2.jpg', pilotwings:'pilotwings.jpg', pirate_ship:'pirate_ship.jpg', pokemon_stadium:'pokemon_stadium.jpg', pokemon_stadium_2:'pokemon_stadium_2.jpg', port_town_aero_dive:'port_town_aero_dive.jpg', princess_peachs_castle:'princess_peachs_castle.jpg', prism_tower:'prism_tower.jpg', rainbow_cruise:'rainbow_cruise.jpg', reset_bomb_forest:'reset_bomb_forest.jpg', saffron_city:'saffron_city.jpg', shadow_moses_island:'shadow_moses_island.jpg', skyloft:'skyloft.jpg', skyworld:'skyworld.jpg', small_battlefield:'small_battlefield.jpg', smashville:'smashville.jpg', spear_pillar:'spear_pillar.jpg', spiral_mountain:'spiral_mountain.jpg', spirit_train:'spirit_train.jpg', spring_stadium:'spring_stadium.jpg', streetpass_quest:'streetpass_quest.jpg', summit:'summit.jpg', super_happy_tree:'super_happy_tree.jpg', super_mario_maker:'super_mario_maker.jpg', suzaku_castle:'suzaku_castle.jpg', temple:'temple.jpg', the_great_cave_offensive:'the_great_cave_offensive.jpg', tomodachi_life:'tomodachi_life.jpg', tortimer_island:'tortimer_island.jpg', town_and_city:'town_and_city.jpg', umbra_clock_tower:'umbra_clock_tower.jpg', unova_pokemon_league:'unova_pokemon_league.jpg', venom:'venom.jpg', warioware_inc:'warioware_inc.jpg', wii_fit_studio:'wii_fit_studio.jpg', wily_castle:'wily_castle.jpg', windy_hill_zone:'windy_hill_zone.jpg', wrecking_crew:'wrecking_crew.jpg', wuhu_island:'wuhu_island.jpg', yggdrasils_altar:'yggdrasils_altar.jpg', yoshis_island:'yoshis_island.jpg', yoshis_island_melee:'yoshis_island_(melee).jpg', yoshis_story:'yoshis_story.jpg'
+};
+
+const BMHS2024official = {
+    northern_cave:'northern_cave.jpg',smashville:"smashville.jpg",yggdrasils_altar:"yggdrasils_altar.jpg",hollow_bastion:"hollow_bastion.jpg",warioware_inc:"warioware_inc.jpg",yoshis_island:"yoshis_island.jpg",pictochat_2:"pictochat_2.jpg",small_battlefield:"small_battlefield.jpg",final_destination:"final_destination.jpg",kalos_pokemon_league:"kalos_pokemon_league.jpg",battlefield:"battlefield.jpg",town_and_city:"town_and_city.jpg",pokemon_stadium_2:"pokemon_stadium_2.jpg"
+};
+
+const GENESIS9 = {
+    battlefield:"battlefield.jpg",small_battlefield:"small_battlefield.jpg",pokemon_stadium_2:"pokemon_stadium_2.jpg",smashville:"smashville.jpg",town_and_city:"town_and_city.jpg",final_destination:"final_destination.jpg",kalos_pokemon_league:"kalos_pokemon_league.jpg",lylat_cruise:"lylat_cruise.jpg"
+}
+
+const FP18 = {
+    battlefield:"battlefield.jpg",small_battlefield:"small_battlefield.jpg",pokemon_stadium_2:"pokemon_stadium_2.jpg",smashville:"smashville.jpg",town_and_city:"town_and_city.jpg",kalos_pokemon_league:"kalos_pokemon_league.jpg",hollow_bastion:"hollow_bastion.jpg",final_destination:"final_destination.jpg"
+}
+
+
+
+const imagediv = document.getElementsByClassName("songimage")
+const image = document.getElementsByClassName("cardsongimage")
+const text = document.getElementsByClassName("songtext")
+var allbuttons = document.querySelectorAll('#banme')
+var allbuttonslen = allbuttons.length
+
+for (let i = 0; i<allbuttonslen;i++) {
+    allbuttons[i].addEventListener("click", function() {
+        if (this.innerHTML == "BANNED") {
+            this.setAttribute("class","")
+            this.setAttribute("id","banme")
+            this.innerHTML = ("Ban me?")
+        }
+        else if (this.innerHTML == "Ban me?") {
+            this.setAttribute("class","banned")
+            this.setAttribute("id","")
+            this.innerHTML = "BANNED"
+        }
+    });
+}
+
+function GETValuesToRandomize() {
+
+    for (let i = 0; i<allbuttons.length; i++) {
+        allbuttons[i].setAttribute("id","banme")
+        allbuttons[i].setAttribute("class","")
+        allbuttons[i].innerHTML = "Ban me?"
+    }
+
+    imagediv[0].setAttribute("id","")
+    imagediv[1].setAttribute("id","")
+    imagediv[2].setAttribute("id","")
+    imagediv[3].setAttribute("id","")
+    imagediv[4].setAttribute("id","")
+
+    var amntofcharts = document.getElementById("amount")
+    var rules = document.getElementById("ruleset")
+
+    console.log(imagediv)
+    console.log(image)
+
+    if (rules.value == "ALLSTAGES") {
+        randomize(allstages,amntofcharts.value)
+    }
+    else if (rules.value == "BMHS2024") {
+        randomize(BMHS2024official,amntofcharts.value)
+    }
+    else if (rules.value == "GENESIS9") {
+        randomize(GENESIS9,amntofcharts.value)
+    }
+    else if (rules.value == "UNIFIEDNA") {
+        randomize(FP18,amntofcharts.value)
+    }
+    else if (rules.value == "XANADU") {
+        randomize(FP18,amntofcharts.value)
+    }
+}
+function randomize(ruleset,value) {
+    var hold = Object.getOwnPropertyNames(ruleset)
+    var mem = []
+    var names = []
+    var links = []
+    l = hold.length
+    for (let i = 0; i < value; i++) {
+        while (true) {
+            var randomint = Math.floor(Math.random() * l);
+            if (mem.includes(randomint)) {
+            }
+            else {
+                mem.push(randomint)
+                names.push(hold[randomint])
+                links.push(ruleset[hold[randomint]])
+                break
+            }
+        }
+    }
+    console.log(mem)
+    console.log(names)
+    console.log(links)
+    attributetoimg(names,links)
+}
+
+
+function attributetoimg(names,links) {
+    l = names.length
+
+    for (let i = 0; i<l; i++) {
+        imagediv[i].setAttribute("id","show")
+        image[i].setAttribute("src","data/"+links[i])
+        text[i].innerHTML = names[i]
+    }
+}

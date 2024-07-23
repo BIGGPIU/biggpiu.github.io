@@ -17,7 +17,9 @@ for (let i = 0; i < allclass.length; i++) {
     allclass[i].setAttribute("id","gone")
 };
 
-for (let i = 0; i<allbuttons.length;i++) {
+var allbuttonlen = allbuttons.length
+
+for (let i = 0; i<allbuttonlen;i++) {
     allbuttons[i].addEventListener("click", function() {
         if (this.innerHTML == "BANNED") {
             this.setAttribute("class","hidden")

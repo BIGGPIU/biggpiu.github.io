@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="BIGGS smash tools" /> 
+    <meta property="og:description" content="Assorted tools for SSBU" />  
+    <meta property="og:url" content="https://biggpiu.github.io/smashpicker/" /> 
+    <link rel="stylesheet" href="index.css">
+    <title>BIGGS smash tools</title>
+</head>
+
+<html>
+    <body>
+        <div id="headerc">
+            <div class="headercontent" id="title">
+                <div id="titlecontent" class="Montserrat">BIGGS <s>Sound Voltex</s> Smash Tools</div>
+            </div>
+        </div>
+        <div id="everyoneelse">
+            <h1>Stages Pulled</h1>
+            <div class="chartspicked" id="container17">
+                <div class="songimage">
+                    <button id="banme" type="button">Ban me?</button>
+                    <img class="cardsongimage">
+                    <div class="songtext"></div>
+                </div>
+                <div class="songimage">
+                    <button id="banme" type="button">Ban me?</button>
+                    <img class="cardsongimage">
+                    <div class="songtext"></div>
+                </div>
+                <div class="songimage">
+                    <button id="banme" type="button">Ban me?</button>
+                    <img class="cardsongimage">
+                    <div class="songtext"></div>
+                </div>
+                <div class="songimage">
+                    <button id="banme" type="button">Ban me?</button>
+                    <img class="cardsongimage">
+                    <div class="songtext"></div>
+                </div>
+                <div class="songimage">
+                    <button id="banme" type="button">Ban me?</button>
+                    <img class="cardsongimage">
+                    <div class="songtext"></div>
+                </div>
+            </div>
+            <div class="settings">
+                <div class="amnttopull">
+                    <h1>Amount of Stages to pull</h1>
+                    <input type="number" min="1" max="5" value="3" id="amount">
+                    <button onclick="GETValuesToRandomize()" id="randomizebutton">randomize</button>
+                    <br>
+                    <h1>Legal Stage Ruleset</h1>
+                    <br>
+                    <select id="ruleset">
+                        <option value="BMHS2024" selected>BMHS 2024 OFFICIAL</option>
+                        <option value="GENESIS9">GENESIS 9</option>
+                        <option value="UNIFIEDNA">FULL PRICE 18</option>
+                        <option value="XANADU">XANADU</option>
+                        <option value="ALLSTAGES">ALL STAGES</option>
+                    </select> 
+                    <!--<button id="tiebreaker">TIEBREAKER BUTTON</button>-->
+                </div>
+            </div>
+        </div>
+        <script src="randomizeme.js"></script>
+    </body>
+</html>
