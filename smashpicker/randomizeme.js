@@ -14,13 +14,19 @@ const FP18 = {
     battlefield:"battlefield.jpg",small_battlefield:"small_battlefield.jpg",pokemon_stadium_2:"pokemon_stadium_2.jpg",smashville:"smashville.jpg",town_and_city:"town_and_city.jpg",kalos_pokemon_league:"kalos_pokemon_league.jpg",hollow_bastion:"hollow_bastion.jpg",final_destination:"final_destination.jpg"
 }
 
-
+const log = []
+var bans = 0
 
 const imagediv = document.getElementsByClassName("songimage")
 const image = document.getElementsByClassName("cardsongimage")
 const text = document.getElementsByClassName("songtext")
+const hiddenlog = document.getElementsByClassName("hiddenlog")
 var allbuttons = document.querySelectorAll('#banme')
 var allbuttonslen = allbuttons.length
+
+function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+};
 
 for (let i = 0; i<allbuttonslen;i++) {
     allbuttons[i].addEventListener("click", function() {
@@ -28,16 +34,29 @@ for (let i = 0; i<allbuttonslen;i++) {
             this.setAttribute("class","")
             this.setAttribute("id","banme")
             this.innerHTML = ("Ban me?")
+            log.push(" unbanned stage "+(i+1))
+            hiddenlog[0].innerHTML = (log + " | ")
+            bans += -1
         }
-        else if (this.innerHTML == "Ban me?") {
+        else if (this.innerHTML == "Ban me?" && bans != 2) {
             this.setAttribute("class","banned")
             this.setAttribute("id","")
             this.innerHTML = "BANNED"
+            log.push(" banned stage "+(i+1))
+            bans++
+            hiddenlog[0].innerHTML = (log + " | ")
+        }
+        else {
+            this.innerHTML = ("Out of bans")
+            sleep(1000).then (() => {this.innerHTML = ("Ban me?")})
         }
     });
 }
 
 function GETValuesToRandomize() {
+
+    bans = 0
+    log.push(" | Pulled new stages -> ")
 
     for (let i = 0; i<allbuttons.length; i++) {
         allbuttons[i].setAttribute("id","banme")
@@ -56,6 +75,11 @@ function GETValuesToRandomize() {
 
     console.log(imagediv)
     console.log(image)
+
+    var date = new Date()
+
+    log.push( (String(date.getHours() + 1)) + ":" + (String(date.getMinutes()+1)) + ":" + (String(date.getSeconds()+1)))
+    log.push(" RULESET = " +rules.value+" ")
 
     if (rules.value == "ALLSTAGES") {
         randomize(allstages,amntofcharts.value)
@@ -96,6 +120,8 @@ function randomize(ruleset,value) {
     console.log(names)
     console.log(links)
     attributetoimg(names,links)
+    log.push("pulled "+names)
+    console.log(log)
 }
 
 
@@ -107,4 +133,13 @@ function attributetoimg(names,links) {
         image[i].setAttribute("src","data/"+links[i])
         text[i].innerHTML = names[i]
     }
+}
+
+
+function copylogtoclipboard() {
+    var copytext = document.getElementById("asd");
+    var hold = document.getElementById("lognoti")
+    navigator.clipboard.writeText(copytext.innerHTML)
+    hold.setAttribute("style","opacity:100%;")
+    sleep(500).then(() => {hold.setAttribute("style","opacity:0;")})
 }
