@@ -1,8 +1,91 @@
-body {
-    background-color: #101113;
-    border:0;
-    margin:0;
+@keyframes fillprogressbar {
+    0% {border-left-width: 0;}
+    100% {border-left-width:100.5vw;}
 }
 
+.slideshow {
+    position:absolute;
+    top:2%;
+    width:100%;
+    height:80%;
+    object-fit: cover;
+    background-color: #101113;
+}
 
+.slideshow img {
+    height:100%;
+    width:100%;
+}
 
+.herotextbg {
+    position:absolute;
+    left:50%;
+    top:50%;
+    width:50%;
+    height:50%;
+    background-color: rgba(0, 0, 0, 0.8);
+    transform: translate(-50%,-50%);
+}
+
+.herotext{
+    position:absolute;
+    width: 100%;
+    top:50%;
+    left:50%;
+    font-size: 64px;
+    color:white;
+    text-align: center;
+    transform: translate(-50%,-50%);
+}
+
+#gone {
+    opacity:0;
+    position:absolute;
+    height:0;
+    width:0;
+}
+
+.progressbar{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:1%;
+    background-color:transparent;
+    border-left-width: 0px;
+    border-left-color: #D8B41A;
+    border-left-style: solid;
+    animation-name: fillprogressbar;
+    animation-duration: 7s;
+    animation-fill-mode: forwards;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+}
+
+.foot {
+    position:absolute;
+    top:100%;
+    width:100%;
+    height:20%;
+    background-color: black;
+    z-index: 7;
+}
+
+.socialscontainer {
+    width:100%;
+    height:100%;
+}
+
+.socials{
+    position:absolute;
+    left:50%;
+    transform: translateX(-50%);
+}
+
+.meee {
+    position:absolute;
+    bottom:0;
+    left:50%;
+    transform: translateX(-50%);
+    font-size: 20px;
+    margin-bottom: 5px;
+}
