@@ -1,0 +1,29 @@
+@keyframes slide-in-left {
+    0% {transform: translateX(0); opacity:0;}
+    100% {transform: translateX(100%); opacity:100%;}
+}
+  
+
+
+.slide-in-left {
+	-webkit-animation: slide-in-left 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-left 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+h1 {
+    color:#E3BF2E;
+    text-align: center;
+}
+
+.container {
+    width:80%;
+    position:absolute;
+    left:50%;
+    transform:translateX(-50%)
+}
+
+.container img {
+    position:absolute;
+    left:-50%;
+    transform: translateX(-50%);
+}
