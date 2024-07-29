@@ -9,9 +9,16 @@
 }
 
 @keyframes fadein {
-    0% {opacity:0%}
-    100% {opacity:100%}
+    from {opacity:0%}
+    to {opacity:100%}
 }
+
+@keyframes fadeout {
+    from {opacity:100%}
+    to {opacity:0%}
+}
+
+
 
 a {
     color:white;
@@ -39,6 +46,10 @@ a:visited {
         animation-duration: 150ms;
         animation-fill-mode: forwards;
         animation-timing-function: linear;
+    }
+
+    .dropdown a:hover {
+        background-color: #222325;
     }
 }
 
@@ -155,6 +166,10 @@ body {
     opacity:0;
     background-color: #28292E;
     z-index: 6;
+    animation-name: fadeout;
+    animation-duration: 150ms;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
 }
 
 .dropdown a {

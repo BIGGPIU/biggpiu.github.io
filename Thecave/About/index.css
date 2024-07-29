@@ -1,0 +1,19 @@
+h1 {
+    color:#E3BF2E;
+    text-align: center;
+}
+
+p {
+    color:#E3BF2E;
+    font-size: 25px;
+    text-align: center;
+}
+
+.Abouttext{
+    position:absolute;
+    left:50%;
+    transform: translateX(-50%);
+    width:85%;
+    height:100%;
+    margin-top: 25px;
+}
