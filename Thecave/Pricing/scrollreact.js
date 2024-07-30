@@ -8,6 +8,6 @@ function show () {
     if (document.documentElement.scrollTop > x) {
         loadme[i].setAttribute("class","rhythmgametier show")
         i++ 
-        x += 250
+        x += 220
     }
 }
