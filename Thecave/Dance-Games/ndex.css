@@ -1,0 +1,67 @@
+@keyframes slide-in-bottom {
+    0% {transform: translate(-50%, 0); opacity:0%;}
+    100% {transform: translate(-50%, -100%); opacity: 100%;}
+}
+
+@keyframes slide-in-bottomt {
+    0% {transform: translateY(0); opacity:0%;}
+    100% {transform: translateY(-100%); opacity: 100%;}
+}
+
+h1 {
+    text-align: center;
+    color: #E3BF2E;
+}
+
+li {
+    text-align: center;
+    color: #E3BF2E;
+    font-size: 32px;
+}
+
+.hosted {
+    font-size: 32px;
+    color:#E3BF2E;
+    position:absolute;
+    left:50%;
+    top:15%;
+    opacity: 0%;
+    transform: translateX(-50%);
+    display: inline-block;
+}
+
+.slidein {
+    animation:slide-in-bottom 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.otherslidein {
+    animation-name: slide-in-bottomt;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0.250, 0.460, 0.450, 0.940);
+    animation-fill-mode: both;
+    animation-delay: 1.5s;
+    opacity: 0;
+}
+
+.belowhosted {
+    height:80%;
+    width:100%;
+    position:absolute;
+    top:25%;
+}
+
+
+#hosted {
+    float:left
+}
+
+.bazinga {
+    position:relative;
+    float: left;
+}
+
+
+.notnavbar {
+    color:#E3BF2E !important;
+    text-decoration: underline;
+}
