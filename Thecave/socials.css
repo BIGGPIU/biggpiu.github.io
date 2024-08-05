@@ -20,6 +20,13 @@
     animation-direction: normal;
     animation-fill-mode: both;
 }
+
+@media only screen and (max-width:600px) {
+    .fa {
+        width:20px;
+        padding:5px
+    }
+}
   
 .fa:hover {
       opacity: 0.7;
