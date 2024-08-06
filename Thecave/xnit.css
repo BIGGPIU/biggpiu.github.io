@@ -41,7 +41,7 @@ a:visited {
     }
 
     .dropdown{
-        top:45%;
+        top:40%;
         animation-name: fadein;
         animation-duration: 150ms;
         animation-fill-mode: forwards;
