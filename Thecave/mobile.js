@@ -1,3 +1,8 @@
+
+function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+};
+
 const elements = document.querySelectorAll('.he');
 var checked = false
 
@@ -10,7 +15,9 @@ elements.forEach((element) => {
     }
     else {
         checked = false
-        element.classList.remove('touched');
+        sleep(12).then( () => {
+          element.classList.remove('touched');
+        })
     }
   });
 });
