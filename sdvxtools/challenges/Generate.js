@@ -44,7 +44,7 @@ function Generatechallengecode(list,vf) {
     }
     let part = Math.round(equation(Number(chosen.substr(1,2)),Number(vf)))
     part += genrandomness()
-    let answer = (chosen.substr(1,2)+"-"+list[chosen]+"-"+part)
+    let answer = (list[chosen]+"-"+chosen.substr(1,2)+"-"+part)
     return answer
 }
 
