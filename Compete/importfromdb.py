@@ -68,7 +68,7 @@ def MAKEinfointoHTML(sql):
                 <div class="elhc">W/L</div>
             </div>
             <div class="Rank">
-                <div class="elhc">rank</div>
+                <div class="elhc">Rank</div>
             </div>
         </div>
         <div class="elo-leaderboard-content font-montserrat">
@@ -124,7 +124,7 @@ def MAKEinfointoHTML(sql):
                 <div class="event">
                     <a href="https://start.gg/BMHS">
                         <div class="please">
-                            <div class="please-center">Click To Sign Up On Start.gg<br><br>Please?</div>
+                            <div class="please-center">Click To Sign Up On Start.gg?<br><br>Please?</div>
                         </div>
                     </a>
                     <div class="event-header">WEEK 1/TEST</div>
@@ -136,12 +136,17 @@ def MAKEinfointoHTML(sql):
                 </div>
             </div>
 
+
             <div class="obligatory">
                 Created by Diya Shakoor. <br> <br>
                 <a href="https://github.com/BIGGPIU/biggpiu.github.io/tree/main/Compete" style="color:white;"> <i class="fa fa-github" style="font-size:20px"></i> Check out the source code on Github</a> <br><br>
                 <a href="https://start.gg/BMHS" style="color:white; text-decoration: underline;"> View Our Start.gg Page</a> <br><br>
                 This page is not managed by or affiliated with Bishop Mcnamara High School
             </div> 
+
+
+            <script src="scroll.js"></script>
+            
         </html>
 """
         f.write(string)
