@@ -124,7 +124,7 @@ def MAKEinfointoHTML(sql):
                 <div class="event">
                     <a href="https://start.gg/BMHS">
                         <div class="please">
-                            <div class="please-center">Click To Sign Up On Start.gg?<br><br>Please?</div>
+                            <div class="please-center">Click To Sign Up On Start.gg<br><br>Please?</div>
                         </div>
                     </a>
                     <div class="event-header">WEEK 1/TEST</div>
@@ -135,18 +135,29 @@ def MAKEinfointoHTML(sql):
                     <div class="Date">Date:2/6/25</div>
                 </div>
             </div>
-
+            
+            <div class="faq-title font-montserrat slide-in-left">FAQ</div>
+            <div class="faqs font-montserrat">
+                <div class="faq-question">Where Can I Read The Rules?</div>
+                <div class="faq-response">You can read them <a href="https://docs.google.com/document/d/18wTJArFtlqLXcjPEdIfbWnb7HJMZQhoCgstRNP8wJZY/edit?usp=sharing" style="text-decoration: underline;">right here.</a></div>
+                <div class="faq-question">What is the website for Picking Stages?</div>
+                <div class="faq-response"><a href="https://biggpiu.github.io/smashpicker" style="text-decoration: underline;">biggpiu.github.io/smashpicker</a></div>
+                <div class="faq-question">How can I sign up without using start.gg?</div>
+                <div class="faq-response">Contact me via any means or fill out <a href="https://forms.gle/raWQwXa1fLdcgKQs6" style="text-decoration: underline;">this form</a></div>
+                <div class="faq-question">How do I earn Series points?</div>
+                <div class="faq-response">All information about SP is <a href="https://docs.google.com/document/d/18wTJArFtlqLXcjPEdIfbWnb7HJMZQhoCgstRNP8wJZY/edit?usp=sharing" style="text-decoration: underline;">on this google doc</a> </div>
+                <div class="faq-question">How do I get ELO?</div>
+                <div class="faq-response">Play games against others with the competitive ruleset and send the results to Diya</div>
+            </div>
 
             <div class="obligatory">
                 Created by Diya Shakoor. <br> <br>
                 <a href="https://github.com/BIGGPIU/biggpiu.github.io/tree/main/Compete" style="color:white;"> <i class="fa fa-github" style="font-size:20px"></i> Check out the source code on Github</a> <br><br>
                 <a href="https://start.gg/BMHS" style="color:white; text-decoration: underline;"> View Our Start.gg Page</a> <br><br>
                 This page is not managed by or affiliated with Bishop Mcnamara High School
-            </div> 
-
-
-            <script src="scroll.js"></script>
+            </div>
             
+            <script src="scroll.js"></script>
         </html>
 """
         f.write(string)
@@ -155,7 +166,8 @@ def MAKEinfointoHTML(sql):
 if __name__ == "__main__":
     os.chdir(r"C:\Users\diyaj\Downloads\Recommend me stuff!\New folder\biggpiu.github.io\Compete")
     try:
-        os.remove("index.html")
+        #os.remove("index.html")
+        pass
     except:
         pass
     hold = GETinfofromDB()
