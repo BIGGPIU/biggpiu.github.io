@@ -54,6 +54,10 @@
     font-family:montserrat-regular;
 }
 
+.font-arial {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .fade-in {
     animation-name: fade-in;
 }
