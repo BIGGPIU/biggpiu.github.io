@@ -281,6 +281,12 @@ a:visited {
     border-bottom-left-radius: 5px;
 }
 
+@media only screen and (max-width:450px) {
+    .event-header {
+        font-size: 28px;
+    }
+}
+
 .main-stage-header {
     float:left;
     position:relative;
