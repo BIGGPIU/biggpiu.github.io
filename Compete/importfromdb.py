@@ -120,7 +120,7 @@ def MAKEinfointoHTML(sql):
         </div>
             </div>
             <div class="upcoming-title font-montserrat slide-in-left">Upcoming Events</div>
-            <div class="upcoming slide-in-left" style="animation-delay: 1s; animation-name: slide-in-left-modified;">
+            <div class="upcoming slide-in-left font-arial" style="animation-delay: 1s; animation-name: slide-in-left-modified;">
                 <div class="event">
                     <a href="https://start.gg/BMHS">
                         <div class="please">
@@ -150,7 +150,7 @@ def MAKEinfointoHTML(sql):
                 <div class="faq-response">Play games against others with the competitive ruleset and send the results to Diya</div>
             </div>
 
-            <div class="obligatory">
+            <div class="obligatory font-montserrat">
                 Created by Diya Shakoor. <br> <br>
                 <a href="https://github.com/BIGGPIU/biggpiu.github.io/tree/main/Compete" style="color:white;"> <i class="fa fa-github" style="font-size:20px"></i> Check out the source code on Github</a> <br><br>
                 <a href="https://start.gg/BMHS" style="color:white; text-decoration: underline;"> View Our Start.gg Page</a> <br><br>
