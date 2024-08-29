@@ -38,6 +38,18 @@
     100% {opacity:0%;}
 }
 
+@keyframes slide-out-top {
+    0% {transform: translateY(0); opacity: 100%;}
+    100% {transform: translateY(-100%); opacity: 0%;}    
+}
+
+@keyframes slide-out-top-modified {
+    0% {transform: translateY(0);}
+    100% {transform: translateY(-100%);}    
+}
+  
+  
+
 @font-face {
     font-family: montserrat-light;
     src: url("../fonts/Montserrat-ExtraLight.ttf");
@@ -426,4 +438,53 @@ a:visited {
     color:white;
     font-size: 20px;
     background-color: #FFFFFF09;
+}
+
+.flashed {
+    will-change: transform;
+    position:absolute;
+    animation-name: slide-out-top;
+    animation-delay: 1.5s;
+    animation-duration: 1000ms;
+    animation-timing-function:cubic-bezier(0.550, 0.085, 0.680, 0.530);
+    animation-fill-mode: forwards;
+    width:100%;
+    height:100%;
+    background-color:#EEE;
+    overflow-y: none;
+    z-index: 99999;
+}
+
+.flashed-child /*I gotta fix my naming schemes*/ {
+    top:50%;
+    left:50%;
+    position:relative;
+    width:100%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 64px;
+    color:black;
+    z-index: 999999;
+    opacity:100%;
+}
+
+
+#byebye {
+    animation-name: none;
+    top:-99999%;
+}
+.goawayplease {
+    position:absolute;
+    width:100%;
+    height:100%;
+    opacity:0%;
+    animation-name: slide-out-top-modified;
+    animation-delay: 1s;
+    animation-duration: 1000ms;
+    animation-timing-function:cubic-bezier(0.550, 0.085, 0.680, 0.530);
+    animation-fill-mode: both;
+}
+
+html {
+    overflow-y:hidden;
 }

@@ -1,9 +1,13 @@
 var loadme = document.getElementsByClassName("faq-question")
 var loadme2 = document.getElementsByClassName("faq-response")
+var getme = document.getElementsByClassName("flashed")
+var getme2 = document.getElementsByTagName("html")
 let i = 0
 let x = 1000
 let hold = [150,150,100,100,100,100]
 console.log(loadme)
+
+setInterval(addoverflow,2000)
 
 window.mobileCheck = function() {
     let check = false;
@@ -32,4 +36,14 @@ function show () {
         i++ 
         x += hold[i]
     }
+}
+
+
+function addoverflow () {
+    getme2[0].setAttribute("style","overflow-y: visible")
+}
+
+function GOAWAY() {
+    getme[0].setAttribute("id","byebye")
+    addoverflow()
 }

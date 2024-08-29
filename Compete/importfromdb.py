@@ -51,6 +51,10 @@ def MAKEinfointoHTML(sql):
 </head>
 
 <html>
+    <div class="flashed font-montserrat">
+        <button class="goawayplease" onclick="GOAWAY()"></button>
+        <div class="flashed-child">Competitive Season 2</div>
+    </div>
     <header class="fade-in"><a href="../">BMHS Competitive</a></header>
     <div class="elo-leaderboard-title font-montserrat slide-in-left">Leaderboard</div>
     <div class="elo-leaderboard slide-in-left" style="animation-delay: 1s;">
