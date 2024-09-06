@@ -1,0 +1,57 @@
+.user-container {
+    position:absolute;
+    background-color: transparent;
+    width:80%;
+    height:200%;
+    top:10%;
+    left:50%;
+    transform: translateX(-50%);
+    background-color: #232323;
+    border-radius: 15px;
+    color:white;
+}
+
+.username-header {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px; 
+}
+
+#username {
+    grid-area: 1 / 1 / 3 / 11;
+    font-size: 32px;
+    text-align: center;
+}
+
+#ELO {
+    font-size: 32px;
+    grid-area: 3 / 1 / 4 / 11;
+}
+
+#rank {
+    font-size: 32px;
+    grid-area: 4 / 1 / 5 / 11;
+}
+
+#WL {
+    font-size: 32px;
+    grid-area: 5 / 1 / 6 / 11;
+}
+
+#bestplacement {
+    font-size: 32px;
+    grid-area: 6 / 1 / 7 / 11;
+}
+
+.graph-header {
+    font-size: 32px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+html {
+    overflow-y: auto !important;
+}

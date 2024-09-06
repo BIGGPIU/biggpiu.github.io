@@ -231,12 +231,22 @@ header {
 
 a {
     text-decoration: none;
-    color:#B4B4B4;
+    color:#EEE;
 }
 
 a:visited {
     text-decoration: none;
-    color:#B4B4B4;
+    color:#EEE;
+}
+
+a:active {
+    text-decoration: none;
+    color:#EEE;
+}
+
+a:link {
+    text-decoration: none;
+    color:#EEE;
 }
 
 .priviledges {

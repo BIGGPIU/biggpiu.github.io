@@ -85,7 +85,7 @@ def MAKEinfointoHTML(sql):
             string += f"""
             <div class="elo-leaderboard-content-inner font-montserrat">
                 <div class="Name">
-                    <div class="elhc">{i[0]}</div>
+                    <div class="elhc"><a href="../Compete/{i[0]}/">{i[0]}</a></div>
                 </div>
                 <div class="ELO">
                     <div class="elhc">{i[3]}</div>
@@ -101,10 +101,11 @@ def MAKEinfointoHTML(sql):
                 </div>
             </div>
                 """ 
+            
         string += """
             <div class="elo-leaderboard-content-inner font-montserrat">
                 <div class="Name">
-                    <div class="elhc">BIGG</div>
+                    <div class="elhc"><a href="../Compete/BIGG/">BIGG</a></div>
                 </div>
                 <div class="ELO">
                     <div class="elhc">washed :(</div>
@@ -120,6 +121,7 @@ def MAKEinfointoHTML(sql):
                 </div>
             </div>
             """
+        
         string += """
         </div>
             </div>
@@ -165,6 +167,8 @@ def MAKEinfointoHTML(sql):
         </html>
 """
         f.write(string)
+
+
 
 
 if __name__ == "__main__":
