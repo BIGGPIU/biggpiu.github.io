@@ -1,11 +1,11 @@
 
-const xvalues = [' ', ' ']
-const yvalues = ['1500', '1500']
+const xvalues = [' ']
+const yvalues = ['1558']
 const plabels = ["1st","2nd","3rd","Did Not Place"]
-const placements = [0,0,0,0,0,0,0,0]
-const wins = ['3', '3']
-const losses = ['9', '9']
-const wlabels = [' ', ' ']
+const placements = [0,0,0,0]
+const wins = ['4']
+const losses = ['2']
+const wlabels = [' ']
 
 new Chart("myChart", {
     type:"line",
