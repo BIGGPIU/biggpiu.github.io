@@ -24,11 +24,14 @@ def GETinfofromDB2():
     return hold
 
 def negotiatebest(first,second,third,DNP):
-    if first != '0':
+    first = first.split(",")
+    second = second.split(",")
+    third = third.split(",")
+    if first[0] != '0':
         return "TOP 1"
-    if second != '0':
+    if second[0] != '0':
         return "TOP 2"
-    if third != '0':
+    if third[0] != '0':
         return "TOP 3"
     return "DNP"
 
