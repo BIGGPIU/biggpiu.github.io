@@ -55,3 +55,9 @@
 html {
     overflow-y: auto !important;
 }
+
+@media only screen and (max-width:450px) {
+    .user-container {
+        background-color: transparent !important;
+    }
+}
