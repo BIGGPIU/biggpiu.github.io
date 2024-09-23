@@ -1,0 +1,45 @@
+.fill {
+    height:100%;
+    width:100%;
+    background-color: black;
+}
+
+body {
+    width:100%;
+    height:100%;
+    border: 0px;
+    background-color: gray;
+    position:absolute;
+    margin: 0 0 0 0;
+    height:100%;
+    width:100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+}
+
+.lbut {
+    width:50%;
+    height:100%;
+    float:left;
+    opacity: 0%;
+    position:relative;
+    z-index: 9999;
+}
+
+.rbut {
+    position:relative;
+    width:50%;
+    height:100%;
+    float:left;
+    opacity:0%;
+    z-index: 9999;
+}
+
+img {
+    position:absolute;
+    width:100%;
+    height:100%;
+    left:0;
+    object-fit: fill;
+}
