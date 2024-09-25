@@ -1,0 +1,264 @@
+@font-face {
+    font-family: quizlet;
+    src: url('./fonts/hurmegeosans-no2-600.e647fc28.woff2');
+}
+
+@keyframes remove {
+    0% {transform: translateY(0); opacity:100%;}
+    100% {transform: translateY(-100%); opacity: 0%;}
+}
+
+@keyframes flashcorrect {
+    0% {border-color: rgba(255, 255, 255, 1); background-color: rgba(0, 0, 0, 0.2);}
+    100% {background-color: rgba(0, 255, 0, 0.2);border-color: rgba(0, 255, 0, 1);}
+}
+
+@keyframes flashwrong {
+    0% {border-color: rgba(255, 255, 255, 1); background-color: rgba(0, 0, 0, 0.2);}
+    100% {background-color: rgba(255, 0, 0, 0.2);border-color: rgba(255, 0, 0, 1);}
+}
+
+@keyframes slideup {
+    0% {transform: translateY(0%);}
+    100% {transform: translateY(-100%);}
+}
+
+.remove {
+    animation-name: remove;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function:cubic-bezier(0.550, 0.085, 0.680, 0.530);
+}
+
+.slideup {
+    /* animation-name: slideup;
+    animation-timing-function: cubic-bezier(0.600, -0.280, 0.735, 0.045);
+    animation-duration: 0.5s; */
+    transform: translateY(-100%);
+}
+
+
+#correctflash {
+    animation-name: flashcorrect;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
+
+#wrongflash {
+    animation-name: flashwrong;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
+
+.font-quizlet {
+    font-family: quizlet;
+}
+
+body {
+    margin:0 0 0 0;
+    border: 0 0 0 0;
+}
+
+textarea {
+    resize: none;
+}
+
+#screen1 {
+    height:100%;
+    width:100%;
+    position:absolute;
+    background-color: #0A092D;
+    font-family: quizlet;
+    z-index: 9;
+}
+
+#quizletimport {
+    width:50%;
+    height:50%;
+    position:relative;
+    left:50%;
+    transform: translateX(-50%);
+    text-align: start;
+}
+
+.screen1heading {
+    color:white;
+    text-align: center;
+    height:20%;
+    font-size: 4vw;
+}
+
+.vcenter {
+    position:relative;
+    top:50%;
+    transform: translateY(-50%);
+}
+
+.screen1buttons {
+    margin-top: 25px;
+    height:10%;
+    width:50%;
+    position:relative;
+    left:50%;
+    transform: translateX(-50%);
+}
+
+/* .learn {
+    float:left;
+    width:45%;
+    height:50%;
+    background-color: #4255FF;
+    color:white;
+    border-radius: 5px;
+    border-style:solid;
+    border-color: rgba(0, 0, 0, 0);
+}
+
+.learn:nth-child(1) {
+    margin-right: 2.5%;
+}
+
+.learn:nth-child(2) {
+    margin-left: 2.5%;
+} */
+
+
+.buttoncontainer {
+    float:left;
+    width:50%;
+    height:50%;
+}
+
+.learn {
+    width:90%;
+    height:100%;
+    position:relative;
+    left:50%;
+    transform: translateX(-50%);
+    background-color: #4255FF;
+    color:white;
+    border-radius: 5px;
+    border-style:solid;
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#made {
+    color:white;
+    position:absolute;
+    top:calc(100% - 2em);
+}
+
+
+#introscreen {
+    position:absolute;
+    width:100%;
+    height:100%;
+    background-color: #0A092D;
+    z-index: 10;
+}
+
+#introheading {
+    position:relative;
+    color:white;
+    width:100%;
+    height:10%;
+    text-align: center;
+    font-size: 4vw;
+    z-index: 11;
+}
+
+#imagesummary {
+    width:100%;
+    height:80%;
+    position:relative;
+    z-index: 11;
+}
+
+#clickme {
+    width: 100%;
+    height:9%;
+    text-align: center;
+    color:white;
+}
+
+#screen2 {
+    background-color: #0A092D;
+    width:100%;
+    height:100%;
+    position: absolute;
+    overflow-y: hidden;
+}
+
+.cardcontainer {
+    position:relative;
+    height:100%;
+    width:100%;
+    background-color: transparent;
+    float:left;
+}
+
+.card {
+    width:70%;
+    height:70%;
+    background-color: #2E3856;
+    position:relative;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+}
+
+.questioncontainer {
+    height:30%;
+    width:100%;
+    color:white;
+    font-size: 1vw;
+    text-align: center;
+}
+
+.questiondiv {
+    position:relative;
+    top:50%;
+    transform: translateY(-50%);
+}
+
+.answercontainer {
+    width:100%;
+    height:40%;
+    margin-top: 10%;
+}
+
+.answerblock {
+    width:50%;
+    height:50%;
+    float:left;
+}
+
+.answerdiv {
+    position:relative;
+    width:98%;
+    height:90%;
+    border-radius: 13px;
+    color: white;
+    background-color: transparent;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.3);
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+}
+
+.answerdiv:hover {
+    border-color: rgba(255, 255, 255, 1);
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.answertext {
+    position:relative;
+    top:50%;
+    transform: translateY(-50%);
+    text-align: center;
+}

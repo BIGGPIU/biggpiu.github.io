@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <title>FUCK QUIZLET</title>
+</head>
+
+<html>
+    <body>
+        <div id="introscreen">
+            <div id="introheading" class="font-quizlet">
+                How to use
+            </div>
+            <img src="" alt="" id="imagesummary">
+            <div id="clickme" class="font-quizlet">
+                Click to Continue
+            </div>
+        </div>
+        <div id="screen1">
+            <div class="screen1heading">
+                <div class="vcenter">Paste your Practice Set here</div>
+            </div>
+            <textarea type="text" name="quizletimport" id="quizletimport" placeholder="Insert Your Practice Set Here"></textarea>
+            <div class="screen1buttons">
+                <div class="buttoncontainer">
+                    <button class="learn font-quizlet" id="learn" onclick="CreateSet('Learn')">Learn</button>
+                </div>
+                <div class="buttoncontainer">
+                    <button class="learn font-quizlet" id="test" onclick="CreateSet('Test')">Test</button>
+                </div>
+            </div>
+
+            <a id="made" href="https://github.com/BIGGPIU"><i class="fa fa-github" style="font-size:20px"></i> Made With Malice By Diya Shakoor.</a>
+        </div>
+        <div id="screen2" class="font-quizlet">
+
+        </div>
+
+        <script src="index.js"></script>
+    </body>
+</html>

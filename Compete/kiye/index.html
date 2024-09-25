@@ -1,0 +1,46 @@
+
+
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="BMHS Competitive" /> 
+    <meta property="og:description" content="Bishop Mcnamara Esports League"/>  
+    <meta property="og:url" content="https://biggpiu.github.io/compete" /> 
+    <meta property="og:image" content="https://raw.githubusercontent.com/BIGGPIU/biggpiu.github.io/main/data/competitive.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/x-icon" href="../data/cicon.png">
+    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="../user.css">
+    <title>BMHS Competitive</title>
+</head>
+
+<html>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script> 
+    <header class="fade-in"><a href="../">BMHS Competitive</a></header>
+    <div class="user-container font-montserrat">
+        <div class="username-header">
+            <div id="username">kiye</div>
+            <div id="ELO">1569 ELO</div>
+            <div id="rank">Silver</div>
+            <div id="WL">3 Wins 1 Losses</div>
+            <div id="bestplacement">Best placement: TOP 2</div>
+        </div>
+        <div class="elo-overtime">
+            <div class="graph-header">ELO over time </div>
+            <canvas id="myChart" style="width:100%; height:300px;"></canvas> 
+        </div>
+        <div class="placements">
+            <div class="graph-header">Placement breakdown</div>
+            <canvas id="myChartpie" style="width:100%; height:500px;"></canvas>
+
+        </div>
+        <div class="WLovertime">
+            <div class="graph-header">W/L Overtime</div>
+            <canvas id="myChartLine" style="width:100%; height:300px;"></canvas>
+
+        </div>
+    </div>
+    <script src="info.js"></script>
+</html>
