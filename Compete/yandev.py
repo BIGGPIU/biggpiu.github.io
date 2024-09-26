@@ -59,6 +59,22 @@ def createJS(elohistory,winhistory,losshistory,first,second,third,dnp):
     winhistory = winhistory.split(",")
     losshistory = str(losshistory)
     losshistory = losshistory.split(",")
+    fhistory:list = first.split(",")
+    shistory = second.split(",")
+    thistory = third.split(",")
+    dnphistory = dnp.split(",")
+    fval = 0
+    sval = 0
+    tval = 0
+    dnpval = 0
+    for i in fhistory:
+        fval += int(i)
+    for i in shistory:
+        sval += int(i)
+    for i in thistory:
+        tval += int(i)
+    for i in dnphistory:
+        dnpval += int(i)
     for i in elohistory:
         empty1.append(" ")
     for i in winhistory:
@@ -69,7 +85,7 @@ def createJS(elohistory,winhistory,losshistory,first,second,third,dnp):
 const xvalues = {empty1}
 const yvalues = {elohistory}
 const plabels = ["1st","2nd","3rd","Did Not Place"]
-const placements = [{first},{second},{third},{dnp}]
+const placements = [{fval},{sval},{tval},{dnpval}]
 const wins = {winhistory}
 const losses = {losshistory}
 const wlabels = {empty2}

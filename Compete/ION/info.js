@@ -2,7 +2,7 @@
 const xvalues = [' ', ' ', ' ', ' ', ' ', ' ']
 const yvalues = ['1500', '1500', '1500', '1479', '1479', '1450']
 const plabels = ["1st","2nd","3rd","Did Not Place"]
-const placements = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1]
+const placements = [0,0,0,1]
 const wins = ['13', '13', '13', '13', '13', '13']
 const losses = ['36', '36', '36', '37', '37', '38']
 const wlabels = [' ', ' ', ' ', ' ', ' ', ' ']
