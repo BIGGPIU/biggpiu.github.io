@@ -133,12 +133,12 @@ def MAKEinfointoHTML(sql):
                             <div class="please-center">Click To Sign Up On Start.gg<br><br>Please?</div>
                         </div>
                     </a>
-                    <div class="event-header">WEEK 1/TEST</div>
+                    <div class="event-header">WEEK 2</div>
                     <div class="main-stage-header">Main Event</div>
                     <div class="main-stage-content">SSBU Singles</div>
                     <div class="side-stage-header">Side Tournament</div>
-                    <div class="side-stage-content">TBD</div>
-                    <div class="Date">Date:2/6/25</div>
+                    <div class="side-stage-content">RANDOM ONLY</div>
+                    <div class="Date">Date:10/23/24</div>
                 </div>
             </div>
             
