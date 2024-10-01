@@ -1,11 +1,25 @@
 const intro = document.getElementById("introscreen");
 const screen1 = document.getElementById("screen1")
 let confidence = 0;
+let reps = 1;
 let QuestionNumber = 1;
 let alladults = ""; //man what the fuck is going on with my naming
 let CorrectAnswer = [];
-let newstyle = $('<style>.adjust { transform:translateY'+((QuestionNumber-1)*100) + ';') 
-
+let quotesfuckedmeover = "onclick='CreateSet" + '("Learn",true)'+"'"
+let keepitup = '<div class="cardcontainer">\n'
++'  <div class="card">\n'
++'      <div class="questioncontainer">'
++'          <div class="questiondiv">'+'Keep Up The Good Work!'+'</div>'
++'      </div>'
++'      <div class="answercontainer">'
++'          <div class="freakyblock">'
++'              <div class="freakydiv" '+quotesfuckedmeover +'>'
++'                  <div class="answertext clicktocontinue">'+ 'Click me to continue' + '</div>'
++'              </div>'
++'          </div>'
++'      </div>'
++'  </div>'
++'</div>'
 
 // let string = '<div class="cardcontainer">\n'
 // +'  <div class="card">\n'
@@ -35,6 +49,27 @@ function scramble(list) {
     return newlist
 }
 
+function createtextbox(question) {
+    string = '<div class="cardcontainer">\n'
++'  <div class="card">\n'
++'      <div class="questioncontainer">'
++'          <div class="questiondiv">'+question+'</div>'
++'      </div>'
++'      <div class="answercontainer">'
++'          <div class="textanswerblock">'
++'              <div class="textanswerdiv">'
++'                  <div class="correctorwrong">helloworld</div>'
++'                  <input class="answertextbox"></input>'
++'                  <div class="freakysubmitbutton">' //chat we're getting fired for this one 
++'                      <div class="freakycontainer"><img src="./fonts/arrow-right-solid.svg" class="centerarrow"> </img></div>'
++'                  </div>'
++'              </div>'
++'          </div>'
++'      </div>'
++'  </div>'
++'</div>'
+    return string
+}
 
 function createstring(question,AllPossibleAnswerList) {
     // incorrect list has a MAX of 3 and  MIN of 3 so make it three or else
@@ -99,7 +134,7 @@ function addtwonumbers(x,y) {
     return x
 }
 
-function CreateSet( check ) {
+function CreateSet( check, cyclecheck) {
     // let Quizletset = $("quizletimport").val()
     let rawQuizletset = document.getElementById("quizletimport")
     let Quizletset = document.getElementById("quizletimport").value;
@@ -110,6 +145,11 @@ function CreateSet( check ) {
         switch (check) {
             case ("Learn"):
                 CreateLearnSet( Quizletset );
+                if (cyclecheck === true) {
+                    cycle(500*reps)
+                    QuestionNumber += -1
+                    reps++
+                }
                 break;
             case ("Test"):
                 CreateTestSet( Quizletset );
@@ -122,6 +162,7 @@ function CreateSet( check ) {
 }
 
 function CreateLearnSet( importQuestionset ) {
+    // Returns a set of questions and answers used for further processing
     let Questionset = importQuestionset.split("#")
     Questionset.pop()
     let questions = []
@@ -134,8 +175,6 @@ function CreateLearnSet( importQuestionset ) {
         answers.push(x[1])
     }
 
-    console.log(questions)
-    console.log(answers)
     CreateCards(questions,answers)
 }
 
@@ -144,39 +183,88 @@ function CreateTestSet( Questionset ) {
 }
 
 
+
 function CreateCards( questions,answers ) {
     let nums = []
+    let k = 0;
     let appendhtml = ""
     let incorrect1 = ""
     let incorrect2 = ""
     let incorrect3 = ""
     let answer = ""
     let answerblocks = "";
+    let textanswerblock = "";
     let allparents = "";
-    for (let i = 0; i < questions.length; i++) {
-        nums = GetRandomNumber(answers.length,3,i)
-        CorrectAnswer.push(answers[i])
-        answer = answers[i]
-        incorrect1 = answers[nums[0]]
-        incorrect2 = answers[nums[1]]
-        incorrect3 = answers[nums[2]]
-        appendhtml = createstring(questions[i],[incorrect1,incorrect2,incorrect3,answer])
-        $( "#screen2" ).append(appendhtml)
+    let antienter = "";
+    if (confidence > questions.length/2){
+        for (let i = 0; i < questions.length; i++) {
+            coinflip = GetRandomNumber(2,1,3) 
+            if (coinflip == 1) {
+                appendhtml = createtextbox(questions[i])
+                CorrectAnswer.push(answers[i])
+            }
+            else {
+                nums = GetRandomNumber(answers.length,3,i)
+                CorrectAnswer.push(answers[i])
+                answer = answers[i]
+                incorrect1 = answers[nums[0]]
+                incorrect2 = answers[nums[1]]
+                incorrect3 = answers[nums[2]]
+                appendhtml = createstring(questions[i],[incorrect1,incorrect2,incorrect3,answer])
+            }
+            $( "#screen2" ).append(appendhtml)
+        }
+    }
+    else {
+        for (let i = 0; i < questions.length; i++) {
+            nums = GetRandomNumber(answers.length,3,i)
+            CorrectAnswer.push(answers[i])
+            answer = answers[i]
+            incorrect1 = answers[nums[0]]
+            incorrect2 = answers[nums[1]]
+            incorrect3 = answers[nums[2]]
+            appendhtml = createstring(questions[i],[incorrect1,incorrect2,incorrect3,answer])
+            $( "#screen2" ).append(appendhtml)
+        }
     }
     alladults = document.getElementById("screen2").children
     answerblocks = document.getElementsByClassName("answerdiv")
-    
+    textanswerblock = document.getElementsByClassName("answertextbox")
+    // antienter = document.getElementsByClassName()
+    $(" #screen2 ").append(keepitup)
     for (let i = 0; i < answerblocks.length; i++) {
         answerblocks[i].addEventListener("click",function() {
             if (CheckAnswer(this.innerText) == false) {
                 console.log(this)
                 allparents = this.parentElement.parentElement.children
                 setwrongflash(allparents)
-                cycle()
+                cycle(100)
             }
             else {
+                confidence++
                 this.setAttribute("id","correctflash")
-                cycle()
+                cycle(100)
+            }
+        })
+    }
+    for (let i = 0; i < textanswerblock.length; i++) {
+        textanswerblock[i].addEventListener("keypress",function(e) {
+            if (e.key === "Enter") {
+                console.log(this.value)
+                k = stringSimilarity.compareTwoStrings(this.value,CorrectAnswer[QuestionNumber-1])
+                console.log(k)
+                console.log(CorrectAnswer[QuestionNumber-1])
+                if (k > 0.7) {
+                    confidence++
+                    this.parentElement.children[0].innerText = "Correct"
+                    this.parentElement.children[0].setAttribute("class","textflashright correctorwrong")
+                    cycle( 100 )
+                }
+                else {
+                    this.parentElement.children[0].innerText = "Incorrect"
+                    this.parentElement.children[0].setAttribute("class","textflashwrong correctorwrong")
+                    cycle( 100 )
+                }
             }
         })
     }
@@ -205,12 +293,12 @@ function CheckAnswer( innerhtml ) {
 }
 
 
-function cycle() {
-    sleep(1).then(() => {
-        for (let i = 0; i < alladults.length; i++) {
-            console.log(alladults)
-            alladults[i].style.transform = 'translateY' + ((QuestionNumber-1)*100*-1) + '%'
-        }
-        QuestionNumber++
+function cycle( val ) {
+    QuestionNumber++
+    sleep(3000).then(() => {
+        $('.cardcontainer').animate({
+            top:"-="+val+"%"
+        },1000)
+        
     })
 }
