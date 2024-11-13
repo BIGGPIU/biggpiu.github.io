@@ -14,7 +14,7 @@ function sleep(ms) {
 };
 
 for (let i = 0; i < allclass.length; i++) {
-    allclass[i].setAttribute("id","gone")
+    // allclass[i].setAttribute("id","gone")
 };
 
 var allbuttonlen = allbuttons.length
