@@ -172,7 +172,7 @@ def MAKEinfointoHTML(sql):
 
 
 if __name__ == "__main__":
-    os.chdir(r"C:\Users\diyaj\Downloads\Recommend me stuff!\New folder\biggpiu.github.io\Compete")
+    os.chdir(r"C:\Users\diyaj\Downloads\Recommend me stuff\New folder\biggpiu.github.io\Compete")
     try:
         #os.remove("index.html")
         pass

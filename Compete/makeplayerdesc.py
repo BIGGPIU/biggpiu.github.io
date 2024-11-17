@@ -66,7 +66,7 @@ def mkuserdir(info):
 
 
 if __name__ == "__main__":
-    os.chdir(r"C:\Users\diyaj\Downloads\Recommend me stuff!\New folder\biggpiu.github.io\Compete")
+    os.chdir(r"C:\Users\diyaj\Downloads\Recommend me stuff\New folder\biggpiu.github.io\Compete")
     hold = GETinfofromDB2()
     print (hold)
     for i in hold:
