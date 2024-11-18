@@ -27,11 +27,11 @@ def negotiatebest(first,second,third,DNP):
     first = first.split(",")
     second = second.split(",")
     third = third.split(",")
-    if first[0] != '0':
+    if first[-1] != '0':
         return "TOP 1"
-    if second[0] != '0':
+    if second[-1] != '0':
         return "TOP 2"
-    if third[0] != '0':
+    if third[-1] != '0':
         return "TOP 3"
     return "DNP"
 
