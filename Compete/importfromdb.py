@@ -28,7 +28,7 @@ def GETSPfromDB(name):
     hold = cursor.fetchall()
     return hold[0][0]
 
-def MAKEinfointoHTML(sql):
+def MAKEinfointoHTML(sql,info):
     try:
         z = open("index.html", "x")
         z.close()
@@ -122,7 +122,7 @@ def MAKEinfointoHTML(sql):
             </div>
             """
         
-        string += """
+        string += f"""
         </div>
             </div>
             <div class="upcoming-title font-montserrat slide-in-left">Upcoming Events</div>
@@ -133,12 +133,12 @@ def MAKEinfointoHTML(sql):
                             <div class="please-center">Click To Sign Up On Start.gg<br><br>Please?</div>
                         </div>
                     </a>
-                    <div class="event-header">WEEK 2</div>
+                    <div class="event-header">WEEK {info[0]}</div>
                     <div class="main-stage-header">Main Event</div>
-                    <div class="main-stage-content">SSBU Singles</div>
+                    <div class="main-stage-content">SSBU {info[1]}</div>
                     <div class="side-stage-header">Side Tournament</div>
-                    <div class="side-stage-content">RANDOM ONLY</div>
-                    <div class="Date">Date:10/23/24</div>
+                    <div class="side-stage-content">{info[2]}</div>
+                    <div class="Date">Date:{info[3]}</div>
                 </div>
             </div>
             
@@ -179,4 +179,7 @@ if __name__ == "__main__":
     except:
         pass
     hold = GETinfofromDB()
-    MAKEinfointoHTML(hold)
+    with open("info.txt","r") as f:
+        x = f.readline()
+        x = x.split("|")
+    MAKEinfointoHTML(hold,x)
