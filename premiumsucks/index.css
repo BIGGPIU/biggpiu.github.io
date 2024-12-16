@@ -1,0 +1,436 @@
+html {
+    background-color: #0B1215; 
+    overflow-x: hidden;
+    /* dont use solid black when making stuff, kids */
+}
+
+body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes show {
+    0% {background-color: rgba(255, 255, 255, 0.0); border-color: rgba(255, 255, 255, 0.5);}
+    100% {
+        background-color: rgba(255, 255, 255, 0.7);
+        border-color: rgba(255, 255, 255, 1);
+    }
+}
+
+@keyframes scrolldown {
+    0% {transform: translateY(0);}
+    100% {transform: translateY(100%);}
+}
+
+@keyframes show-reverse {
+    0% {
+        background-color: rgba(255, 255, 255, 0.7);
+        border-color: rgba(255, 255, 255, 1);
+    }
+    100% {background-color: rgba(255, 255, 255, 0.0); border-color: rgba(255, 255, 255, 0.5);}
+}
+
+@keyframes show2 {
+    0% {
+        background-color: transparent;
+    }
+    100% {
+        background-color:rgba(0, 255, 255,0.5); 
+    }
+}
+
+
+@keyframes show2-reverse {
+    0% {
+        background-color:rgba(0, 255, 255,0.5); ;
+    }
+    100% {
+        background-color: transparent;
+    }
+}
+
+@keyframes show-2 {
+    0% {opacity: 0; left:100%;}
+    50% {left:0%;}
+    100% {opacity: 1;}
+}
+
+@keyframes glow {
+    0% {color:aqua}
+    100% {color:white;}
+}
+
+@keyframes slide-in-left {
+    0% {transform: translateX(0);opacity: 0%;}
+    100% {transform: translateX(100%);opacity: 1;}
+}
+
+@keyframes slide-in-right {
+    0% {transform: translateX(0); opacity: 0;}
+    100% {transform: translateX(-100%); opacity: 1;}
+}
+
+@font-face {
+    font-family: montserrat-regular;
+    src: url("../fonts/Montserrat-Regular.ttf");
+}
+
+.clamp-48 {
+    font-size: clamp(2rem, 0.75rem + 4vw, 3rem) !important;
+}
+
+.clamp-32 {
+    font-size: clamp(1rem, -0.25rem + 4vw, 2rem) !important;
+}
+
+.font-montserrat {
+    font-family:montserrat-regular;
+}
+
+.container-1 {
+    overflow-x: hidden;
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+}
+
+#header-1-container {
+    width:100%;
+    height:30%;
+    background-color: transparent;
+}
+
+.intro-header {
+    position:relative;
+    width:100%;
+    text-align: center;
+    color:white;
+    font-size: 32px;
+    margin-top: 15px;
+}
+
+#header-1 {
+    animation-name: slide-in-left;
+    left:-100%;
+    animation-duration: 2s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0.250, 0.460, 0.450, 0.940);
+}
+
+
+#header-2 {
+    
+    font-size: 48px;
+    animation-name: slide-in-right;
+    left:100%;
+    animation-duration: 2s;
+    animation-delay: 2.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0.250, 0.460, 0.450, 0.940);
+}
+
+#header-3 {
+    animation-name: slide-in-left;
+    left:-100%;
+    animation-duration: 2s;
+    animation-delay: 4.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0.250, 0.460, 0.450, 0.940);
+}
+
+#glowlikethewebsitewasmadein2008 {
+    animation-name: glow;
+    animation-duration: 0.2s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+}
+
+#select-platform {
+    width:100%;
+    height:calc(70% - 20px);
+    background-color: transparent;
+    animation-name: show-2;
+    animation-duration: 1s;
+    animation-delay: 6.5s;
+    animation-fill-mode: forwards;
+    opacity: 0%;
+}
+
+.select-header {
+    position:relative;
+    font-size: 32px;
+    color:white;
+    text-align: center;
+}
+
+.select-button-container {
+    width:100%;
+    height:80%;
+    margin-top: 5px;
+}
+
+.os-button {
+    position: relative;
+    left:50%;
+    transform: translateX(-50%);
+    width:40%;
+    height:25%;
+    background-color: transparent;
+}
+
+.os-button-outline {
+    cursor: pointer;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.5);
+    position:relative;
+    width:100%;
+    height:90%;
+    top:50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border-radius: 50px;
+    animation-name: show-reverse;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.os-button-outline:hover {
+    animation-name: show;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    
+}
+
+.device-img {
+    float:left;
+    position:relative;
+    width:20%;
+    height:100%;
+    border-right: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+
+.device-text{
+    float:left;
+    position:relative;
+    width:calc(80% - 7px);
+    height:100%;
+    background-color: transparent;
+    margin-left: 5px;
+}
+
+.vertical-center {
+    top:50%;
+    position:relative;
+    transform: translateY(-50%);
+    color:white;
+    font-size: 32px;
+}
+
+.device-img-inner {
+    position:relative;
+    fill:white;
+    width:75%;
+    height:75%;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+}
+
+.os-button-outline:hover .device-img {
+    border-color: rgba(255, 255, 255, 1);
+}
+
+/* color:black;
+    fill:black; */
+
+.os-button-outline:hover .device-img svg {
+    fill:#0B1215;
+}
+
+.os-button-outline:hover .device-text .vertical-center {
+    color:#0B1215;
+}
+
+.instructions {
+    position:absolute;
+    top:100%;
+    height:100%;
+    width:70%;
+    background-color: transparent;
+    left:50%;
+    transform: translateX(-50%);
+}
+
+.instructions-2 {
+    position:absolute;
+    top:200%;
+    height:100%;
+    width:80%;
+    left:50%;
+    transform: translateX(-50%);
+}
+
+.instructions-3 {
+    position:absolute;
+    top:300%;
+    height:100%;
+    width:80%;
+    left:50%;
+    transform: translateX(-50%);
+}
+
+.instructions-4 {
+    position:absolute;
+    top:400%;
+    height:100%;
+    width:80%;
+    left:50%;
+    transform: translateX(-50%);
+}
+
+.instructor-container {
+    width:100%;
+    height:100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: transparent;
+}
+
+.instructor-text-head {
+    font-size: 48px;
+    position:relative;
+    text-align: center;
+    color:white;
+    margin-bottom: 20px;
+}
+
+.instructor-text-content {
+    font-size: 24px;
+    position:relative;
+    text-align: center;
+    color:white;
+}
+
+a,a:visited {
+    color:aqua;
+}
+
+.center {
+    position:relative;
+    left:50%;
+    top:50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+}
+
+.horizontal-center {
+    position:relative;
+    left:50%;
+    transform: translateX(-50%);
+}
+.okay-i-did-that {
+    animation-name: show2-reverse;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    cursor: pointer;
+    margin-top: 25px;
+    background-color: transparent;
+    border-radius: 5px;
+    border-color: aqua;
+    border-width: 2px;
+    border-style: solid;
+    /* width:25%; */
+    height:clamp(2rem, -1.3594rem + 10.75vw, 4.6875rem); 
+}
+
+.okay-i-did-that:hover {
+    animation: show2;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    background-color: rgba(0, 255, 255,0.5);
+}
+
+.color-black {
+    color:black;
+    fill: black;
+}
+
+.color-white {
+    color:white;
+    fill:white;
+}
+
+.showmeyourboobs {
+    cursor: zoom-in;
+    margin-top: 15px;
+    position:relative;
+    width:70%;
+    left:50%;
+    transform: translateX(-50%);
+}
+
+
+
+
+.instructor-image-split {
+    left:10%;
+    position:relative;
+    width:80%;
+    height:35%;
+    margin-top: 5px;
+}
+
+.instructor-image-split-child {
+    width:50%;
+    height:100%;
+    object-fit: fill;
+    float:left;
+    position:relative;
+}
+
+.fill {
+    width:100%;
+    height:100%;
+}
+
+.image-zoom-in-container {
+    position:absolute;
+    height:50%;
+    width:70%;
+    z-index: 2;
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(238,174,202,0) 0%, rgba(0,0,0,1) 100%);
+}
+
+
+code {
+    background-color: #151b23;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: white;
+    border-style: solid;
+}
+
+.margint-10 {
+    margin-top: 10px;
+}
+
+#android-cunts-fucked {
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:-100%;
+
+}
+
+.android-cunts-fucked-animate {
+    animation-name: scrolldown;
+    animation-timing-function: linear;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
