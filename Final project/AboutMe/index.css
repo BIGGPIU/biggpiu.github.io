@@ -1,0 +1,53 @@
+.container {
+    width:80%;
+    left:50%;
+    position:relative;
+    transform: translateX(-50%);
+}
+
+.s-big {
+    font-size: clamp(2rem, 0.4444rem + 22.2222vw, 4rem);
+    text-align: center;
+}
+
+.big {
+    font-size: clamp(2rem, 0.4444rem + 22.2222vw, 4rem);
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color:white;
+}
+
+
+.content {
+    /* font-size: clamp(0.75rem, 0.1667rem + 8.3333vw, 1.5rem); */
+    font-size: clamp(0.75rem, -0.0278rem + 11.1111vw, 1.75rem);
+    color:white;
+}
+
+.img-top {
+    margin-top: 50px;
+    /* clip-path: circle(40% at 50% 50%); */
+    width:11vw;
+    height:20vh;
+    top:50%;
+    left:50%;
+    transform: translateX(-50%);
+    position:relative;
+    /* background-image: url("https://bbk12e1-cdn.myschoolcdn.com/ftpimages/1442/user/large_user_6530200_310.jpg?resize=200,200"); */
+    background-color: greenyellow;
+    z-index: 999;
+    background-size: cover;
+}
+
+#tac {
+    text-align: center;
+}
+
+video {
+    margin-top: 25px;
+    height:600px;
+    position:relative;
+    left:50%;
+    transform: translateX(-50%);
+    margin-bottom: 25px;
+}

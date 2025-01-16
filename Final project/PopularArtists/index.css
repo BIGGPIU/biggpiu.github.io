@@ -1,0 +1,51 @@
+.container {
+    position:relative;
+    width:80%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.artist-box {
+    display: block;
+    margin-top: 25px;
+    height:30vh;
+    width:100%;
+    background-color: #141414;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #7E1012;
+    border-width: 2px;
+}
+
+.artist-pfp {
+    float:left;
+    width:calc(128px * 2);
+    height:100%;
+    background-color: chartreuse;
+    /* clip-path: circle(40% at 50% 50%); */
+    /* shape-outside:  circle(44% at 50% 50%); */
+}
+.artist-text {
+    color: white;
+    font-size: clamp(1.25rem, 0.8611rem + 5.5556vw, 1.55rem);
+    position: relative;
+    left: 15px;
+    width: calc(100% - 20px);
+    /* overflow-y: hidden; TIL this affects how the text wraps. thanks alot html ig*/ 
+}
+
+.artist-text-big {
+    color: white;
+    font-size: clamp(1.25rem, 0.8611rem + 5.5556vw, 2.25rem);
+    position: relative;
+    left: 15px;
+    /* overflow-y: hidden; TIL this affects how the text wraps. thanks alot html ig*/ 
+}
+
+.src {
+    font-size: clamp(1.25rem, 0.8611rem + 5.5556vw, 1.25rem);
+    position: relative;
+    left: 15px; 
+    margin-top: 5px;
+    text-decoration: underline;
+}

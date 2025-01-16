@@ -1,0 +1,45 @@
+.text-container {
+    position:Relative;
+    margin-top: 25px;
+    color:white;
+    width:70%;
+    background-color: transparent;
+    left:50%;
+    transform: translateX(-50%);
+}
+
+.s-big {
+    font-size: clamp(2rem, 0.4444rem + 22.2222vw, 4rem);
+    text-align: center;
+}
+
+.big {
+    font-size: clamp(2rem, 0.4444rem + 22.2222vw, 4rem);
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.content {
+    /* font-size: clamp(0.75rem, 0.1667rem + 8.3333vw, 1.5rem); */
+    font-size: clamp(0.75rem, -0.0278rem + 11.1111vw, 1.75rem);
+}
+
+.content:nth-last-child(1) {
+    margin-bottom: 100px;
+}
+
+.progress-bar {
+    left:50%;
+    transform: translateX(-50%);
+    width:50%;
+    position:fixed;
+    top:calc(100% - 32px);
+    background-color: rgb(60,60,60);
+    height:16px;
+}
+
+.progress-bar-progress {
+    background-color: #88e789;
+    height:100%;
+    width:0%;
+}
