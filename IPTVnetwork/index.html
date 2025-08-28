@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>IPTV Is Easy</title>
+</head>
+
+<html>
+    <body>
+        <div class="index">
+            <a href="#Introduction">Introduction</a>
+            <br>
+            <a href="#Prerequisites">Prerequisites</a>
+            <br>
+            <a href="#computer" class="a-tab">Get a computer</a>
+            <br>
+            <a href="#docker" class="a-tab">Get docker</a>
+            <br>
+            <a href="#ersatz" class="a-tab">Get Ersatz</a>
+            <br>
+            <a href="#jellyfin" class="a-tab">Get jellyfin</a>
+            <br>
+            <a href="#duckdns" class="a-tab">Get duckdns</a>
+            <br>
+            <a href="#pirate" >Finding media</a>
+            <br>
+            <a href="#boring" class="a-tab">Legal media</a>
+            <br>
+            <a href="#fun" class="a-tab">"Legal" media</a>
+            <br>
+            <a href="#OS" >Operating System</a>
+            <br>
+            <a href="#Linux" class="a-tab">Linux</a>
+            <br>
+            <a href="#windows" class="a-tab">Windows</a>
+            <br>
+            <a href="#sErsatz">Setup Ersatz</a>
+        </div>
+        <div class="main_body">
+            <div class="text">
+                <h1 id="Introduction">So You Want To Make Your Own IPTV Network</h1>
+                <p>
+                    I cant blame you its a good idea plus its ton of fun.
+                    In the following guide I'll give you all the information
+                    you need to know plus some tips to make your network as 
+                    successful as possible 
+                </p>
+                <div>
+                    <h1 id="Prerequisites">Prerequisites</h1>
+                    <p>
+                        There are a couple things you'll need to 
+                        intall or have pre installed if you want to run your
+                        own IPTV network. I'll go ahead and list everything you
+                        need and where you can install or purchase the things you
+                        need
+                    </p>
+
+                    <h2 id="computer">A Computer For Running Your Network</h2>
+                    <p>
+                        You might already have a computer laying around that 
+                        you can run this on but if you dont thats okay. 
+                        Ideally you would use a desktop computer for this but there
+                        is nothing keeping you from using a laptop.
+
+                        <br><br>
+
+                        If you dont have a spare desktop computer or laptop laying
+                        around thats fine. Luckily its really easy to find one
+                        that can run your network for under 100$
+
+                        <br><br>
+
+                        You can typically find a computer for running your server
+                        from places like
+
+                        <ul>
+                            <li>
+                                Ebay - Ebay can be good and bad at the same time
+                                on one side you can get scammed or can pay a bit too
+                                much for an old office PC but on the other side you
+                                can find a pc thats good enough for your IPTV network
+                                for a good price. Just make sure you do your research
+                                on the seller and what they're selling
+                            </li>
+                            <br>
+                            <li>
+                                Thrift Stores - This is where I got my IPTV PC
+                                from. Just check all the ones near you for a 
+                                desktop pc. if you get lucky you might find one 
+                                for a good price (for example I got mine for 25$)
+                                The main thing you want to look out for when shopping
+                                for an IPTV PC at a thrift store is buying a PC
+                                that doesnt work. Before you buy your PC from a thrift
+                                store make sure you plug it in for a second to make 
+                                sure it cuts on. If you're really really anxious 
+                                that you're going to get a computer that doesnt
+                                work then you can plug it into a monitor if the 
+                                thrift store has it
+
+                                <br><br>
+
+                                <div class="important">IMPORTANT INFORMATION TO NOTE</div>
+                                <br> 
+                                if you buy a computer from a thrift store sometimes there will
+                                still be data on it. When you get this computer DO NOT look 
+                                through that persons personal documents.
+                                My computer had someones stuff on 
+                                it when I got it. I personally looked for their email so I could
+                                email them to see if they wanted any of their data back.
+                                You dont have to do this if you dont want to. Nor do you
+                                have to go through and delete all their stuff.
+                                We're going to be wiping their data from their computer
+                                regardless
+                            </li>
+                            <br>
+                            <li>
+                                Pawn shops - They're pretty similar to thrift stores when it comes
+                                to getting your PC. You just have to watch out for places that 
+                                might try to overcharge you. Now this isn't every pawn shop
+                                but some of the people that work at these places are non technical
+                                and they might try to overcharge you for a bad PC just because
+                                they think its a good "gaming PC" do your research on the specs
+                                on whatever you're going to buy. Dont spend 200$ on an office PC
+                                made before NVIDIAs 2000s series.  
+                            </li>
+                        </ul>
+
+
+
+                    </p>
+
+                    <h2 id="docker">Docker</h2>
+                    <p>
+                        Docker is a program that lets people create and ship "containers"
+                        that contains the code for a program and everything else the 
+                        program needs. We're going to use this to install the software
+                        we need for our IPTV network
+                        <br><br>
+
+                        <a href="https://docs.docker.com/desktop/">
+                            You can install docker here from the "Next steps > Install docker desktop" 
+                            then you choose your Operating System
+                        </a>
+
+                        <br><br>
+
+                        You should create an account with docker or sign in if you already 
+                        have an account if you need a guide on how to install docker desktop
+                        then just google it. googling is an essential skill for this.
+                    </p>
+
+                    <h2 id="ersatz">ErsatzTV</h2>
+                    <p>
+                        Ersatz tv is the service we're going to use to control our
+                        TV network.
+                        <br>
+                        <br>
+                        <a href="https://ersatztv.org/docs/installation/docker">
+                            You can install the docker container for Ersatz by following this guide
+                        </a> 
+                        <br><br>
+                        <a href="https://docs.docker.com/reference/cli/docker/image/pull/">
+                            If you need more assistance in pulling a docker container then you can follow this guide
+                            (google can help too)
+                        </a>
+                    </p>
+
+                    <h2 id="jellyfin">Jellyfin</h2>
+                    <p>
+                        Jellyfin is the service we're going to use to distribute our tv network
+                        <br><br>
+
+                        <a href="https://jellyfin.org/downloads/docker">
+                            You can install the jellyfin server application by following
+                            the instructions on here
+                        </a>
+                        <br><br>
+                        <a href="https://jellyfin.org/downloads">
+                            You may want to also install the client version so you can watch your
+                            tv shows from an app but you dont HAVE to install it. you can also
+                            access your IPTV network from a website
+                        </a>
+                    </p>
+
+                    <h2 id="duckdns" >Duckdns - Optional</h2>
+                    <p>
+                        This is technically optional but you really should
+                        install this or you're not gonna have a good time. 
+                        <br><br>
+                        duckdns provides you a website name so you dont have to remember
+                        your IP address 
+
+                        <a href="https://www.duckdns.org/">
+                            you can register a duckdns account here.
+                        </a>
+
+                        <div class="important">IMPORTANT NOTE</div>
+                        <br>
+                        due to scammers typically using duckdns for malicious purposes
+                        some networks or adblocks may not allow you to connect to duckdns links
+                    </p>
+                </div>
+                <h1 id="pirate">How to get your media</h1>
+                <p>
+                    You cant have a tv network without content of course 
+                    in this section I'll walk you through where and how to get it
+
+                    <br><br>
+
+                    <h2 id="boring">Legal options</h2>
+                    <p>
+                        If you're the type that doesnt break any laws including jaywalking
+                        then you have the following options for getting content for your network
+
+                        <ul>
+                            <li>
+                                Downloading from youtube - you can either find a website to do this
+                                or you can do it through youtube itself if you pay for youtube premium.
+                                the main drawback with this is your network may be kind of boring 
+                                since you have no tv shows that people will actually keep up with.
+                                
+                                <br><br>
+                                but heres the cool thing: even though your network might not be
+                                appealing for others thats okay because 
+                                <br><br>
+                                <div class="important">ITS YOUR NETWORK!</div>
+                                <br><br>
+                                you can do whatever you want. nobody can tell you no. 
+                                If you want to make a channel with every jacksepticeye video 
+                                then go for it! nobody can stop you.
+                             </li>
+                        </ul>
+                    </p>
+                    <h2 id="fun">"Legal" actions</h2>
+                    <p>
+                        this is the place where it gets fun. where you get your "legal" content
+                        depends on what kind of "legal" content you want to download
+                        <br><br>
+
+                        <a href="https://fmhy.net" class="important">
+                            generally you can find websites to download from at fmhy.net
+                        </a>
+
+                        <br><br>
+
+                        For me personally on my network I mainly have anime running so I'll go over
+                        what you can use for anime.
+                        <br><br>
+                        <ul>
+                            <li>
+                                nyaa.si - This is a torrent only website that
+                                nearly every "legal" anime website uses to download their stuff
+                                you can choose to download things in any quality thats available.
+                                remember when you torrent you should use a VPN so you dont get 
+                                a letter in the mail from your ISP
+                            </li>
+                            <br>
+                            <li>
+                                You can also get content from some of your websites that you 
+                                "legally" watch anime from online. The main drawback is that this 
+                                is super inconvienient and you may not be able to find the quality you 
+                                want
+                            </li>
+                            <br>
+                            <li>
+                                Reddit - this is for general content but if you REALLY want find
+                                something you can always check reddit. You might find someone else looking
+                                for the same thing you want
+                            </li>
+                        </ul>
+                    </p>
+                </p>
+
+                <h1 id="OS">Choosing an operating system</h1>
+                <p>
+                    Depending on what your original operating system is and 
+                    how powerful your computer is you might want to change your 
+                    operating system. I've set up everything twice and I'll
+                    list the pros and the cons for each programming sytem 
+                    (that matters. MacOS doesnt matter.)
+
+                    <br><br>
+
+                    after reading over the pros get a flash drive and flash 
+                    your choice of operating system onto your computer
+
+                    <h2 id="Linux">Linux</h2>
+                    Pros
+                    <ul>
+                        <li>Practically runs on a toaster</li>
+                        <li>You get more control with your operating system</li>
+                        <li>You can install other linux exclusive apps</li>
+                    </ul>
+                    Cons 
+                    <ul>
+                        <li>Is more complex (kind of)</li>
+                        <li>practically unusable if you dont have access to google</li>
+                    </ul>
+                    <h2 id="windows">Windows 11/10</h2>
+                    Pros
+                    <ul>
+                        <li>more simple and user friendly</li>
+                    </ul>
+                    Cons
+                    <ul>
+                        <li>Uses more system resources by default meaning your TV network could run slower</li>
+                        <li>There are tons of different versions of windows with different features missing on each one</li>
+                    </ul>
+
+                </p>
+
+                <h1 id="sErsatz">Setting up ErsatzTV</h1>
+                <p>
+
+                    once you have ersatzTV installed and running you can navigate to it by going to
+                    <a href="127.0.0.1:8409">127.0.0.1:8409</a>
+                    <br><br>
+
+                    First you want to add the content you're going to 
+                    have on your network into one folder. Theres a specific 
+                    way you have to set up your folder or it will not work.
+
+                    <br><br>
+
+                    (note from me > I cant take a photo of my own setup right now but take this as text)
+
+                    <br><br>
+
+                    the folder of your content should look something like this
+                    <br><br>
+                    <code>
+                        Home folder <br>
+                        - Tv show 1 <br>
+                        -- Season 1 <br>
+                        --- s1e1 <br>
+                        --- s1e2 <br>
+                        -- Season 2 <br>
+                        -- metadata.nfo <br>
+                        - TV show 2 <br>
+                        -- Season 1 <br>
+                        -- Season 2 <br>
+                    </code>
+                    <p class="important">
+                        PLEASE NOTE THAT THE SEASONS MUST BE CALLED <br><br>
+                        "Season X" (x is the number of the Season) <br><br>
+                        AND THE NAME OF THE TV SHOW FOLDER MUST MATCH WITH THE NAME IN metadata.nfo
+                        <br><br>
+                        SHOWS MUST ALSO BE NAMED FOLLOWING sXeY OR ELSE THEY WILL NOT WORK
+                    </p>
+                    <br><br>
+                    <a href="https://kodi.wiki/view/NFO_files">
+                        You can find the docs for NFO files here
+                    </a>
+                    <br><br>
+
+
+                    <a href="https://ersatztv.org/docs/media/local">
+                        Then you can add the folder to Ersatz by following this guide
+                    </a>
+                    
+                    <br><br>
+
+                    once you add the path with all your media to the network you
+                    must now add your media to a collection
+
+                    <br>
+
+                    <a href="https://ersatztv.org/docs/collections/manual">
+                        You can find out how to add your media to a collection here
+                    </a>
+
+                    <br><br>
+
+                    When you're done adding your media to a collection now its time to 
+                    schedule it. 
+
+                    <br><br>
+
+                    <a href="https://ersatztv.org/docs/scheduling/classic/">
+                        You can find out how to create a schedule by following this guide
+                    </a>
+                    <br><br>
+                    After you've set your schedule its time to create a channel for it 
+                    <br><br>
+                    <a href="https://ersatztv.org/docs/channels/">
+                        You can learn how to create a channel here
+                    </a>
+                    
+                </p>
+
+                <h1 id="sjellyfin">Setting up Jellyfin</h1>
+                <p>
+                    After you're done setting up your channels on ersatzTV 
+                    its time to actually distribute your content with Jellyfin
+                    <br><br>
+                    First go to <a href="127.0.0.1:8096">127.0.0.1:8096</a> 
+                    and set up an admin account
+                    <br><br>
+
+                    <a href="https://ersatztv.org/docs/clients/jellyfin">
+                        once you have your admin account set up follow 
+                        this guide to add the ersatzTV channels onto jellyfin
+                    </a>
+
+                    <h2>Once you've finished that you've officially set up your own IPTV network</h2>
+                    <br>
+                    pat yourself on the back. now you can watch your content just like you would watch tv!
+                    you can connect to it on your local network just by using the same link you used to connect to your admin
+                    dashboard. Soon the guide will be updated to include how to expose your tv network to everyone in the world
+                    
+                </p>
+            </div>
+            
+        </div>
+    </body>
+</html>
