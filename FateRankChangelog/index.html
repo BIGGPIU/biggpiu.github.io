@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>FateRank Changelog</title>
+</head>
+
+<html>
+    <body>
+        <div class="index">
+            <a href="#v1.1.0">v1.1.0</a>
+            <br>
+            <a href="#v1.1.0-additions" class="a-tab">New Additions</a>
+            <br>
+            <a href="#v1.1.0-ranking" class="a-tab">Ranking Update</a>
+            <br>
+            <a href="#v1.1.0-bugs" class="a-tab">Bug Fixes</a>
+            <br>
+            <a href="#v1.1.0-timeline" class="a-tab">Feature Timeline</a>
+        </div>
+        <div class="main_body">
+            <div class="text">
+                <h1 id="v1.1.0">v1.1.0</h1>
+                <p>
+                    Hello all, this is the first update to faterank after it originally dropped. I would've updated sooner but I was unfortunately really busy this week
+                </p>
+                <div>
+                    <h2 id="#v1.1.0-additions">New Additions</h2>
+                    <p>
+                        The brand new <strong>CONFIDENCE COLUMN!</strong> this isn't anything complex. It just counts how many sets they've played this year up to 100. Its basically just there to show how much you can <i>trust</i> their ranking. Please note that the confidence column does not tell you if they should be seeded <strong>above</strong> where they are or <strong>below</strong> where they are. So please look at their results and come up with your own conclusions.
+                    </p>
+                    <h2 id="#v1.1.0-ranking">Ranking Methodology Changes</h2>
+                    <p>
+                        Originally, the ranking system would count each game the same regardless of if you won 3-2 or 3-0. Naturally, this led to a skew in data based off of who plays the game the most rather than who showed up and preformed the best. To try to fix this, I've updated the system so now you gain elo based off of the score difference of a set. I can't really think of a way to explain this aside from to give an example
+
+                        So lets say we have Player1 vs Player2. Player 1 wins the set 3-1. We calculate the win difference between the two players in the set which gives us 2. Using that we update their glicko ranking 2 times (Recording Player 1 as winning 2 times and Player 2 as losing 2 times).
+
+                        I've ran this seeding algorithim across the first two weeks of No More Fundies (NMF, join here) and it seems to be *relativelly* accurate. There are some players that aren't really represented well by the algorithim. The main example I saw was Serene Smile. They're currently around the top 120 according to this algorithim (primarily because they have less than ideal results from this year) but they placed 2nd in NMF #2 which is FAAR from where the algorithim predicted they'd place (5th place) I'll spend time looking into ways to remedy things like this but for now, just remember to take the underdogs with a grain of salt.
+                    </p>
+                    <h2 id="#v1.1.0-bugs">Bug Fixes</h2>
+                    <ul>
+                        <li>Fixed Reactivity</li>
+                        <li>Fixed Slug column being miscolored</li>
+                    </ul>
+                    <h2 id="#v1.1.0-timeline">Feature Timelines</h2>
+                    <div>Challonge Support (1% done)</div>
+                    <div class="feature_bar">
+                        <div class="feature_bar_inner" style="width:1%"></div>
+                    </div>
+                    <div>I mean I looked at their api. It sucks. It costs money too. Why can't microsoft buy challonge too</div>
+                    <br>
+                    <div>OBS Player popup (0% done)</div>
+                    <div class="feature_bar">
+                        <div class="feature_bar_inner" style="width:0%"></div>
+                    </div>
+                    <div>Coming soon (tm)</div>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
