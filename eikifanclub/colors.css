@@ -1,0 +1,94 @@
+/* ts color scheme GROK'D*/
+
+:root {
+  /* Core Backgrounds */
+  --bg: #0C0B12;
+  --surface: #1A1428;
+  --surface2: #251C38;
+
+  /* Text Colors */
+  --text: #F0E6FF;
+  --text-secondary: #B8A1E0;
+  --text-muted: #8A7EB8;
+
+  /* Main Accents */
+  --pink: #FF0088;
+  --magenta: #FF1EB1;
+  --purple: #9D4EFF;
+  --red: #FF2D55;
+
+  /* Glow / Light Variants */
+  --pink-glow: #FF66CC;
+  --purple-glow: #C99EFF;
+
+  /* Borders & Dividers */
+  --border: rgba(157, 78, 255, 0.25);
+}
+
+/* Backgrounds */
+.bg-main       { background-color: var(--bg); }
+.bg-surface    { background-color: var(--surface); }
+.bg-surface2   { background-color: var(--surface2); }
+
+.bg-pink       { background-color: var(--pink); }
+.bg-magenta    { background-color: var(--magenta); }
+.bg-purple     { background-color: var(--purple); }
+.bg-red        { background-color: var(--red); }
+
+/* Text Colors */
+.text-main     { color: var(--text); }
+.text-secondary{ color: var(--text-secondary); }
+.text-muted    { color: var(--text-muted); }
+
+.text-pink     { color: var(--pink); }
+.text-magenta  { color: var(--magenta); }
+.text-purple   { color: var(--purple); }
+.text-red      { color: var(--red); }
+
+/* Borders */
+.border-pink   { border-color: var(--pink); }
+.border-purple { border-color: var(--purple); }
+.border-red    { border-color: var(--red); }
+.border-glow   { border-color: var(--border); }
+
+/* Buttons */
+.btn-pink {
+  background-color: var(--pink);
+  color: white;
+  box-shadow: 0 0 12px rgba(255, 0, 136, 0.6);
+}
+.btn-pink:hover {
+  background-color: #FF1EB1;
+  box-shadow: 0 0 20px rgba(255, 102, 204, 0.8);
+  transform: translateY(-2px);
+}
+
+.btn-purple {
+  background-color: var(--purple);
+  color: white;
+  box-shadow: 0 0 12px rgba(157, 78, 255, 0.6);
+}
+.btn-purple:hover {
+  background-color: #B37EFF;
+  box-shadow: 0 0 20px rgba(201, 158, 255, 0.8);
+}
+
+.btn-red {
+  background-color: var(--red);
+  color: white;
+  box-shadow: 0 0 12px rgba(255, 45, 85, 0.6);
+}
+.btn-red:hover {
+  background-color: #FF4A6A;
+  box-shadow: 0 0 20px rgba(255, 77, 102, 0.8);
+}
+
+/* Neon Glow Effects */
+.glow-pink  { box-shadow: 0 0 15px var(--pink-glow); }
+.glow-purple{ box-shadow: 0 0 15px var(--purple-glow); }
+.glow-red   { box-shadow: 0 0 15px #FF6B8A; }
+
+/* Hover Variants */
+.hover-pink:hover   { color: var(--pink) !important; }
+.hover-purple:hover { color: var(--purple) !important; }
+.hover-red:hover    { color: var(--red) !important; }

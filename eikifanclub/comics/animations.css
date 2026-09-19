@@ -1,0 +1,27 @@
+@keyframes marquee {
+  0%   { transform: translate(0, 0); }
+  100% { transform: translate(-200%, 0); }
+}
+
+@keyframes marquee-half {
+  0%   { transform: translate(15%, 0); }
+  100% { transform: translate(-115%, 0); }
+}
+
+html {
+    overflow-x: hidden;
+}
+
+.marquee {
+    animation: marquee 30s linear infinite;
+    animation-delay: 500ms;
+}
+
+.marquee-half {
+    animation: marquee-half 7s linear infinite;
+    animation-delay: 500ms;
+}
+
+.invert-100 {
+    filter:invert(100%);
+}
